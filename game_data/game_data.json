@@ -1,0 +1,138 @@
+{
+  "Machines": [
+    {
+      "Name": "Storage Container",
+      "Tier": "99-99",
+      "AveragePower": "0",
+      "Cost": []
+    },
+    {
+      "Name": "Dimensional Depot Uploader",
+      "Tier": "99-99",
+      "AveragePower": "0",
+      "Cost": []
+    },
+    {
+      "Name": "AWESOME Sink",
+      "Tier": "99-99",
+      "AveragePower": "-30",
+      "Cost": []
+    },
+    {
+      "Name": "Space Elevator",
+      "Tier": "99-99",
+      "AveragePower": "0",
+      "Cost": []
+    }
+  ],
+  "MultiMachines": [
+    {
+      "Name": "Storage Container",
+      "Machines": [
+        {
+          "Name": "Storage Container",
+          "Default": true
+        }
+      ],
+      "Capacities": [
+        {
+          "Name": "Partially Full",
+          "Default": true,
+          "Description": "<html>Partially Full, also Partially Empty:<br/>Extra parts can be either added or taken from this.<br/>This means that it will neither back up nor be short on parts.<br/>This means the inputs and outputs do not rely on each other which allows them to be calculated independently.<br/>You can use this setting to separate parts of your factory for independent calculations.</html>"
+        },
+        {
+          "Name": "Full",
+          "Color": 8433977,
+          "Description": "<html>Full:<br/>Extra parts can be taken from this, but more parts cannot be added than are taken.<br/>This means that it will never be short on parts but can back up.<br/>This means the output does not rely on the input, but the input does rely on the output.<br/>You may be able to get improved calculations using this setting (but not as good as Partially Full).</html>"
+        },
+        {
+          "Name": "Empty",
+          "Color": 13775920,
+          "Description": "<html>Empty:<br/>Extra parts can be added to this, but more parts cannot be taken than are added.<br/>This means that it will never back up but can be short on parts.<br/>This means the input does not rely on the output, but the output does rely on the input.<br/>You may be able to get improved calculations using this setting (but not as good as Partially Full).</html>"
+        },
+        {
+          "Name": "Input = Output",
+          "PartsRatio": "480",
+          "Color": 16311334,
+          "Description": "<html>Input = Output:<br/>The input and outputs must match exactly.<br/>This makes it the same as using a splurger but with a different icon.</html>"
+        }
+      ]
+    },
+    {
+      "Name": "Dimensional Depot Uploader",
+      "ShowPpm": true,
+      "DefaultMax": "",
+      "Capacities": [
+        {
+          "Name": "15/min",
+          "PartsRatio": "15",
+          "Default": true
+        },
+        {
+          "Name": "30/min",
+          "PartsRatio": "30",
+          "Color": 13775920
+        },
+        {
+          "Name": "60/min",
+          "PartsRatio": "60",
+          "Color": 16311334
+        },
+        {
+          "Name": "120/min",
+          "PartsRatio": "120",
+          "Color": 8433977
+        },
+        {
+          "Name": "240/min",
+          "PartsRatio": "240",
+          "Color": 12330744
+        }
+      ]
+    },
+    {
+      "Name": "AWESOME Sink",
+      "ShowPpm": true,
+      "DefaultMax": "",
+      "Capacities": [
+        {
+          "Name": "Mk.1 Belt",
+          "PartsRatio": "60",
+          "Default": true
+        },
+        {
+          "Name": "Mk.2 Belt",
+          "PartsRatio": "120",
+          "Color": 13775920
+        },
+        {
+          "Name": "Mk.3 Belt",
+          "PartsRatio": "270",
+          "Color": 16311334
+        },
+        {
+          "Name": "Mk.4 Belt",
+          "PartsRatio": "480",
+          "Color": 8433977
+        },
+        {
+          "Name": "Mk.5 Belt",
+          "PartsRatio": "780",
+          "Color": 2504952
+        },
+        {
+          "Name": "Mk.6 Belt",
+          "PartsRatio": "1200",
+          "Color": 12330744
+        }
+      ]
+    },
+    {
+      "Name": "Space Elevator",
+      "ShowPpm": false,
+      "DefaultMax": "1"
+    }
+  ],
+  "Parts": [],
+  "Recipes": []
+}
