@@ -1,10 +1,285 @@
 {
   "Machines": [
     {
+      "Name": "Miner Mk.1",
+      "Tier": "0-5",
+      "AveragePower": "-5",
+      "OverclockPowerExponent": "1321929/1000000",
+      "Cost": [
+        {"Part": "Portable Miner", "Amount": "1"},
+        {"Part": "Copper Wire", "Amount": "2"},
+        {"Part": "Electronic Circuit", "Amount": "3"},
+        {"Part": "Basic Framing", "Amount": "4"},
+        {"Part": "Basic Panelling", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Crusher Mk.0",
+      "Tier": "0-3",
+      "AveragePower": "-25/10",
+      "OverclockPowerExponent": "16/10",
+      "Cost": [
+        {"Part": "Iron Gear Wheel", "Amount": "2"},
+        {"Part": "Basic Framing", "Amount": "8"},
+        {"Part": "Nickel Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Crusher",
+      "Tier": "2-4",
+      "AveragePower": "-155/10",
+      "OverclockPowerExponent": "16/10",
+      "MaxProductionShards": 1,
+      "ProductionShardMultiplier": "1",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Steel Plate", "Amount": "6"},
+        {"Part": "Electronic Circuit", "Amount": "3"},
+        {"Part": "Basic Framing", "Amount": "4"},
+        {"Part": "Basic Panelling", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Smelter",
+      "Tier": "0-2",
+      "AveragePower": "-4",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 1,
+      "ProductionShardMultiplier": "1",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Stone", "Amount": "5"}
+      ]
+    },
+    {
+      "Name": "Smelter Mk.2",
+      "Tier": "2-26",
+      "AveragePower": "-9",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 2,
+      "ProductionShardMultiplier": "1/2",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Steel Plate", "Amount": "6"},
+        {"Part": "Stone Brick", "Amount": "10"}
+      ]
+    },
+    {
+      "Name": "Welder",
+      "Tier": "1-12",
+      "AveragePower": "-250/10",
+      "OverclockPowerExponent": "16/10",
+      "MaxProductionShards": 1,
+      "ProductionShardMultiplier": "1",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Basic Framing", "Amount": "4"},
+        {"Part": "Basic Panelling", "Amount": "5"},
+        {"Part": "Stone Brick", "Amount": "5"}
+      ]
+    },
+    {
+      "Name": "Stone Coke Oven",
+      "Tier": "2-24",
+      "AveragePower": "150/10",
+      "Cost": [
+        {"Part": "Stone", "Amount": "5"},
+        {"Part": "Basic Framing", "Amount": "4"},
+        {"Part": "Basic Panelling", "Amount": "6"}
+      ]
+    },
+    {
+      "Name": "Seawater Extractor",
+      "Tier": "1-5",
+      "AveragePower": "-35/10",
+      "OverclockPowerExponent": "16/10",
+      "Cost": [
+        {"Part": "Iron Gear Wheel", "Amount": "2"},
+        {"Part": "Basic Tubing", "Amount": "2"},
+        {"Part": "Basic Panelling", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Water Extractor",
+      "Tier": "2-6",
+      "AveragePower": "-20",
+      "OverclockPowerExponent": "1321929/1000000",
+      "Cost": [
+        {"Part": "Brass Cog", "Amount": "1"},
+        {"Part": "Electronic Circuit", "Amount": "1"},
+        {"Part": "Basic Tubing", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Evaporator",
+      "Tier": "1-6",
+      "AveragePower": "-25/10",
+      "OverclockPowerExponent": "16/10",
+      "MaxProductionShards": 1,
+      "ProductionShardMultiplier": "1",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Glass Pane", "Amount": "1"},
+        {"Part": "Basic Tubing", "Amount": "4"},
+        {"Part": "Basic Framing", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Washing Plant",
+      "Tier": "2-22",
+      "AveragePower": "186/10",
+      "OverclockPowerExponent": "16/10",
+      "MaxProductionShards": 1,
+      "ProductionShardMultiplier": "1",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Steel Plate", "Amount": "4"},
+        {"Part": "Fluid Resistant Circuit", "Amount": "3"},
+        {"Part": "Basic Tubing", "Amount": "10"}
+      ]
+    },
+    {
+      "Name": "Assembling Machine Mk.0",
+      "Tier": "0-4",
+      "AveragePower": "-25/10",
+      "OverclockPowerExponent": "16/10",
+      "Cost": [
+        {"Part": "Basic Framing", "Amount": "4"},
+        {"Part": "Basic Panelling", "Amount": "4"},
+        {"Part": "Stone Brick", "Amount": "5"}
+      ]
+    },
+    {
+      "Name": "Assembling Machine",
+      "Tier": "1-5",
+      "AveragePower": "-775/100",
+      "OverclockPowerExponent": "16/10",
+      "MaxProductionShards": 1,
+      "ProductionShardMultiplier": "1",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Iron Gear Wheel", "Amount": "3"},
+        {"Part": "Electronic Circuit", "Amount": "1"},
+        {"Part": "Basic Framing", "Amount": "5"}
+      ]
+    },
+    {
+      "Name": "Assembling Machine Mk.2",
+      "Tier": "2-4",
+      "AveragePower": "-155/10",
+      "OverclockPowerExponent": "16/10",
+      "MaxProductionShards": 2,
+      "ProductionShardMultiplier": "1/2",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Brass Cog", "Amount": "4"},
+        {"Part": "Electronic Circuit", "Amount": "2"},
+        {"Part": "Basic Framing", "Amount": "5"}
+      ]
+    },
+    {
+      "Name": "Vacuum Former",
+      "Tier": "2-10",
+      "AveragePower": "-180/10",
+      "OverclockPowerExponent": "16/10",
+      "MaxProductionShards": 1,
+      "ProductionShardMultiplier": "1",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Brass Cog", "Amount": "2"},
+        {"Part": "Fluid Resistant Circuit", "Amount": "6"},
+        {"Part": "Basic Tubing", "Amount": "4"},
+        {"Part": "Heat-Resistant Plating", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Acid Plant",
+      "Tier": "1-6",
+      "AveragePower": "-103/10",
+      "OverclockPowerExponent": "16/10",
+      "MaxProductionShards": 1,
+      "ProductionShardMultiplier": "1",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Basic Tubing", "Amount": "4"},
+        {"Part": "Basic Panelling", "Amount": "8"},
+        {"Part": "Air Filter", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Electrolysis Plant",
+      "Tier": "1-9",
+      "AveragePower": "-170/10",
+      "OverclockPowerExponent": "16/10",
+      "MaxProductionShards": 1,
+      "ProductionShardMultiplier": "1",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Basic Tubing", "Amount": "6"},
+        {"Part": "Basic Panelling", "Amount": "8"},
+        {"Part": "Copper Plate", "Amount": "2"},
+        {"Part": "Zinc Plate", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Laboratory",
+      "Tier": "0-6",
+      "AveragePower": "-60/10",
+      "OverclockPowerExponent": "16/10",
+      "Cost": [
+        {"Part": "Glass Pane", "Amount": "8"},
+        {"Part": "Iron Gear Wheel", "Amount": "5"},
+        {"Part": "Electronic Circuit", "Amount": "5"},
+        {"Part": "Basic Framing", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Voltatic Charger",
+      "Tier": "1-16",
+      "AveragePower": "-10",
+      "Cost": [
+        {"Part": "Copper Wire", "Amount": "4"},
+        {"Part": "Electronic Circuit", "Amount": "1"},
+        {"Part": "Basic Framing", "Amount": "2"},
+        {"Part": "Basic Panelling", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Voltatic Discharger",
+      "Tier": "1-16",
+      "AveragePower": "10",
+      "Cost": [
+        {"Part": "Copper Wire", "Amount": "4"},
+        {"Part": "Electronic Circuit", "Amount": "1"},
+        {"Part": "Basic Framing", "Amount": "2"},
+        {"Part": "Basic Panelling", "Amount": "4"}
+      ]
+    },
+    {
       "Name": "Storage Container",
-      "Tier": "99-99",
+      "Tier": "0-5",
       "AveragePower": "0",
-      "Cost": []
+      "Cost": [
+        {"Part": "Iron Plate", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Industrial Storage Container",
+      "Tier": "1-13",
+      "AveragePower": "0",
+      "Cost": [
+        {"Part": "Steel Plate", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Fluid Buffer",
+      "Tier": "1-5",
+      "AveragePower": "0",
+      "Cost": [
+        {"Part": "Basic Tubing", "Amount": "2"},
+        {"Part": "Basic Framing", "Amount": "4"},
+        {"Part": "Basic Panelling", "Amount": "8"}
+      ]
     },
     {
       "Name": "Dimensional Depot Uploader",
@@ -14,24 +289,223 @@
     },
     {
       "Name": "AWESOME Sink",
-      "Tier": "99-99",
+      "Tier": "2-1",
       "AveragePower": "-30",
-      "Cost": []
+      "Cost": [
+        {"Part": "Basic Panelling", "Amount": "15"},
+        {"Part": "Copper Wire", "Amount": "30"},
+        {"Part": "Stone Brick", "Amount": "45"}
+      ]
+    },
+    {
+      "Name": "Small AWESOME Sink",
+      "Tier": "2-1",
+      "AveragePower": "-30",
+      "Cost": [
+        {"Part": "Basic Panelling", "Amount": "15"},
+        {"Part": "Copper Wire", "Amount": "30"},
+        {"Part": "Stone Brick", "Amount": "45"}
+      ]
     },
     {
       "Name": "Space Elevator",
-      "Tier": "99-99",
+      "Tier": "0-6",
       "AveragePower": "0",
-      "Cost": []
+      "Cost": [
+        {"Part": "Basic Panelling", "Amount": "20"},
+        {"Part": "Basic Motor", "Amount": "25"},
+        {"Part": "Electronic Circuit", "Amount": "75"},
+        {"Part": "Fluid Resistant Circuit", "Amount": "50"},
+        {"Part": "Basic Tubing", "Amount": "75"},
+        {"Part": "Basic Framing", "Amount": "200"},
+        {"Part": "Stone Brick", "Amount": "250"}
+      ]
     }
   ],
   "MultiMachines": [
+    {
+      "Name": "Miner",
+      "ShowPpm": true,
+      "AutoRound": false,
+      "DefaultMax": "60",
+      "Machines": [
+        {
+          "Name": "Miner Mk.1",
+          "PartsRatio": "60",
+          "Default": true
+        }
+      ],
+      "Capacities": [
+        {
+          "Name": "Impure",
+          "PartsRatio": "1/2",
+          "Color": 13775920
+        },
+        {
+          "Name": "Normal",
+          "Default": true
+        },
+        {
+          "Name": "Pure",
+          "PartsRatio": "2",
+          "Color": 8433977
+        }
+      ]
+    },
+    {
+      "Name": "Crusher",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "",
+      "Machines": [
+        {
+          "Name": "Crusher Mk.0"
+        },
+        {
+          "Name": "Crusher",
+          "PartsRatio": "3/2",
+          "Default": true
+        }
+      ]
+    },
+    {
+      "Name": "Smelter",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "",
+      "Machines": [
+        {
+          "Name": "Smelter",
+          "Default": true
+        },
+        {
+          "Name": "Smelter Mk.2",
+          "PartsRatio": "2"
+        }
+      ]
+    },
+    {
+      "Name": "Welder",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "",
+      "Machines": [
+        {
+          "Name": "Welder",
+          "PartsRatio": "2",
+          "Default": true
+        }
+      ]
+    },
+    {
+      "Name": "Stone Coke Oven",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "",
+      "Machines": [
+        {
+          "Name": "Stone Coke Oven",
+          "PartsRatio": "3/10",
+          "Default": true
+        }
+      ]
+    },
+    {
+      "Name": "Evaporator",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "",
+      "Machines": [
+        {
+          "Name": "Evaporator",
+          "PartsRatio": "3/4",
+          "Default": true
+        }
+      ]
+    },
+    {
+      "Name": "Washing Plant",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "",
+      "Machines": [
+        {
+          "Name": "Washing Plant",
+          "PartsRatio": "1/2",
+          "Default": true
+        }
+      ]
+    },
+    {
+      "Name": "Assembling Machine",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "",
+      "Machines": [
+        {
+          "Name": "Assembling Machine Mk.0",
+          "PartsRatio": "1/4"
+        },
+        {
+          "Name": "Assembling Machine",
+          "PartsRatio": "1/2",
+          "Default": true
+        },
+        {
+          "Name": "Assembling Machine Mk.2",
+          "PartsRatio": "3/4"
+        }
+      ]
+    },
+    {
+      "Name": "Vacuum Former",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "",
+      "Machines": [
+        {
+          "Name": "Vacuum Former",
+          "PartsRatio": "1/2",
+          "Default": true
+        }
+      ]
+    },
+    {
+      "Name": "Electrolysis Plant",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "",
+      "Machines": [
+        {
+          "Name": "Electrolysis Plant",
+          "Default": true
+        }
+      ]
+    },
+    {
+      "Name": "Laboratory",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "",
+      "Machines": [
+        {
+          "Name": "Laboratory",
+          "Default": true
+        }
+      ]
+    },
     {
       "Name": "Storage Container",
       "Machines": [
         {
           "Name": "Storage Container",
           "Default": true
+        },
+        {
+          "Name": "Industrial Storage Container"
+        },
+        {
+          "Name": "Fluid Buffer"
         }
       ],
       "Capacities": [
@@ -94,6 +568,15 @@
       "Name": "AWESOME Sink",
       "ShowPpm": true,
       "DefaultMax": "",
+      "Machines": [
+        {
+          "Name": "AWESOME Sink",
+          "Default": true
+        },
+        {
+          "Name": "Small AWESOME Sink"
+        }
+      ],
       "Capacities": [
         {
           "Name": "Mk.1 Belt",
@@ -133,6 +616,2248 @@
       "DefaultMax": "1"
     }
   ],
-  "Parts": [],
-  "Recipes": []
+  "Parts": [
+    {
+      "Name": "Basic Tubing",
+      "Tier": "0-1",
+      "SinkPoints": 24
+    },
+    {
+      "Name": "Basic Framing",
+      "Tier": "0-1",
+      "SinkPoints": 10800
+    },
+    {
+      "Name": "Basic Panelling",
+      "Tier": "0-1",
+      "SinkPoints": 120
+    },
+    {
+      "Name": "Heat-Resistant Plating",
+      "Tier": "2-8",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Cold-Resistant Plating",
+      "Tier": "2-8",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Portable Miner",
+      "Tier": "0-1",
+      "SinkPoints": 56
+    },
+    {
+      "Name": "Leaves",
+      "Tier": "0-0",
+      "SinkPoints": 3
+    },
+    {
+      "Name": "Wood",
+      "Tier": "0-0",
+      "SinkPoints": 30
+    },
+    {
+      "Name": "Coal",
+      "Tier": "0-3",
+      "SinkPoints": 3
+    },
+    {
+      "Name": "Stone",
+      "Tier": "0-1",
+      "SinkPoints": 1
+    },
+    {
+      "Name": "Oxidiser",
+      "Tier": "1-12",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Acidic Water",
+      "Tier": "1-6",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Coke",
+      "Tier": "2-24",
+      "SinkPoints": 20
+    },
+    {
+      "Name": "Steel Plate",
+      "Tier": "1-13",
+      "SinkPoints": 64
+    },
+    {
+      "Name": "Brass Plate",
+      "Tier": "1-12",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Gravel",
+      "Tier": "0-3",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Sand",
+      "Tier": "2-5",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Glass Pane",
+      "Tier": "0-3",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Glass Shards",
+      "Tier": "2-14",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Glass Fibers",
+      "Tier": "2-14",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Copper Wire",
+      "Tier": "0-2",
+      "SinkPoints": 6
+    },
+    {
+      "Name": "Gold Wire",
+      "Tier": "2-7",
+      "SinkPoints": 17
+    },
+    {
+      "Name": "Fiberoptic Cable",
+      "Tier": "2-14",
+      "SinkPoints": 24
+    },
+    {
+      "Name": "Iron Gear Wheel",
+      "Tier": "0-0",
+      "SinkPoints": 240
+    },
+    {
+      "Name": "Brass Cog",
+      "Tier": "1-12",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Stone Brick",
+      "Tier": "0-1",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Basic Motor",
+      "Tier": "0-4",
+      "SinkPoints": 140
+    },
+    {
+      "Name": "Sea Salt",
+      "Tier": "0-0",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Iron Rod",
+      "Tier": "0-1",
+      "SinkPoints": 4
+    },
+    {
+      "Name": "Copper Disk",
+      "Tier": "1-16",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Zinc Disk",
+      "Tier": "1-16",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Uncharged Voltatic Pile",
+      "Tier": "1-16",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Broken Voltatic Pile",
+      "Tier": "1-16",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Charged Voltatic Pile",
+      "Tier": "1-16",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Resin",
+      "Tier": "2-10",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Phenolic Resin",
+      "Tier": "2-11",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Rubber Resin",
+      "Tier": "2-16",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Rubber",
+      "Tier": "2-16",
+      "SinkPoints": 60
+    },
+    {
+      "Name": "Vulcanised Rubber",
+      "Tier": "2-16",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Basic Breadboard",
+      "Tier": "0-5",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Basic Integrated Circuits",
+      "Tier": "0-5",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Electronic Circuit",
+      "Tier": "0-5",
+      "SinkPoints": 696
+    },
+    {
+      "Name": "Fluid Resistant Breadboard",
+      "Tier": "2-20",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Fluid Resistant Integrated Circuits",
+      "Tier": "2-20",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Transistors",
+      "Tier": "2-20",
+      "SinkPoints": 2
+    },
+    {
+      "Name": "Fluid Resistant Circuit",
+      "Tier": "2-10",
+      "SinkPoints": 3776
+    },
+    {
+      "Name": "Circuit Mold",
+      "Tier": "2-12",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Basic Breadboard Mold",
+      "Tier": "2-12",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Fluid Resistant Breadboard Mold",
+      "Tier": "2-13",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Gunpowder",
+      "Tier": "2-19",
+      "SinkPoints": 14
+    },
+    {
+      "Name": "Standard Rebar",
+      "Tier": "1-3",
+      "SinkPoints": 8
+    },
+    {
+      "Name": "Shatter Rebar",
+      "Tier": "2-18",
+      "SinkPoints": 332
+    },
+    {
+      "Name": "Nobelisk",
+      "Tier": "2-18",
+      "SinkPoints": 152
+    },
+    {
+      "Name": "Explosives",
+      "Tier": "2-19",
+      "SinkPoints": 58
+    },
+    {
+      "Name": "Science Bottle",
+      "Tier": "0-6",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Transition Metal Pack",
+      "Tier": "0-6",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Advanced Transition Metal Pack",
+      "Tier": "1-18",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Advanced-Advanced Transition Metal Pack",
+      "Tier": "2-27",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Transition Metals Ore",
+      "Tier": "1-10",
+      "SinkPoints": 1
+    },
+    {
+      "Name": "Iron Chunk",
+      "Tier": "0-0",
+      "SinkPoints": 1
+    },
+    {
+      "Name": "Iron Ore",
+      "Tier": "1-7",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Iron Plate",
+      "Tier": "0-0",
+      "SinkPoints": 6
+    },
+    {
+      "Name": "Ferrum",
+      "Tier": "1-7",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Pig Iron",
+      "Tier": "1-7",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Copper Chunk",
+      "Tier": "0-2",
+      "SinkPoints": 1
+    },
+    {
+      "Name": "Crude Matte Copper",
+      "Tier": "1-7",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Copper Ore",
+      "Tier": "1-7",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Copper Plate",
+      "Tier": "0-2",
+      "SinkPoints": 15
+    },
+    {
+      "Name": "Patina",
+      "Tier": "1-7",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Nickel Chunk",
+      "Tier": "0-4",
+      "SinkPoints": 1
+    },
+    {
+      "Name": "Nickel Powder",
+      "Tier": "1-7",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Nickel Ore",
+      "Tier": "1-7",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Nickel Plate",
+      "Tier": "0-4",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Zinc Chunk",
+      "Tier": "0-4",
+      "SinkPoints": 1
+    },
+    {
+      "Name": "Zinc Powder",
+      "Tier": "1-7",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Zinc Ore",
+      "Tier": "1-7",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Zinc Plate",
+      "Tier": "0-4",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Manganese Ore",
+      "Tier": "1-13",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Manganese Plate",
+      "Tier": "1-13",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Mercury Ore",
+      "Tier": "1-10",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Mercury Powder",
+      "Tier": "1-10",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Red Mercury Powder",
+      "Tier": "1-10",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Liquid Mercury",
+      "Tier": "1-10",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Mercury Vapour",
+      "Tier": "1-10",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Molybdenite",
+      "Tier": "2-23",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Molybdenite Powder",
+      "Tier": "2-23",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Molybdenum Ore",
+      "Tier": "2-23",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Molybdenum Disulfide",
+      "Tier": "2-23",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Gold Chunk",
+      "Tier": "1-11",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Gold Ore",
+      "Tier": "1-11",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Gold Plate",
+      "Tier": "1-11",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Silver Chunk",
+      "Tier": "1-11",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Silver Ore",
+      "Tier": "1-11",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Silver Plate",
+      "Tier": "1-11",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Titanium Chunk",
+      "Tier": "2-25",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Titanium Oxide",
+      "Tier": "2-25",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Titanium Chloride",
+      "Tier": "2-25",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Titanium Ore",
+      "Tier": "2-25",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Titanium Plate",
+      "Tier": "2-25",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Tungsten Chunk",
+      "Tier": "2-25",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Wolframite",
+      "Tier": "2-25",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Tungsten Crystals",
+      "Tier": "2-25",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Scheelite",
+      "Tier": "2-25",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Tungsten Ore",
+      "Tier": "2-25",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Tungsten Plate",
+      "Tier": "2-25",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Oxygen Gas",
+      "Tier": "1-12",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Chlorine Gas",
+      "Tier": "1-9",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Hydrochloric Acid",
+      "Tier": "1-9",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Carbon",
+      "Tier": "0-3",
+      "SinkPoints": 28
+    },
+    {
+      "Name": "Hydrogen Gas",
+      "Tier": "1-9",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Sulfur",
+      "Tier": "1-6",
+      "SinkPoints": 11
+    },
+    {
+      "Name": "Air Filter",
+      "Tier": "0-3",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Biomass",
+      "Tier": "0-6",
+      "SinkPoints": 12
+    },
+    {
+      "Name": "Wood Strips",
+      "Tier": "2-9",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Solid Biofuel",
+      "Tier": "0-6",
+      "SinkPoints": 48
+    },
+    {
+      "Name": "Sodium",
+      "Tier": "1-9",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Solid Sodium Hydroxide",
+      "Tier": "1-9",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Calcite",
+      "Tier": "0-0",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Calcium Dust",
+      "Tier": "0-0",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Calcium Ore",
+      "Tier": "0-0",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Steam",
+      "Tier": "0-0",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Water",
+      "Tier": "0-0",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Seawater",
+      "Tier": "1-5",
+      "SinkPoints": 0
+    }
+  ],
+  "Recipes": [
+    {
+      "Name": "Iron Basic Tubing",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "0-1",
+      "Parts": [
+        {"Part": "Iron Plate", "Amount": "-1"},
+        {"Part": "Basic Tubing", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Nickel Basic Tubing",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "0-4",
+      "Parts": [
+        {"Part": "Nickel Plate", "Amount": "-1"},
+        {"Part": "Basic Tubing", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Copper Basic Tubing",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "0-2",
+      "Parts": [
+        {"Part": "Copper Plate", "Amount": "-1"},
+        {"Part": "Basic Tubing", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Brass Basic Tubing",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "1-14",
+      "Parts": [
+        {"Part": "Brass Plate", "Amount": "-1"},
+        {"Part": "Basic Tubing", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Steel Basic Tubing",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "1-14",
+      "Parts": [
+        {"Part": "Steel Plate", "Amount": "-1"},
+        {"Part": "Basic Tubing", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Iron Basic Framing",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "0-1",
+      "Parts": [
+        {"Part": "Iron Plate", "Amount": "-2"},
+        {"Part": "Basic Framing", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Steel Basic Framing",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "1-14",
+      "Parts": [
+        {"Part": "Steel Plate", "Amount": "-1"},
+        {"Part": "Basic Framing", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Iron Basic Panelling",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "0-1",
+      "Parts": [
+        {"Part": "Iron Plate", "Amount": "-2"},
+        {"Part": "Basic Panelling", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Zinc Basic Panelling",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "0-4",
+      "Parts": [
+        {"Part": "Zinc Plate", "Amount": "-1"},
+        {"Part": "Basic Panelling", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Steel Basic Panelling",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "1-14",
+      "Parts": [
+        {"Part": "Steel Plate", "Amount": "-1"},
+        {"Part": "Basic Panelling", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Brass Heat-Resistant Plating",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1",
+      "Tier": "2-8",
+      "Parts": [
+        {"Part": "Brass Plate", "Amount": "-1"},
+        {"Part": "Basic Panelling", "Amount": "-2"},
+        {"Part": "Heat-Resistant Plating", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Gold Heat-Resistant Plating",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1",
+      "Tier": "2-8",
+      "Parts": [
+        {"Part": "Gold Wire", "Amount": "-2"},
+        {"Part": "Basic Panelling", "Amount": "-2"},
+        {"Part": "Heat-Resistant Plating", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Copper Heat-Resistant Plating",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1",
+      "Tier": "2-8",
+      "Parts": [
+        {"Part": "Copper Wire", "Amount": "-2"},
+        {"Part": "Basic Panelling", "Amount": "-2"},
+        {"Part": "Heat-Resistant Plating", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Silver Cold-Resistant Plating",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1",
+      "Tier": "2-8",
+      "Parts": [
+        {"Part": "Basic Panelling", "Amount": "-2"},
+        {"Part": "Silver Plate", "Amount": "-1"},
+        {"Part": "Cold-Resistant Plating", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Copper Cold-Resistant Plating",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1",
+      "Tier": "2-8",
+      "Parts": [
+        {"Part": "Copper Wire", "Amount": "-2"},
+        {"Part": "Basic Panelling", "Amount": "-2"},
+        {"Part": "Cold-Resistant Plating", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Steel Cold-Resistant Plating",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1",
+      "Tier": "2-8",
+      "Parts": [
+        {"Part": "Steel Plate", "Amount": "-1"},
+        {"Part": "Basic Panelling", "Amount": "-2"},
+        {"Part": "Cold-Resistant Plating", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Manganese Cold-Resistant Plating",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1",
+      "Tier": "2-8",
+      "Parts": [
+        {"Part": "Basic Panelling", "Amount": "-2"},
+        {"Part": "Manganese Plate", "Amount": "-2"},
+        {"Part": "Cold-Resistant Plating", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Coal",
+      "Machine": "Miner",
+      "BatchTime": "60",
+      "Tier": "0-3",
+      "Parts": [
+        {"Part": "Coal", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Stone",
+      "Machine": "Miner",
+      "BatchTime": "60",
+      "Tier": "0-1",
+      "Parts": [
+        {"Part": "Stone", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Oxidiser",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1",
+      "Tier": "1-12",
+      "Parts": [
+        {"Part": "Iron Plate", "Amount": "-2"},
+        {"Part": "Oxygen Gas", "Amount": "-15/10"},
+        {"Part": "Oxidiser", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Seawater Sulfide-Based Evaporation",
+      "Machine": "Evaporator",
+      "BatchTime": "4",
+      "Tier": "1-6",
+      "Parts": [
+        {"Part": "Seawater", "Amount": "-200/10"},
+        {"Part": "Sulfur", "Amount": "3"},
+        {"Part": "Sea Salt", "Amount": "4"},
+        {"Part": "Water", "Amount": "50/10"}
+      ]
+    },
+    {
+      "Name": "Seawater from Sea Salt",
+      "Machine": "Evaporator",
+      "BatchTime": "4",
+      "Tier": "1-6",
+      "Parts": [
+        {"Part": "Sea Salt", "Amount": "-12"},
+        {"Part": "Water", "Amount": "-10/10"},
+        {"Part": "Seawater", "Amount": "15/10"}
+      ]
+    },
+    {
+      "Name": "Acidic Water",
+      "Machine": "Acid Plant",
+      "BatchTime": "2",
+      "Tier": "1-6",
+      "Parts": [
+        {"Part": "Sulfur", "Amount": "-2"},
+        {"Part": "Water", "Amount": "-10/10"},
+        {"Part": "Acidic Water", "Amount": "10/10"}
+      ]
+    },
+    {
+      "Name": "Water Evaporation",
+      "Machine": "Evaporator",
+      "BatchTime": "1/2",
+      "Tier": "0-0",
+      "Parts": [
+        {"Part": "Water", "Amount": "-25/10"}
+      ]
+    },
+    {
+      "Name": "Steam Condensation",
+      "Machine": "Evaporator",
+      "BatchTime": "1",
+      "Tier": "0-0",
+      "Parts": [
+        {"Part": "Steam", "Amount": "-10/10"},
+        {"Part": "Water", "Amount": "1/10"}
+      ]
+    },
+    {
+      "Name": "Coke",
+      "Machine": "Stone Coke Oven",
+      "BatchTime": "12/5",
+      "Tier": "2-24",
+      "Parts": [
+        {"Part": "Coal", "Amount": "-8"},
+        {"Part": "Coke", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Wood Strip-Based Coke",
+      "Machine": "Stone Coke Oven",
+      "BatchTime": "12/5",
+      "Tier": "2-24",
+      "Parts": [
+        {"Part": "Coal", "Amount": "-6"},
+        {"Part": "Wood Strips", "Amount": "-5"},
+        {"Part": "Coke", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Steel Plate",
+      "Machine": "Welder",
+      "BatchTime": "8",
+      "Tier": "1-13",
+      "Parts": [
+        {"Part": "Iron Plate", "Amount": "-3"},
+        {"Part": "Manganese Plate", "Amount": "-3"},
+        {"Part": "Steel Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Brass Plate",
+      "Machine": "Welder",
+      "BatchTime": "8",
+      "Tier": "1-12",
+      "Parts": [
+        {"Part": "Copper Plate", "Amount": "-1"},
+        {"Part": "Zinc Plate", "Amount": "-1"},
+        {"Part": "Brass Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Gravel",
+      "Machine": "Crusher",
+      "BatchTime": "4",
+      "Tier": "0-3",
+      "Parts": [
+        {"Part": "Stone", "Amount": "-4"},
+        {"Part": "Gravel", "Amount": "6"}
+      ]
+    },
+    {
+      "Name": "Gravel Crushing",
+      "Machine": "Crusher",
+      "BatchTime": "2",
+      "Tier": "2-5",
+      "Parts": [
+        {"Part": "Gravel", "Amount": "-2"},
+        {"Part": "Sand", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Sand",
+      "Machine": "Crusher",
+      "BatchTime": "2",
+      "Tier": "2-5",
+      "Parts": [
+        {"Part": "Stone", "Amount": "-4"},
+        {"Part": "Sand", "Amount": "8"},
+        {"Part": "Gravel", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Glass Pane",
+      "Machine": "Smelter",
+      "BatchTime": "16/5",
+      "Tier": "2-5",
+      "Parts": [
+        {"Part": "Sand", "Amount": "-4"},
+        {"Part": "Glass Pane", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Gravel-Based Glass Pane",
+      "Machine": "Smelter",
+      "BatchTime": "24/5",
+      "Tier": "0-3",
+      "Parts": [
+        {"Part": "Gravel", "Amount": "-4"},
+        {"Part": "Glass Pane", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Science Bottle",
+      "Machine": "Assembling Machine",
+      "BatchTime": "3",
+      "Tier": "0-6",
+      "Parts": [
+        {"Part": "Glass Pane", "Amount": "-4"},
+        {"Part": "Science Bottle", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Glass Fibers",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1",
+      "Tier": "2-14",
+      "Parts": [
+        {"Part": "Glass Pane", "Amount": "-1"},
+        {"Part": "Glass Fibers", "Amount": "5"},
+        {"Part": "Glass Shards", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Glass Resmelting",
+      "Machine": "Smelter",
+      "BatchTime": "2",
+      "Tier": "2-14",
+      "Parts": [
+        {"Part": "Glass Shards", "Amount": "-4"},
+        {"Part": "Glass Pane", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Copper Wire",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "0-2",
+      "Parts": [
+        {"Part": "Copper Plate", "Amount": "-1"},
+        {"Part": "Copper Wire", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Gold Wire",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "2-7",
+      "Parts": [
+        {"Part": "Gold Plate", "Amount": "-1"},
+        {"Part": "Gold Wire", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Fiberoptic Cable",
+      "Machine": "Assembling Machine",
+      "BatchTime": "4",
+      "Tier": "2-14",
+      "Parts": [
+        {"Part": "Glass Fibers", "Amount": "-20"},
+        {"Part": "Gold Wire", "Amount": "-2"},
+        {"Part": "Phenolic Resin", "Amount": "-10/10"},
+        {"Part": "Fiberoptic Cable", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Iron Gear Wheel",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "0-0",
+      "Parts": [
+        {"Part": "Iron Plate", "Amount": "-2"},
+        {"Part": "Iron Gear Wheel", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Brass Cog",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1",
+      "Tier": "1-12",
+      "Parts": [
+        {"Part": "Brass Plate", "Amount": "-2"},
+        {"Part": "Brass Cog", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Stone Brick",
+      "Machine": "Smelter",
+      "BatchTime": "16/2",
+      "Tier": "0-1",
+      "Parts": [
+        {"Part": "Stone", "Amount": "-2"},
+        {"Part": "Stone Brick", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Basic Motor",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1",
+      "Tier": "0-4",
+      "Parts": [
+        {"Part": "Iron Rod", "Amount": "-1"},
+        {"Part": "Nickel Plate", "Amount": "-2"},
+        {"Part": "Basic Motor", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Iron Rod",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "0-1",
+      "Parts": [
+        {"Part": "Iron Plate", "Amount": "-1"},
+        {"Part": "Iron Rod", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Copper Disk",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "1-16",
+      "Parts": [
+        {"Part": "Copper Plate", "Amount": "-1"},
+        {"Part": "Copper Disk", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Zinc Disk",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "1-16",
+      "Parts": [
+        {"Part": "Zinc Plate", "Amount": "-1"},
+        {"Part": "Zinc Disk", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Voltatic Pile",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "1-16",
+      "Parts": [
+        {"Part": "Copper Disk", "Amount": "-8"},
+        {"Part": "Zinc Disk", "Amount": "-8"},
+        {"Part": "Uncharged Voltatic Pile", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Voltatic Pile Charging",
+      "Machine": "Voltatic Charger",
+      "BatchTime": "3",
+      "Tier": "1-16",
+      "Parts": [
+        {"Part": "Uncharged Voltatic Pile", "Amount": "-3"},
+        {"Part": "Charged Voltatic Pile", "Amount": "2"},
+        {"Part": "Broken Voltatic Pile", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Voltatic Pile Discharging",
+      "Machine": "Voltatic Discharger",
+      "BatchTime": "1",
+      "Tier": "1-16",
+      "Parts": [
+        {"Part": "Charged Voltatic Pile", "Amount": "-1"},
+        {"Part": "Uncharged Voltatic Pile", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Voltatic Pile Fixing",
+      "Machine": "Assembling Machine",
+      "BatchTime": "2",
+      "Tier": "1-16",
+      "Parts": [
+        {"Part": "Copper Disk", "Amount": "-4"},
+        {"Part": "Zinc Disk", "Amount": "-4"},
+        {"Part": "Broken Voltatic Pile", "Amount": "-1"},
+        {"Part": "Uncharged Voltatic Pile", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Resin",
+      "Machine": "Assembling Machine",
+      "BatchTime": "2",
+      "Tier": "2-10",
+      "Parts": [
+        {"Part": "Wood Strips", "Amount": "-10"},
+        {"Part": "Water", "Amount": "-75/10"},
+        {"Part": "Resin", "Amount": "25/10"}
+      ]
+    },
+    {
+      "Name": "Phenolic Resin",
+      "Machine": "Acid Plant",
+      "BatchTime": "1",
+      "Tier": "2-11",
+      "Parts": [
+        {"Part": "Glass Fibers", "Amount": "-10"},
+        {"Part": "Resin", "Amount": "-50/10"},
+        {"Part": "Phenolic Resin", "Amount": "50/10"}
+      ]
+    },
+    {
+      "Name": "Rubber Resin",
+      "Machine": "Acid Plant",
+      "BatchTime": "1",
+      "Tier": "2-16",
+      "Parts": [
+        {"Part": "Carbon", "Amount": "-10"},
+        {"Part": "Resin", "Amount": "-50/10"},
+        {"Part": "Rubber Resin", "Amount": "50/10"}
+      ]
+    },
+    {
+      "Name": "Rubber",
+      "Machine": "Vacuum Former",
+      "BatchTime": "2",
+      "Tier": "2-16",
+      "Parts": [
+        {"Part": "Rubber Resin", "Amount": "-50/10"},
+        {"Part": "Rubber", "Amount": "10"}
+      ]
+    },
+    {
+      "Name": "Vulcanised Rubber",
+      "Machine": "Acid Plant",
+      "BatchTime": "3",
+      "Tier": "2-16",
+      "Parts": [
+        {"Part": "Rubber", "Amount": "-5"},
+        {"Part": "Sulfur", "Amount": "-2"},
+        {"Part": "Vulcanised Rubber", "Amount": "5"},
+        {"Part": "Acidic Water", "Amount": "13/20"}
+      ]
+    },
+    {
+      "Name": "Basic Breadboard",
+      "Machine": "Assembling Machine",
+      "BatchTime": "2",
+      "Tier": "0-5",
+      "Parts": [
+        {"Part": "Nickel Plate", "Amount": "-4"},
+        {"Part": "Basic Breadboard", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Basic Integrated Circuits",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/4",
+      "Tier": "0-5",
+      "Parts": [
+        {"Part": "Copper Wire", "Amount": "-1"},
+        {"Part": "Iron Plate", "Amount": "-1"},
+        {"Part": "Basic Integrated Circuits", "Amount": "3"}
+      ]
+    },
+    {
+      "Name": "Electronic Circuit",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "0-5",
+      "Parts": [
+        {"Part": "Copper Wire", "Amount": "-2"},
+        {"Part": "Basic Breadboard", "Amount": "-1"},
+        {"Part": "Basic Integrated Circuits", "Amount": "-3"},
+        {"Part": "Electronic Circuit", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Fluid Resistant Circuit Breadboard",
+      "Machine": "Assembling Machine",
+      "BatchTime": "3",
+      "Tier": "2-20",
+      "Parts": [
+        {"Part": "Vulcanised Rubber", "Amount": "-2"},
+        {"Part": "Basic Breadboard", "Amount": "-1"},
+        {"Part": "Fluid Resistant Breadboard", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Fluid Resistant Integrated Circuits",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "2-20",
+      "Parts": [
+        {"Part": "Gold Wire", "Amount": "-2"},
+        {"Part": "Silver Plate", "Amount": "-1"},
+        {"Part": "Fluid Resistant Integrated Circuits", "Amount": "3"}
+      ]
+    },
+    {
+      "Name": "Transistors",
+      "Machine": "Assembling Machine",
+      "BatchTime": "6/10",
+      "Tier": "2-20",
+      "Parts": [
+        {"Part": "Copper Wire", "Amount": "-2"},
+        {"Part": "Vulcanised Rubber", "Amount": "-1"},
+        {"Part": "Carbon", "Amount": "-5"},
+        {"Part": "Transistors", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Electronic Circuit Resin \"Dipping\"",
+      "Machine": "Assembling Machine",
+      "BatchTime": "45/4",
+      "Tier": "2-10",
+      "Parts": [
+        {"Part": "Gold Wire", "Amount": "-15"},
+        {"Part": "Electronic Circuit", "Amount": "-25"},
+        {"Part": "Resin", "Amount": "-100/10"},
+        {"Part": "Fluid Resistant Circuit", "Amount": "4"},
+        {"Part": "Electronic Circuit", "Amount": "7"},
+        {"Part": "Copper Wire", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Fluid Resistant Circuit",
+      "Machine": "Assembling Machine",
+      "BatchTime": "3/2",
+      "Tier": "2-20",
+      "Parts": [
+        {"Part": "Gold Wire", "Amount": "-3"},
+        {"Part": "Fluid Resistant Breadboard", "Amount": "-1"},
+        {"Part": "Fluid Resistant Integrated Circuits", "Amount": "-3"},
+        {"Part": "Transistors", "Amount": "-5"},
+        {"Part": "Fluid Resistant Circuit", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Circuit Mold",
+      "Machine": "Vacuum Former",
+      "BatchTime": "3",
+      "Tier": "2-12",
+      "Parts": [
+        {"Part": "Phenolic Resin", "Amount": "-25/10"},
+        {"Part": "Circuit Mold", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Basic Circuit Molding",
+      "Machine": "Vacuum Former",
+      "BatchTime": "1",
+      "Tier": "2-12",
+      "Parts": [
+        {"Part": "Basic Breadboard", "Amount": "-1"},
+        {"Part": "Circuit Mold", "Amount": "-1"},
+        {"Part": "Basic Breadboard Mold", "Amount": "1"},
+        {"Part": "Basic Breadboard", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Basic Breadboard Molding",
+      "Machine": "Assembling Machine",
+      "BatchTime": "10",
+      "Tier": "2-12",
+      "Parts": [
+        {"Part": "Basic Breadboard Mold", "Amount": "-10"},
+        {"Part": "Nickel Plate", "Amount": "-20"},
+        {"Part": "Basic Breadboard", "Amount": "20"},
+        {"Part": "Basic Breadboard Mold", "Amount": "7"}
+      ]
+    },
+    {
+      "Name": "Fluid Resistant Circuit Molding",
+      "Machine": "Vacuum Former",
+      "BatchTime": "1",
+      "Tier": "2-13",
+      "Parts": [
+        {"Part": "Fluid Resistant Breadboard", "Amount": "-1"},
+        {"Part": "Circuit Mold", "Amount": "-1"},
+        {"Part": "Fluid Resistant Breadboard Mold", "Amount": "1"},
+        {"Part": "Fluid Resistant Breadboard", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Fluid Resistant Breadboard Molding",
+      "Machine": "Assembling Machine",
+      "BatchTime": "10",
+      "Tier": "2-13",
+      "Parts": [
+        {"Part": "Vulcanised Rubber", "Amount": "-20"},
+        {"Part": "Fluid Resistant Breadboard Mold", "Amount": "-10"},
+        {"Part": "Fluid Resistant Breadboard", "Amount": "20"},
+        {"Part": "Fluid Resistant Breadboard Mold", "Amount": "6"}
+      ]
+    },
+    {
+      "Name": "Gunpowder",
+      "Machine": "Acid Plant",
+      "BatchTime": "3",
+      "Tier": "2-19",
+      "Parts": [
+        {"Part": "Carbon", "Amount": "-12"},
+        {"Part": "Sulfur", "Amount": "-4"},
+        {"Part": "Seawater", "Amount": "-40/10"},
+        {"Part": "Gunpowder", "Amount": "2"},
+        {"Part": "Acidic Water", "Amount": "10/10"}
+      ]
+    },
+    {
+      "Name": "Standard Rebar",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1",
+      "Tier": "1-3",
+      "Parts": [
+        {"Part": "Coal", "Amount": "-1"},
+        {"Part": "Zinc Plate", "Amount": "-3"},
+        {"Part": "Standard Rebar", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Shatter Rebar",
+      "Machine": "Assembling Machine",
+      "BatchTime": "6",
+      "Tier": "2-18",
+      "Parts": [
+        {"Part": "Steel Plate", "Amount": "-2"},
+        {"Part": "Vulcanised Rubber", "Amount": "-2"},
+        {"Part": "Standard Rebar", "Amount": "-1"},
+        {"Part": "Copper Plate", "Amount": "-2"},
+        {"Part": "Shatter Rebar", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Nobelisk",
+      "Machine": "Assembling Machine",
+      "BatchTime": "8",
+      "Tier": "2-18",
+      "Parts": [
+        {"Part": "Coal", "Amount": "-10"},
+        {"Part": "Iron Plate", "Amount": "-5"},
+        {"Part": "Nobelisk", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Explosives",
+      "Machine": "Acid Plant",
+      "BatchTime": "4",
+      "Tier": "2-19",
+      "Parts": [
+        {"Part": "Vulcanised Rubber", "Amount": "-3"},
+        {"Part": "Gunpowder", "Amount": "-6"},
+        {"Part": "Sulfur", "Amount": "-2"},
+        {"Part": "Explosives", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Transition Metal Pack",
+      "Machine": "Laboratory",
+      "BatchTime": "6",
+      "Tier": "0-6",
+      "Parts": [
+        {"Part": "Science Bottle", "Amount": "-1"},
+        {"Part": "Iron Plate", "Amount": "-2"},
+        {"Part": "Nickel Plate", "Amount": "-2"},
+        {"Part": "Transition Metal Pack", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Advanced Transition Metal Pack",
+      "Machine": "Laboratory",
+      "BatchTime": "6",
+      "Tier": "1-18",
+      "Parts": [
+        {"Part": "Science Bottle", "Amount": "-1"},
+        {"Part": "Manganese Plate", "Amount": "-5"},
+        {"Part": "Gold Plate", "Amount": "-5"},
+        {"Part": "Liquid Mercury", "Amount": "-25/10"},
+        {"Part": "Advanced Transition Metal Pack", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Advanced-Advanced Transition Metal Pack",
+      "Machine": "Laboratory",
+      "BatchTime": "6",
+      "Tier": "2-25",
+      "Parts": [
+        {"Part": "Science Bottle", "Amount": "-1"},
+        {"Part": "Copper Plate", "Amount": "-15"},
+        {"Part": "Silver Plate", "Amount": "-15"},
+        {"Part": "Titanium Plate", "Amount": "-8"},
+        {"Part": "Tungsten Plate", "Amount": "-8"},
+        {"Part": "Advanced-Advanced Transition Metal Pack", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Transition Metals Ore",
+      "Machine": "Miner",
+      "BatchTime": "60",
+      "Tier": "1-10",
+      "Parts": [
+        {"Part": "Transition Metals Ore", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Acidic Ferrum Leeching",
+      "Machine": "Acid Plant",
+      "BatchTime": "8",
+      "Tier": "1-8",
+      "Parts": [
+        {"Part": "Ferrum", "Amount": "-8"},
+        {"Part": "Acidic Water", "Amount": "-20/10"},
+        {"Part": "Iron Ore", "Amount": "3"},
+        {"Part": "Acidic Water", "Amount": "50/40"}
+      ]
+    },
+    {
+      "Name": "Acidic Patina Leeching",
+      "Machine": "Acid Plant",
+      "BatchTime": "8",
+      "Tier": "1-8",
+      "Parts": [
+        {"Part": "Patina", "Amount": "-8"},
+        {"Part": "Acidic Water", "Amount": "-20/10"},
+        {"Part": "Copper Ore", "Amount": "3"},
+        {"Part": "Acidic Water", "Amount": "50/40"}
+      ]
+    },
+    {
+      "Name": "Iron Chunk",
+      "Machine": "Miner",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {"Part": "Iron Chunk", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Basic Pig Iron",
+      "Machine": "Crusher",
+      "BatchTime": "16",
+      "Tier": "1-7",
+      "Parts": [
+        {"Part": "Iron Chunk", "Amount": "-8"},
+        {"Part": "Pig Iron", "Amount": "8"},
+        {"Part": "Stone", "Amount": "3"}
+      ]
+    },
+    {
+      "Name": "Ezekiel Pig Iron Separation",
+      "Machine": "Acid Plant",
+      "BatchTime": "16",
+      "Tier": "1-7",
+      "Parts": [
+        {"Part": "Pig Iron", "Amount": "-16"},
+        {"Part": "Acidic Water", "Amount": "-32/10"},
+        {"Part": "Iron Ore", "Amount": "16"},
+        {"Part": "Ferrum", "Amount": "9"}
+      ]
+    },
+    {
+      "Name": "Chunk Iron Plate",
+      "Machine": "Smelter",
+      "BatchTime": "16/5",
+      "Tier": "0-0",
+      "Parts": [
+        {"Part": "Iron Chunk", "Amount": "-2"},
+        {"Part": "Iron Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Iron Plate",
+      "Machine": "Smelter",
+      "BatchTime": "16/5",
+      "Tier": "1-7",
+      "Parts": [
+        {"Part": "Iron Ore", "Amount": "-1"},
+        {"Part": "Iron Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Copper Chunk",
+      "Machine": "Miner",
+      "BatchTime": "60",
+      "Tier": "0-2",
+      "Parts": [
+        {"Part": "Copper Chunk", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Crude Matte Copper",
+      "Machine": "Crusher",
+      "BatchTime": "16",
+      "Tier": "1-7",
+      "Parts": [
+        {"Part": "Copper Chunk", "Amount": "-8"},
+        {"Part": "Crude Matte Copper", "Amount": "8"},
+        {"Part": "Stone", "Amount": "3"}
+      ]
+    },
+    {
+      "Name": "Ezekiel Crude Matte Copper Leeching",
+      "Machine": "Acid Plant",
+      "BatchTime": "16",
+      "Tier": "1-7",
+      "Parts": [
+        {"Part": "Crude Matte Copper", "Amount": "-16"},
+        {"Part": "Acidic Water", "Amount": "-32/10"},
+        {"Part": "Copper Ore", "Amount": "16"},
+        {"Part": "Patina", "Amount": "9"}
+      ]
+    },
+    {
+      "Name": "Chunk Copper Plate",
+      "Machine": "Smelter",
+      "BatchTime": "16/5",
+      "Tier": "0-2",
+      "Parts": [
+        {"Part": "Copper Chunk", "Amount": "-2"},
+        {"Part": "Copper Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Copper Plate",
+      "Machine": "Smelter",
+      "BatchTime": "16/5",
+      "Tier": "1-7",
+      "Parts": [
+        {"Part": "Copper Ore", "Amount": "-1"},
+        {"Part": "Copper Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Nickel Chunk",
+      "Machine": "Miner",
+      "BatchTime": "60",
+      "Tier": "0-4",
+      "Parts": [
+        {"Part": "Nickel Chunk", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Nickel Powder",
+      "Machine": "Crusher",
+      "BatchTime": "2",
+      "Tier": "1-7",
+      "Parts": [
+        {"Part": "Nickel Chunk", "Amount": "-2"},
+        {"Part": "Nickel Powder", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Ezekiel Nickel Powder Leeching",
+      "Machine": "Acid Plant",
+      "BatchTime": "4",
+      "Tier": "1-7",
+      "Parts": [
+        {"Part": "Nickel Powder", "Amount": "-8"},
+        {"Part": "Acidic Water", "Amount": "-8/10"},
+        {"Part": "Nickel Ore", "Amount": "4"},
+        {"Part": "Sulfur", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Chunk Nickel Plate",
+      "Machine": "Smelter",
+      "BatchTime": "16/5",
+      "Tier": "0-4",
+      "Parts": [
+        {"Part": "Nickel Chunk", "Amount": "-2"},
+        {"Part": "Nickel Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Nickel Plate",
+      "Machine": "Smelter",
+      "BatchTime": "16/5",
+      "Tier": "1-7",
+      "Parts": [
+        {"Part": "Nickel Ore", "Amount": "-1"},
+        {"Part": "Nickel Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Zinc Chunk",
+      "Machine": "Miner",
+      "BatchTime": "60",
+      "Tier": "0-4",
+      "Parts": [
+        {"Part": "Zinc Chunk", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Zinc Powder",
+      "Machine": "Crusher",
+      "BatchTime": "2",
+      "Tier": "1-7",
+      "Parts": [
+        {"Part": "Zinc Chunk", "Amount": "-2"},
+        {"Part": "Zinc Powder", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Ezekiel Zinc Powder Leeching",
+      "Machine": "Acid Plant",
+      "BatchTime": "4",
+      "Tier": "1-7",
+      "Parts": [
+        {"Part": "Zinc Powder", "Amount": "-8"},
+        {"Part": "Acidic Water", "Amount": "-8/10"},
+        {"Part": "Zinc Ore", "Amount": "4"},
+        {"Part": "Sulfur", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Chunk Zinc Plate",
+      "Machine": "Smelter",
+      "BatchTime": "16/5",
+      "Tier": "0-4",
+      "Parts": [
+        {"Part": "Zinc Chunk", "Amount": "-2"},
+        {"Part": "Zinc Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Zinc Plate",
+      "Machine": "Smelter",
+      "BatchTime": "16/5",
+      "Tier": "1-7",
+      "Parts": [
+        {"Part": "Zinc Ore", "Amount": "-1"},
+        {"Part": "Zinc Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Transition Managanese Leeching",
+      "Machine": "Acid Plant",
+      "BatchTime": "4",
+      "Tier": "1-13",
+      "Parts": [
+        {"Part": "Transition Metals Ore", "Amount": "-12"},
+        {"Part": "Hydrochloric Acid", "Amount": "-10/10"},
+        {"Part": "Manganese Ore", "Amount": "8"},
+        {"Part": "Ferrum", "Amount": "3"}
+      ]
+    },
+    {
+      "Name": "Manganese Plate",
+      "Machine": "Smelter",
+      "BatchTime": "16/5",
+      "Tier": "1-13",
+      "Parts": [
+        {"Part": "Manganese Ore", "Amount": "-1"},
+        {"Part": "Manganese Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Mercury Ore",
+      "Machine": "Acid Plant",
+      "BatchTime": "4",
+      "Tier": "1-10",
+      "Parts": [
+        {"Part": "Transition Metals Ore", "Amount": "-12"},
+        {"Part": "Acidic Water", "Amount": "-8/10"},
+        {"Part": "Mercury Ore", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Mercury Powdering",
+      "Machine": "Crusher",
+      "BatchTime": "2",
+      "Tier": "1-10",
+      "Parts": [
+        {"Part": "Mercury Ore", "Amount": "-2"},
+        {"Part": "Mercury Powder", "Amount": "4"},
+        {"Part": "Red Mercury Powder", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Liquid Mercury",
+      "Machine": "Assembling Machine",
+      "BatchTime": "2",
+      "Tier": "1-10",
+      "Parts": [
+        {"Part": "Mercury Powder", "Amount": "-4"},
+        {"Part": "Red Mercury Powder", "Amount": "-4"},
+        {"Part": "Water", "Amount": "-20/10"},
+        {"Part": "Liquid Mercury", "Amount": "25/10"}
+      ]
+    },
+    {
+      "Name": "Mercury Vapour Condensing",
+      "Machine": "Acid Plant",
+      "BatchTime": "4",
+      "Tier": "1-10",
+      "Parts": [
+        {"Part": "Mercury Vapour", "Amount": "-5/10"},
+        {"Part": "Liquid Mercury", "Amount": "10/10"}
+      ]
+    },
+    {
+      "Name": "Acidic Molybdenum Leeching",
+      "Machine": "Acid Plant",
+      "BatchTime": "4",
+      "Tier": "2-23",
+      "Parts": [
+        {"Part": "Transition Metals Ore", "Amount": "-12"},
+        {"Part": "Hydrochloric Acid", "Amount": "-20/10"},
+        {"Part": "Molybdenite", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Molybdenite Crushing",
+      "Machine": "Crusher",
+      "BatchTime": "4",
+      "Tier": "2-23",
+      "Parts": [
+        {"Part": "Molybdenite", "Amount": "-8"},
+        {"Part": "Molybdenite Powder", "Amount": "8"},
+        {"Part": "Stone", "Amount": "3"}
+      ]
+    },
+    {
+      "Name": "Molybdenum Floating",
+      "Machine": "Washing Plant",
+      "BatchTime": "20",
+      "Tier": "2-23",
+      "Parts": [
+        {"Part": "Molybdenite Powder", "Amount": "-20"},
+        {"Part": "Water", "Amount": "-100/10"},
+        {"Part": "Molybdenum Ore", "Amount": "20"},
+        {"Part": "Molybdenum Disulfide", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Gold Chunk",
+      "Machine": "Acid Plant",
+      "BatchTime": "4",
+      "Tier": "1-11",
+      "Parts": [
+        {"Part": "Transition Metals Ore", "Amount": "-12"},
+        {"Part": "Hydrochloric Acid", "Amount": "-10/10"},
+        {"Part": "Gold Chunk", "Amount": "5"}
+      ]
+    },
+    {
+      "Name": "Gold Ore",
+      "Machine": "Acid Plant",
+      "BatchTime": "2",
+      "Tier": "1-11",
+      "Parts": [
+        {"Part": "Gold Chunk", "Amount": "-5"},
+        {"Part": "Liquid Mercury", "Amount": "-10/10"},
+        {"Part": "Gold Ore", "Amount": "10"},
+        {"Part": "Mercury Vapour", "Amount": "5/10"}
+      ]
+    },
+    {
+      "Name": "Gold Plate",
+      "Machine": "Smelter",
+      "BatchTime": "16/5",
+      "Tier": "1-11",
+      "Parts": [
+        {"Part": "Gold Ore", "Amount": "-1"},
+        {"Part": "Gold Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Silver Chunk",
+      "Machine": "Acid Plant",
+      "BatchTime": "4",
+      "Tier": "1-11",
+      "Parts": [
+        {"Part": "Transition Metals Ore", "Amount": "-12"},
+        {"Part": "Hydrochloric Acid", "Amount": "-10/10"},
+        {"Part": "Silver Chunk", "Amount": "5"}
+      ]
+    },
+    {
+      "Name": "Silver Ore",
+      "Machine": "Acid Plant",
+      "BatchTime": "2",
+      "Tier": "1-11",
+      "Parts": [
+        {"Part": "Silver Chunk", "Amount": "-5"},
+        {"Part": "Liquid Mercury", "Amount": "-10/10"},
+        {"Part": "Silver Ore", "Amount": "10"},
+        {"Part": "Mercury Vapour", "Amount": "5/10"}
+      ]
+    },
+    {
+      "Name": "Silver Plate",
+      "Machine": "Smelter",
+      "BatchTime": "16/5",
+      "Tier": "1-11",
+      "Parts": [
+        {"Part": "Silver Ore", "Amount": "-1"},
+        {"Part": "Silver Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Titanium Chunk",
+      "Machine": "Acid Plant",
+      "BatchTime": "8",
+      "Tier": "2-25",
+      "Parts": [
+        {"Part": "Transition Metals Ore", "Amount": "-12"},
+        {"Part": "Hydrochloric Acid", "Amount": "-20/10"},
+        {"Part": "Titanium Chunk", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Titanium Oxide",
+      "Machine": "Acid Plant",
+      "BatchTime": "8",
+      "Tier": "2-25",
+      "Parts": [
+        {"Part": "Coke", "Amount": "-3"},
+        {"Part": "Titanium Chunk", "Amount": "-4"},
+        {"Part": "Titanium Oxide", "Amount": "6"}
+      ]
+    },
+    {
+      "Name": "Titanium Chloride",
+      "Machine": "Acid Plant",
+      "BatchTime": "4",
+      "Tier": "2-25",
+      "Parts": [
+        {"Part": "Titanium Oxide", "Amount": "-6"},
+        {"Part": "Chlorine Gas", "Amount": "-20/10"},
+        {"Part": "Titanium Chloride", "Amount": "4/10"},
+        {"Part": "Coke", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Titanium Ore",
+      "Machine": "Acid Plant",
+      "BatchTime": "8",
+      "Tier": "2-25",
+      "Parts": [
+        {"Part": "Titanium Chloride", "Amount": "-4/10"},
+        {"Part": "Titanium Ore", "Amount": "8"},
+        {"Part": "Ferrum", "Amount": "3"},
+        {"Part": "Chlorine Gas", "Amount": "10/10"}
+      ]
+    },
+    {
+      "Name": "Titanium Plate",
+      "Machine": "Smelter",
+      "BatchTime": "16/5",
+      "Tier": "2-25",
+      "Parts": [
+        {"Part": "Titanium Ore", "Amount": "-1"},
+        {"Part": "Titanium Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Tungsten Chunk",
+      "Machine": "Acid Plant",
+      "BatchTime": "8",
+      "Tier": "2-25",
+      "Parts": [
+        {"Part": "Transition Metals Ore", "Amount": "-12"},
+        {"Part": "Hydrochloric Acid", "Amount": "-20/10"},
+        {"Part": "Tungsten Chunk", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Wolframite",
+      "Machine": "Crusher",
+      "BatchTime": "8",
+      "Tier": "2-25",
+      "Parts": [
+        {"Part": "Tungsten Chunk", "Amount": "-4"},
+        {"Part": "Wolframite", "Amount": "6"}
+      ]
+    },
+    {
+      "Name": "Wolframite Washing",
+      "Machine": "Washing Plant",
+      "BatchTime": "2",
+      "Tier": "2-25",
+      "Parts": [
+        {"Part": "Wolframite", "Amount": "-2"},
+        {"Part": "Water", "Amount": "-40/10"},
+        {"Part": "Tungsten Crystals", "Amount": "3"},
+        {"Part": "Scheelite", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Tungsten Ore",
+      "Machine": "Crusher",
+      "BatchTime": "6",
+      "Tier": "2-25",
+      "Parts": [
+        {"Part": "Tungsten Crystals", "Amount": "-6"},
+        {"Part": "Scheelite", "Amount": "-4"},
+        {"Part": "Tungsten Ore", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Tungsten Plate",
+      "Machine": "Smelter",
+      "BatchTime": "16/5",
+      "Tier": "2-25",
+      "Parts": [
+        {"Part": "Tungsten Ore", "Amount": "-1"},
+        {"Part": "Tungsten Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Water Electrolysis",
+      "Machine": "Electrolysis Plant",
+      "BatchTime": "6",
+      "Tier": "2-6",
+      "Parts": [
+        {"Part": "Water", "Amount": "-150/10"},
+        {"Part": "Sulfur", "Amount": "4"},
+        {"Part": "Stone", "Amount": "9"},
+        {"Part": "Oxygen Gas", "Amount": "90/10"},
+        {"Part": "Hydrogen Gas", "Amount": "120/10"}
+      ]
+    },
+    {
+      "Name": "Water-Mercury Electrolysis",
+      "Machine": "Electrolysis Plant",
+      "BatchTime": "1",
+      "Tier": "2-6",
+      "Parts": [
+        {"Part": "Water", "Amount": "-25/10"},
+        {"Part": "Liquid Mercury", "Amount": "-75/100"},
+        {"Part": "Oxygen Gas", "Amount": "20/10"},
+        {"Part": "Hydrogen Gas", "Amount": "30/10"}
+      ]
+    },
+    {
+      "Name": "Basic Oxygen Evaporation",
+      "Machine": "Evaporator",
+      "BatchTime": "1/2",
+      "Tier": "1-12",
+      "Parts": [
+        {"Part": "Oxygen Gas", "Amount": "-10/10"}
+      ]
+    },
+    {
+      "Name": "Solid Sodium Hydroxide Mixing",
+      "Machine": "Acid Plant",
+      "BatchTime": "2",
+      "Tier": "1-12",
+      "Parts": [
+        {"Part": "Nickel Plate", "Amount": "-1"},
+        {"Part": "Solid Sodium Hydroxide", "Amount": "-5"},
+        {"Part": "Water", "Amount": "-20/10"},
+        {"Part": "Oxygen Gas", "Amount": "10/10"},
+        {"Part": "Seawater", "Amount": "125/100"}
+      ]
+    },
+    {
+      "Name": "Chlorine Evaporation",
+      "Machine": "Evaporator",
+      "BatchTime": "1/2",
+      "Tier": "1-9",
+      "Parts": [
+        {"Part": "Chlorine Gas", "Amount": "-10/10"}
+      ]
+    },
+    {
+      "Name": "Seawater Evaporation",
+      "Machine": "Evaporator",
+      "BatchTime": "2",
+      "Tier": "1-9",
+      "Parts": [
+        {"Part": "Seawater", "Amount": "-75/10"},
+        {"Part": "Sea Salt", "Amount": "4"},
+        {"Part": "Water", "Amount": "25/10"}
+      ]
+    },
+    {
+      "Name": "Seawater Electrolysis",
+      "Machine": "Electrolysis Plant",
+      "BatchTime": "1",
+      "Tier": "1-9",
+      "Parts": [
+        {"Part": "Seawater", "Amount": "-25/10"},
+        {"Part": "Solid Sodium Hydroxide", "Amount": "1"},
+        {"Part": "Chlorine Gas", "Amount": "5/10"},
+        {"Part": "Hydrogen Gas", "Amount": "10/10"}
+      ]
+    },
+    {
+      "Name": "Solid Sodium Hydroxide Seawater",
+      "Machine": "Acid Plant",
+      "BatchTime": "2",
+      "Tier": "1-9",
+      "Parts": [
+        {"Part": "Nickel Plate", "Amount": "-1"},
+        {"Part": "Solid Sodium Hydroxide", "Amount": "-4"},
+        {"Part": "Water", "Amount": "-10/10"},
+        {"Part": "Sodium", "Amount": "2"},
+        {"Part": "Seawater", "Amount": "125/100"}
+      ]
+    },
+    {
+      "Name": "Sodium to Solid Sodium Hydroxide",
+      "Machine": "Evaporator",
+      "BatchTime": "1/2",
+      "Tier": "1-9",
+      "Parts": [
+        {"Part": "Sodium", "Amount": "-4"},
+        {"Part": "Water", "Amount": "-10/10"},
+        {"Part": "Solid Sodium Hydroxide", "Amount": "1"},
+        {"Part": "Chlorine Gas", "Amount": "5/10"}
+      ]
+    },
+    {
+      "Name": "Hydrochloric Acid",
+      "Machine": "Acid Plant",
+      "BatchTime": "1/4",
+      "Tier": "1-9",
+      "Parts": [
+        {"Part": "Hydrogen Gas", "Amount": "-5/10"},
+        {"Part": "Chlorine Gas", "Amount": "-5/10"},
+        {"Part": "Hydrochloric Acid", "Amount": "5/10"}
+      ]
+    },
+    {
+      "Name": "Hydrogen Evaporation",
+      "Machine": "Evaporator",
+      "BatchTime": "1/2",
+      "Tier": "1-9",
+      "Parts": [
+        {"Part": "Hydrogen Gas", "Amount": "-10/10"}
+      ]
+    },
+    {
+      "Name": "Carbon",
+      "Machine": "Crusher",
+      "BatchTime": "2",
+      "Tier": "0-3",
+      "Parts": [
+        {"Part": "Coal", "Amount": "-2"},
+        {"Part": "Carbon", "Amount": "10"}
+      ]
+    },
+    {
+      "Name": "Air Filter",
+      "Machine": "Assembling Machine",
+      "BatchTime": "3/2",
+      "Tier": "0-3",
+      "Parts": [
+        {"Part": "Nickel Plate", "Amount": "-4"},
+        {"Part": "Carbon", "Amount": "-50"},
+        {"Part": "Air Filter", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Rubber-Based Air Filter",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1",
+      "Tier": "2-14",
+      "Parts": [
+        {"Part": "Steel Plate", "Amount": "-2"},
+        {"Part": "Glass Fibers", "Amount": "-5"},
+        {"Part": "Vulcanised Rubber", "Amount": "-4"},
+        {"Part": "Air Filter", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Biomass (Leaves)",
+      "Machine": "Assembling Machine",
+      "BatchTime": "5",
+      "Tier": "0-6",
+      "Parts": [
+        {"Part": "Leaves", "Amount": "-10"},
+        {"Part": "Biomass", "Amount": "5"}
+      ]
+    },
+    {
+      "Name": "Biomass (Wood)",
+      "Machine": "Assembling Machine",
+      "BatchTime": "4",
+      "Tier": "0-6",
+      "Parts": [
+        {"Part": "Wood", "Amount": "-4"},
+        {"Part": "Biomass", "Amount": "20"}
+      ]
+    },
+    {
+      "Name": "Solid Biofuel",
+      "Machine": "Assembling Machine",
+      "BatchTime": "4",
+      "Tier": "0-6",
+      "Parts": [
+        {"Part": "Biomass", "Amount": "-8"},
+        {"Part": "Solid Biofuel", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Wood Strips",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1",
+      "Tier": "2-9",
+      "Parts": [
+        {"Part": "Wood", "Amount": "-1"},
+        {"Part": "Wood Strips", "Amount": "5"}
+      ]
+    },
+    {
+      "Name": "Basic Wood \"Growing\"",
+      "Machine": "Washing Plant",
+      "BatchTime": "30",
+      "Tier": "2-9",
+      "Parts": [
+        {"Part": "Wood", "Amount": "-5"},
+        {"Part": "Stone", "Amount": "-6"},
+        {"Part": "Water", "Amount": "-20/10"},
+        {"Part": "Oxygen Gas", "Amount": "-10/10"},
+        {"Part": "Wood", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Calcite",
+      "Machine": "Evaporator",
+      "BatchTime": "16",
+      "Tier": "0-0",
+      "Parts": [
+        {"Part": "Seawater", "Amount": "-80/10"},
+        {"Part": "Calcite", "Amount": "16"},
+        {"Part": "Sea Salt", "Amount": "9"},
+        {"Part": "Water", "Amount": "40/10"}
+      ]
+    },
+    {
+      "Name": "Calcium Dust",
+      "Machine": "Crusher",
+      "BatchTime": "2",
+      "Tier": "0-0",
+      "Parts": [
+        {"Part": "Calcite", "Amount": "-4"},
+        {"Part": "Calcium Dust", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Calcium Ore",
+      "Machine": "Washing Plant",
+      "BatchTime": "4",
+      "Tier": "0-0",
+      "Parts": [
+        {"Part": "Calcium Dust", "Amount": "-8"},
+        {"Part": "Water", "Amount": "-40/10"},
+        {"Part": "Calcium Ore", "Amount": "2"},
+        {"Part": "Carbon", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Water",
+      "Machine": "Water Extractor",
+      "BatchTime": "60",
+      "Tier": "2-6",
+      "Parts": [
+        {"Part": "Water", "Amount": "120"}
+      ]
+    },
+    {
+      "Name": "Seawater",
+      "Machine": "Seawater Extractor",
+      "BatchTime": "60",
+      "Tier": "1-5",
+      "Parts": [
+        {"Part": "Seawater", "Amount": "60"}
+      ]
+    },
+    {
+      "Name": "Space Elevator Phase 1",
+      "Machine": "Space Elevator",
+      "BatchTime": "60",
+      "Tier": "1-0",
+      "Parts": [
+        {"Part": "Transition Metal Pack", "Amount": "-1000"},
+        {"Part": "Advanced Transition Metal Pack", "Amount": "-1000"},
+        {"Part": "Advanced-Advanced Transition Metal Pack", "Amount": "-100"}
+      ]
+    }
+  ]
 }
