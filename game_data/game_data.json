@@ -964,7 +964,7 @@
     },
     {
       "Name": "Nickel Chunk",
-      "Tier": "0-4",
+      "Tier": "0-3",
       "SinkPoints": 1
     },
     {
@@ -979,7 +979,7 @@
     },
     {
       "Name": "Nickel Plate",
-      "Tier": "0-4",
+      "Tier": "0-3",
       "SinkPoints": 0
     },
     {
