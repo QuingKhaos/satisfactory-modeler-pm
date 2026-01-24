@@ -14,9 +14,21 @@
       ]
     },
     {
-      "Name": "Crusher Mk.0",
+      "Name": "Oil Extractor",
+      "Tier": "3-10",
+      "AveragePower": "-40",
+      "OverclockPowerExponent": "1321929/1000000",
+      "Cost": [
+        {"Part": "Brass Plate", "Amount": "3"},
+        {"Part": "Fluid Resistant Circuit", "Amount": "4"},
+        {"Part": "Corrosion Resistant Tubing", "Amount": "4"},
+        {"Part": "Basic Framing", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Burner Crusher",
       "Tier": "0-3",
-      "AveragePower": "-25/10",
+      "AveragePower": "-150/10",
       "OverclockPowerExponent": "16/10",
       "Cost": [
         {"Part": "Iron Gear Wheel", "Amount": "2"},
@@ -29,8 +41,8 @@
       "Tier": "2-4",
       "AveragePower": "-155/10",
       "OverclockPowerExponent": "16/10",
-      "MaxProductionShards": 1,
-      "ProductionShardMultiplier": "1",
+      "MaxProductionShards": 2,
+      "ProductionShardMultiplier": "1/2",
       "ProductionShardPowerExponent": "2",
       "Cost": [
         {"Part": "Steel Plate", "Amount": "6"},
@@ -40,28 +52,37 @@
       ]
     },
     {
-      "Name": "Smelter",
+      "Name": "Furnace",
       "Tier": "0-2",
-      "AveragePower": "-4",
-      "OverclockPowerExponent": "1321929/1000000",
-      "MaxProductionShards": 1,
-      "ProductionShardMultiplier": "1",
-      "ProductionShardPowerExponent": "2",
+      "AveragePower": "-9",
+      "OverclockPowerExponent": "16/10",
       "Cost": [
         {"Part": "Stone", "Amount": "5"}
       ]
     },
     {
-      "Name": "Smelter Mk.2",
+      "Name": "Furnace Mk.2",
       "Tier": "2-26",
       "AveragePower": "-9",
-      "OverclockPowerExponent": "1321929/1000000",
-      "MaxProductionShards": 2,
-      "ProductionShardMultiplier": "1/2",
-      "ProductionShardPowerExponent": "2",
+      "OverclockPowerExponent": "16/10",
       "Cost": [
         {"Part": "Steel Plate", "Amount": "6"},
         {"Part": "Stone Brick", "Amount": "10"}
+      ]
+    },
+    {
+      "Name": "Electric Furnace",
+      "Tier": "3-51",
+      "AveragePower": "-10",
+      "OverclockPowerExponent": "16/10",
+      "MaxProductionShards": 6,
+      "ProductionShardMultiplier": "1/6",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Advanced Circuit", "Amount": "5"},
+        {"Part": "Heavyweight Framing", "Amount": "6"},
+        {"Part": "Heavyweight Panelling", "Amount": "8"},
+        {"Part": "Heat-Resistant Plating", "Amount": "6"}
       ]
     },
     {
@@ -69,9 +90,6 @@
       "Tier": "1-12",
       "AveragePower": "-250/10",
       "OverclockPowerExponent": "16/10",
-      "MaxProductionShards": 1,
-      "ProductionShardMultiplier": "1",
-      "ProductionShardPowerExponent": "2",
       "Cost": [
         {"Part": "Basic Framing", "Amount": "4"},
         {"Part": "Basic Panelling", "Amount": "5"},
@@ -81,11 +99,22 @@
     {
       "Name": "Stone Coke Oven",
       "Tier": "2-24",
-      "AveragePower": "150/10",
+      "AveragePower": "-150/10",
+      "OverclockPowerExponent": "16/10",
       "Cost": [
         {"Part": "Stone", "Amount": "5"},
         {"Part": "Basic Framing", "Amount": "4"},
         {"Part": "Basic Panelling", "Amount": "6"}
+      ]
+    },
+    {
+      "Name": "Stone Coke Oven Mk.2",
+      "Tier": "3-31",
+      "AveragePower": "-125/10",
+      "OverclockPowerExponent": "16/10",
+      "Cost": [
+        {"Part": "Electronic Circuit", "Amount": "3"},
+        {"Part": "Lightweight Panelling", "Amount": "6"}
       ]
     },
     {
@@ -115,9 +144,6 @@
       "Tier": "1-6",
       "AveragePower": "-25/10",
       "OverclockPowerExponent": "16/10",
-      "MaxProductionShards": 1,
-      "ProductionShardMultiplier": "1",
-      "ProductionShardPowerExponent": "2",
       "Cost": [
         {"Part": "Glass Pane", "Amount": "1"},
         {"Part": "Basic Tubing", "Amount": "4"},
@@ -125,13 +151,26 @@
       ]
     },
     {
+      "Name": "Mixing Tank",
+      "Tier": "3-2",
+      "AveragePower": "-36",
+      "OverclockPowerExponent": "16/10",
+      "MaxProductionShards": 3,
+      "ProductionShardMultiplier": "1/3",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Steel Plate", "Amount": "6"},
+        {"Part": "Brass Cog", "Amount": "4"},
+        {"Part": "Fluid Resistant Circuit", "Amount": "3"},
+        {"Part": "Basic Framing", "Amount": "16"},
+        {"Part": "Stone Brick", "Amount": "8"}
+      ]
+    },
+    {
       "Name": "Washing Plant",
       "Tier": "2-22",
-      "AveragePower": "186/10",
+      "AveragePower": "-186/10",
       "OverclockPowerExponent": "16/10",
-      "MaxProductionShards": 1,
-      "ProductionShardMultiplier": "1",
-      "ProductionShardPowerExponent": "2",
       "Cost": [
         {"Part": "Steel Plate", "Amount": "4"},
         {"Part": "Fluid Resistant Circuit", "Amount": "3"},
@@ -139,9 +178,100 @@
       ]
     },
     {
-      "Name": "Assembling Machine Mk.0",
+      "Name": "Washing Plant Mk.2",
+      "Tier": "3-53",
+      "AveragePower": "-24",
+      "OverclockPowerExponent": "16/10",
+      "MaxProductionShards": 2,
+      "ProductionShardMultiplier": "1/2",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Stainless Steel", "Amount": "2"},
+        {"Part": "Advanced Circuit", "Amount": "4"},
+        {"Part": "Corrosion Resistant Tubing", "Amount": "10"},
+        {"Part": "Heavyweight Panelling", "Amount": "12"}
+      ]
+    },
+    {
+      "Name": "Atmospheric Condenser",
+      "Tier": "3-67",
+      "AveragePower": "-35",
+      "OverclockPowerExponent": "16/10",
+      "MaxProductionShards": 3,
+      "ProductionShardMultiplier": "1/3",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Advanced Circuit", "Amount": "5"},
+        {"Part": "Corrosion Resistant Tubing", "Amount": "8"},
+        {"Part": "Heavyweight Framing", "Amount": "12"},
+        {"Part": "Air Filter", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Burn-inator",
+      "Tier": "3-34",
+      "AveragePower": "-82",
+      "OverclockPowerExponent": "16/10",
+      "Cost": [
+        {"Part": "Fluid Resistant Circuit", "Amount": "8"},
+        {"Part": "Corrosion Resistant Tubing", "Amount": "12"},
+        {"Part": "Heavyweight Framing", "Amount": "16"},
+        {"Part": "Platinum Plate", "Amount": "4"},
+        {"Part": "Air Filter", "Amount": "6"}
+      ]
+    },
+    {
+      "Name": "Fractional Distillator",
+      "Tier": "3-17",
+      "AveragePower": "-51",
+      "OverclockPowerExponent": "16/10",
+      "MaxProductionShards": 3,
+      "ProductionShardMultiplier": "1/3",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Polyethylene Plastic", "Amount": "4"},
+        {"Part": "Fluid Resistant Circuit", "Amount": "2"},
+        {"Part": "Corrosion Resistant Tubing", "Amount": "8"},
+        {"Part": "Heavyweight Framing", "Amount": "10"},
+        {"Part": "Heat-Resistant Plating", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Oil Refinery",
+      "Tier": "3-10",
+      "AveragePower": "-43",
+      "OverclockPowerExponent": "16/10",
+      "MaxProductionShards": 3,
+      "ProductionShardMultiplier": "1/3",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Brass Cog", "Amount": "4"},
+        {"Part": "Fluid Resistant Circuit", "Amount": "5"},
+        {"Part": "Corrosion Resistant Tubing", "Amount": "6"},
+        {"Part": "Heat-Resistant Plating", "Amount": "2"},
+        {"Part": "Stone Brick", "Amount": "15"}
+      ]
+    },
+    {
+      "Name": "Fluid Catalyst Cracker",
+      "Tier": "3-29",
+      "AveragePower": "-180/10",
+      "OverclockPowerExponent": "16/10",
+      "MaxProductionShards": 2,
+      "ProductionShardMultiplier": "1/2",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Brass Cog", "Amount": "2"},
+        {"Part": "Fluid Resistant Circuit", "Amount": "2"},
+        {"Part": "Corrosion Resistant Tubing", "Amount": "6"},
+        {"Part": "Heavyweight Framing", "Amount": "8"},
+        {"Part": "Heavyweight Panelling", "Amount": "16"}
+      ]
+    },
+    {
+      "Name": "Burner Assembling Machine",
       "Tier": "0-4",
-      "AveragePower": "-25/10",
+      "AveragePower": "-75/10",
       "OverclockPowerExponent": "16/10",
       "Cost": [
         {"Part": "Basic Framing", "Amount": "4"},
@@ -154,9 +284,6 @@
       "Tier": "1-5",
       "AveragePower": "-775/100",
       "OverclockPowerExponent": "16/10",
-      "MaxProductionShards": 1,
-      "ProductionShardMultiplier": "1",
-      "ProductionShardPowerExponent": "2",
       "Cost": [
         {"Part": "Iron Gear Wheel", "Amount": "3"},
         {"Part": "Electronic Circuit", "Amount": "1"},
@@ -182,9 +309,6 @@
       "Tier": "2-10",
       "AveragePower": "-180/10",
       "OverclockPowerExponent": "16/10",
-      "MaxProductionShards": 1,
-      "ProductionShardMultiplier": "1",
-      "ProductionShardPowerExponent": "2",
       "Cost": [
         {"Part": "Brass Cog", "Amount": "2"},
         {"Part": "Fluid Resistant Circuit", "Amount": "6"},
@@ -193,17 +317,29 @@
       ]
     },
     {
-      "Name": "Acid Plant",
-      "Tier": "1-6",
-      "AveragePower": "-103/10",
+      "Name": "Cooling Plant",
+      "Tier": "3-70",
+      "AveragePower": "-24",
       "OverclockPowerExponent": "16/10",
-      "MaxProductionShards": 1,
-      "ProductionShardMultiplier": "1",
+      "MaxProductionShards": 2,
+      "ProductionShardMultiplier": "1/2",
       "ProductionShardPowerExponent": "2",
       "Cost": [
-        {"Part": "Basic Tubing", "Amount": "4"},
-        {"Part": "Basic Panelling", "Amount": "8"},
-        {"Part": "Air Filter", "Amount": "1"}
+        {"Part": "Brass Cog", "Amount": "6"},
+        {"Part": "Fluid Resistant Circuit", "Amount": "4"},
+        {"Part": "Corrosion Resistant Tubing", "Amount": "8"},
+        {"Part": "Heavyweight Framing", "Amount": "15"}
+      ]
+    },
+    {
+      "Name": "Packager",
+      "Tier": "3-9",
+      "AveragePower": "-10",
+      "OverclockPowerExponent": "1321929/1000000",
+      "Cost": [
+        {"Part": "Steel Plate", "Amount": "20"},
+        {"Part": "Vulcanised Rubber", "Amount": "10"},
+        {"Part": "Fluid Resistant Circuit", "Amount": "10"}
       ]
     },
     {
@@ -211,8 +347,8 @@
       "Tier": "1-9",
       "AveragePower": "-170/10",
       "OverclockPowerExponent": "16/10",
-      "MaxProductionShards": 1,
-      "ProductionShardMultiplier": "1",
+      "MaxProductionShards": 2,
+      "ProductionShardMultiplier": "1/2",
       "ProductionShardPowerExponent": "2",
       "Cost": [
         {"Part": "Basic Tubing", "Amount": "6"},
@@ -222,10 +358,82 @@
       ]
     },
     {
+      "Name": "Acid Plant",
+      "Tier": "1-6",
+      "AveragePower": "-103/10",
+      "OverclockPowerExponent": "16/10",
+      "MaxProductionShards": 3,
+      "ProductionShardMultiplier": "1/3",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Basic Tubing", "Amount": "4"},
+        {"Part": "Basic Panelling", "Amount": "8"},
+        {"Part": "Air Filter", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Chemical Plant",
+      "Tier": "3-10",
+      "AveragePower": "-21",
+      "OverclockPowerExponent": "16/10",
+      "MaxProductionShards": 2,
+      "ProductionShardMultiplier": "1/2",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Brass Plate", "Amount": "3"},
+        {"Part": "Iron Gear Wheel", "Amount": "5"},
+        {"Part": "Fluid Resistant Circuit", "Amount": "3"},
+        {"Part": "Corrosion Resistant Tubing", "Amount": "6"}
+      ]
+    },
+    {
+      "Name": "Crystallizer",
+      "Tier": "3-70",
+      "AveragePower": "-206/10",
+      "OverclockPowerExponent": "16/10",
+      "MaxProductionShards": 4,
+      "ProductionShardMultiplier": "1/4",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Advanced Circuit", "Amount": "3"},
+        {"Part": "Corrosion Resistant Tubing", "Amount": "14"},
+        {"Part": "Heavyweight Framing", "Amount": "8"},
+        {"Part": "Heat-Resistant Plating", "Amount": "6"},
+        {"Part": "Cold-Resistant Plating", "Amount": "6"}
+      ]
+    },
+    {
+      "Name": "Molten-inator",
+      "Tier": "3-33",
+      "AveragePower": "-33",
+      "OverclockPowerExponent": "16/10",
+      "Cost": [
+        {"Part": "Heat-Resistant Plating", "Amount": "10"},
+        {"Part": "Basic Tubing", "Amount": "3"},
+        {"Part": "Zinc Plate", "Amount": "3"},
+        {"Part": "Gold Plate", "Amount": "6"}
+      ]
+    },
+    {
+      "Name": "Cold-inator",
+      "Tier": "3-33",
+      "AveragePower": "-33",
+      "OverclockPowerExponent": "16/10",
+      "Cost": [
+        {"Part": "Cold-Resistant Plating", "Amount": "10"},
+        {"Part": "Basic Tubing", "Amount": "3"},
+        {"Part": "Zinc Plate", "Amount": "3"},
+        {"Part": "Silver Plate", "Amount": "6"}
+      ]
+    },
+    {
       "Name": "Laboratory",
       "Tier": "0-6",
       "AveragePower": "-60/10",
       "OverclockPowerExponent": "16/10",
+      "MaxProductionShards": 2,
+      "ProductionShardMultiplier": "1/2",
+      "ProductionShardPowerExponent": "2",
       "Cost": [
         {"Part": "Glass Pane", "Amount": "8"},
         {"Part": "Iron Gear Wheel", "Amount": "5"},
@@ -234,9 +442,61 @@
       ]
     },
     {
+      "Name": "Science Center",
+      "Tier": "3-66",
+      "AveragePower": "-36",
+      "OverclockPowerExponent": "16/10",
+      "MaxProductionShards": 4,
+      "ProductionShardMultiplier": "1/4",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Glass Pane", "Amount": "10"},
+        {"Part": "Advanced Circuit", "Amount": "5"},
+        {"Part": "Corrosion Resistant Tubing", "Amount": "8"},
+        {"Part": "Heavyweight Framing", "Amount": "6"},
+        {"Part": "Heavyweight Panelling", "Amount": "12"}
+      ]
+    },
+    {
+      "Name": "Electric Boiler",
+      "Tier": "3-57",
+      "AveragePower": "-180",
+      "OverclockPowerExponent": "16/10",
+      "Cost": [
+        {"Part": "Electric Engine Unit", "Amount": "1"},
+        {"Part": "Fluid Resistant Circuit", "Amount": "4"},
+        {"Part": "Corrosion Resistant Tubing", "Amount": "8"},
+        {"Part": "Heat-Resistant Plating", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Coal-Powered Generator",
+      "Tier": "1-17",
+      "AveragePower": "75",
+      "OverclockPowerExponent": "1",
+      "Cost": [
+        {"Part": "Basic Panelling", "Amount": "20"},
+        {"Part": "Basic Motor", "Amount": "10"},
+        {"Part": "Copper Wire", "Amount": "30"}
+      ]
+    },
+    {
+      "Name": "Fuel-Powered Generator",
+      "Tier": "4-47",
+      "AveragePower": "250",
+      "OverclockPowerExponent": "1",
+      "Cost": [
+        {"Part": "Engine Unit", "Amount": "3"},
+        {"Part": "Corrosion Resistant Tubing", "Amount": "12"},
+        {"Part": "Heavyweight Framing", "Amount": "16"},
+        {"Part": "Heat-Resistant Plating", "Amount": "6"}
+      ]
+    },
+    {
       "Name": "Voltatic Charger",
       "Tier": "1-16",
       "AveragePower": "-10",
+      "OverclockPowerExponent": "1",
       "Cost": [
         {"Part": "Copper Wire", "Amount": "4"},
         {"Part": "Electronic Circuit", "Amount": "1"},
@@ -248,11 +508,38 @@
       "Name": "Voltatic Discharger",
       "Tier": "1-16",
       "AveragePower": "10",
+      "OverclockPowerExponent": "1",
       "Cost": [
         {"Part": "Copper Wire", "Amount": "4"},
         {"Part": "Electronic Circuit", "Amount": "1"},
         {"Part": "Basic Framing", "Amount": "2"},
         {"Part": "Basic Panelling", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Battery Charger",
+      "Tier": "3-62",
+      "AveragePower": "-100",
+      "OverclockPowerExponent": "1",
+      "Cost": [
+        {"Part": "Copper Wire", "Amount": "10"},
+        {"Part": "Polyethylene Plastic", "Amount": "4"},
+        {"Part": "Fluid Resistant Circuit", "Amount": "2"},
+        {"Part": "Advanced Circuit", "Amount": "4"},
+        {"Part": "Heavyweight Framing", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Battery Discharger",
+      "Tier": "3-62",
+      "AveragePower": "100",
+      "OverclockPowerExponent": "1",
+      "Cost": [
+        {"Part": "Copper Wire", "Amount": "10"},
+        {"Part": "Polyethylene Plastic", "Amount": "4"},
+        {"Part": "Fluid Resistant Circuit", "Amount": "4"},
+        {"Part": "Advanced Circuit", "Amount": "2"},
+        {"Part": "Heavyweight Framing", "Amount": "8"}
       ]
     },
     {
@@ -279,6 +566,17 @@
         {"Part": "Basic Tubing", "Amount": "2"},
         {"Part": "Basic Framing", "Amount": "4"},
         {"Part": "Basic Panelling", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Industrial Fluid Buffer",
+      "Tier": "3-9",
+      "AveragePower": "0",
+      "Cost": [
+        {"Part": "Stainless Steel", "Amount": "6"},
+        {"Part": "Corrosion Resistant Tubing", "Amount": "2"},
+        {"Part": "Basic Framing", "Amount": "11"},
+        {"Part": "Heavyweight Panelling", "Amount": "8"}
       ]
     },
     {
@@ -353,13 +651,35 @@
       ]
     },
     {
+      "Name": "Oil Extractor",
+      "ShowPpm": true,
+      "AutoRound": false,
+      "DefaultMax": "120",
+      "Capacities": [
+        {
+          "Name": "Impure",
+          "PartsRatio": "1/2",
+          "Color": 13775920
+        },
+        {
+          "Name": "Normal",
+          "Default": true
+        },
+        {
+          "Name": "Pure",
+          "PartsRatio": "2",
+          "Color": 8433977
+        }
+      ]
+    },
+    {
       "Name": "Crusher",
       "ShowPpm": false,
       "AutoRound": false,
       "DefaultMax": "",
       "Machines": [
         {
-          "Name": "Crusher Mk.0"
+          "Name": "Burner Crusher"
         },
         {
           "Name": "Crusher",
@@ -369,18 +689,21 @@
       ]
     },
     {
-      "Name": "Smelter",
+      "Name": "Furnace",
       "ShowPpm": false,
       "AutoRound": false,
       "DefaultMax": "",
       "Machines": [
         {
-          "Name": "Smelter",
+          "Name": "Furnace",
           "Default": true
         },
         {
-          "Name": "Smelter Mk.2",
+          "Name": "Furnace Mk.2",
           "PartsRatio": "2"
+        },
+        {
+          "Name": "Electric Furnace"
         }
       ]
     },
@@ -407,6 +730,10 @@
           "Name": "Stone Coke Oven",
           "PartsRatio": "3/10",
           "Default": true
+        },
+        {
+          "Name": "Stone Coke Oven Mk.2",
+          "PartsRatio": "6/10"
         }
       ]
     },
@@ -424,6 +751,19 @@
       ]
     },
     {
+      "Name": "Mixing Tank",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "",
+      "Machines": [
+        {
+          "Name": "Mixing Tank",
+          "PartsRatio": "3/4",
+          "Default": true
+        }
+      ]
+    },
+    {
       "Name": "Washing Plant",
       "ShowPpm": false,
       "AutoRound": false,
@@ -431,6 +771,34 @@
       "Machines": [
         {
           "Name": "Washing Plant",
+          "PartsRatio": "1/2",
+          "Default": true
+        },
+        {
+          "Name": "Washing Plant Mk.2"
+        }
+      ]
+    },
+    {
+      "Name": "Atmospheric Condenser",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "",
+      "Machines": [
+        {
+          "Name": "Atmospheric Condenser",
+          "Default": true
+        }
+      ]
+    },
+    {
+      "Name": "Burn-inator",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "",
+      "Machines": [
+        {
+          "Name": "Burn-inator",
           "PartsRatio": "1/2",
           "Default": true
         }
@@ -443,7 +811,7 @@
       "DefaultMax": "",
       "Machines": [
         {
-          "Name": "Assembling Machine Mk.0",
+          "Name": "Burner Assembling Machine",
           "PartsRatio": "1/4"
         },
         {
@@ -483,6 +851,42 @@
       ]
     },
     {
+      "Name": "Chemical Plant",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "",
+      "Machines": [
+        {
+          "Name": "Chemical Plant",
+          "Default": true
+        }
+      ]
+    },
+    {
+      "Name": "Molten-inator",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "",
+      "Machines": [
+        {
+          "Name": "Molten-inator",
+          "Default": true
+        }
+      ]
+    },
+    {
+      "Name": "Cold-inator",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "",
+      "Machines": [
+        {
+          "Name": "Cold-inator",
+          "Default": true
+        }
+      ]
+    },
+    {
       "Name": "Laboratory",
       "ShowPpm": false,
       "AutoRound": false,
@@ -490,6 +894,36 @@
       "Machines": [
         {
           "Name": "Laboratory",
+          "Default": true
+        },
+        {
+          "Name": "Science Center",
+          "PartsRatio": "3/2"
+        }
+      ]
+    },
+    {
+      "Name": "Science Center",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "",
+      "Machines": [
+        {
+          "Name": "Science Center",
+          "PartsRatio": "3/2",
+          "Default": true
+        }
+      ]
+    },
+    {
+      "Name": "Electric Boiler",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "",
+      "Machines": [
+        {
+          "Name": "Electric Boiler",
+          "PartsRatio": "1/2",
           "Default": true
         }
       ]
@@ -506,6 +940,9 @@
         },
         {
           "Name": "Fluid Buffer"
+        },
+        {
+          "Name": "Industrial Fluid Buffer"
         }
       ],
       "Capacities": [
@@ -623,14 +1060,39 @@
       "SinkPoints": 24
     },
     {
+      "Name": "Corrosion Resistant Tubing",
+      "Tier": "3-8",
+      "SinkPoints": 0
+    },
+    {
       "Name": "Basic Framing",
       "Tier": "0-1",
       "SinkPoints": 10800
     },
     {
+      "Name": "Heavyweight Framing",
+      "Tier": "3-8",
+      "SinkPoints": 62840
+    },
+    {
+      "Name": "Lightweight Framing",
+      "Tier": "3-8",
+      "SinkPoints": 408
+    },
+    {
       "Name": "Basic Panelling",
       "Tier": "0-1",
       "SinkPoints": 120
+    },
+    {
+      "Name": "Heavyweight Panelling",
+      "Tier": "3-8",
+      "SinkPoints": 520
+    },
+    {
+      "Name": "Lightweight Panelling",
+      "Tier": "3-8",
+      "SinkPoints": 393
     },
     {
       "Name": "Heat-Resistant Plating",
@@ -646,6 +1108,31 @@
       "Name": "Portable Miner",
       "Tier": "0-1",
       "SinkPoints": 56
+    },
+    {
+      "Name": "Copper Heating Coil",
+      "Tier": "5-51",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Aluminium Heating Coil",
+      "Tier": "5-52",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Tungsten Heating Coil",
+      "Tier": "5-52",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Molybdenum Heating Coil",
+      "Tier": "5-52",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Gold Heating Coil",
+      "Tier": "5-52",
+      "SinkPoints": 0
     },
     {
       "Name": "Leaves",
@@ -668,8 +1155,63 @@
       "SinkPoints": 1
     },
     {
+      "Name": "Bitumen",
+      "Tier": "3-11",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Syngas",
+      "Tier": "3-11",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Syngas",
+      "Tier": "3-11",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Burning Oil",
+      "Tier": "3-47",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Burning Oil",
+      "Tier": "3-47",
+      "SinkPoints": 0
+    },
+    {
       "Name": "Oxidiser",
       "Tier": "1-12",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Solid Fuel",
+      "Tier": "3-18",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Empty Fuel Canister",
+      "Tier": "3-30",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Diesel Fuel Canister",
+      "Tier": "3-21",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Petrol Fuel Canister",
+      "Tier": "3-26",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Kerosene Fuel Canister",
+      "Tier": "3-23",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Naptha Fuel Canister",
+      "Tier": "3-30",
       "SinkPoints": 0
     },
     {
@@ -683,6 +1225,56 @@
       "SinkPoints": 20
     },
     {
+      "Name": "Coal Tar",
+      "Tier": "3-31",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Unfiltered Lubricant",
+      "Tier": "3-27",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Unfiltered Lubricant",
+      "Tier": "3-27",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Solid Lubricant",
+      "Tier": "3-27",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Ethylene Glycol",
+      "Tier": "3-70",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Coolant",
+      "Tier": "3-70",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Coolant",
+      "Tier": "3-70",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Hot Coolant",
+      "Tier": "3-70",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Crucible",
+      "Tier": "3-32",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Molten Solder",
+      "Tier": "3-48",
+      "SinkPoints": 0
+    },
+    {
       "Name": "Steel Plate",
       "Tier": "1-13",
       "SinkPoints": 64
@@ -690,6 +1282,21 @@
     {
       "Name": "Brass Plate",
       "Tier": "1-12",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Stainless Steel",
+      "Tier": "3-7",
+      "SinkPoints": 528
+    },
+    {
+      "Name": "Kasethal Plate",
+      "Tier": "3-41",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Solder Plate",
+      "Tier": "3-48",
       "SinkPoints": 0
     },
     {
@@ -710,6 +1317,11 @@
     {
       "Name": "Glass Shards",
       "Tier": "2-14",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Molten Glass",
+      "Tier": "3-42",
       "SinkPoints": 0
     },
     {
@@ -748,6 +1360,21 @@
       "SinkPoints": 0
     },
     {
+      "Name": "Concrete Slurry",
+      "Tier": "3-12",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Concrete Slurry",
+      "Tier": "3-12",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Concrete",
+      "Tier": "3-12",
+      "SinkPoints": 0
+    },
+    {
       "Name": "Basic Motor",
       "Tier": "0-4",
       "SinkPoints": 140
@@ -758,9 +1385,34 @@
       "SinkPoints": 0
     },
     {
+      "Name": "Solder Case",
+      "Tier": "3-48",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Solder Wire",
+      "Tier": "3-48",
+      "SinkPoints": 0
+    },
+    {
       "Name": "Iron Rod",
       "Tier": "0-1",
       "SinkPoints": 4
+    },
+    {
+      "Name": "Empty Canister",
+      "Tier": "3-9",
+      "SinkPoints": 60
+    },
+    {
+      "Name": "Engine Unit",
+      "Tier": "3-46",
+      "SinkPoints": 240496
+    },
+    {
+      "Name": "Electric Engine Unit",
+      "Tier": "3-56",
+      "SinkPoints": 1520
     },
     {
       "Name": "Copper Disk",
@@ -771,6 +1423,21 @@
       "Name": "Zinc Disk",
       "Tier": "1-16",
       "SinkPoints": 0
+    },
+    {
+      "Name": "Copper Anode",
+      "Tier": "3-61",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Zinc Cathode",
+      "Tier": "3-61",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Battery Casing",
+      "Tier": "3-61",
+      "SinkPoints": 465
     },
     {
       "Name": "Uncharged Voltatic Pile",
@@ -788,8 +1455,88 @@
       "SinkPoints": 0
     },
     {
+      "Name": "Vanadium-Oxide",
+      "Tier": "3-38",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Positive Vanadium-Oxide Solution",
+      "Tier": "3-61",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Negative Vanadium-Oxide Solution",
+      "Tier": "3-61",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Charged Vanadium-Oxide Redox Battery",
+      "Tier": "3-62",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Broken Vanadium-Oxide Redox Battery",
+      "Tier": "3-62",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Vanadium-Oxide Redox Battery",
+      "Tier": "3-61",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Catalyst Container",
+      "Tier": "3-19",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Vanadium-Oxide Catalyst",
+      "Tier": "3-38",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Palladium Catalyst",
+      "Tier": "3-19",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Cobalt Catalyst",
+      "Tier": "3-22",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Nickel-Tungsten Catalyst (Ni-W)",
+      "Tier": "3-38",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Flux Container",
+      "Tier": "99-99",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Filled Flux Container",
+      "Tier": "99-99",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Plastic Pellets",
+      "Tier": "3-16",
+      "SinkPoints": 12
+    },
+    {
+      "Name": "Polyethylene Plastic",
+      "Tier": "3-16",
+      "SinkPoints": 75
+    },
+    {
       "Name": "Resin",
       "Tier": "2-10",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Resin",
+      "Tier": "3-9",
       "SinkPoints": 0
     },
     {
@@ -798,8 +1545,18 @@
       "SinkPoints": 0
     },
     {
+      "Name": "Packaged Phenolic Resin",
+      "Tier": "3-9",
+      "SinkPoints": 0
+    },
+    {
       "Name": "Rubber Resin",
       "Tier": "2-16",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Rubber Resin",
+      "Tier": "3-9",
       "SinkPoints": 0
     },
     {
@@ -848,6 +1605,26 @@
       "SinkPoints": 3776
     },
     {
+      "Name": "Advanced Circuit Breadboard",
+      "Tier": "3-49",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Advanced Integrated Circuits",
+      "Tier": "3-49",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Solder",
+      "Tier": "3-48",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Advanced Circuit",
+      "Tier": "3-49",
+      "SinkPoints": 920
+    },
+    {
       "Name": "Circuit Mold",
       "Tier": "2-12",
       "SinkPoints": 0
@@ -860,6 +1637,11 @@
     {
       "Name": "Fluid Resistant Breadboard Mold",
       "Tier": "2-13",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Advanced Breadboard Mold",
+      "Tier": "3-50",
       "SinkPoints": 0
     },
     {
@@ -880,6 +1662,11 @@
     {
       "Name": "Nobelisk",
       "Tier": "2-18",
+      "SinkPoints": 152
+    },
+    {
+      "Name": "Pulse Nobelisk",
+      "Tier": "3-65",
       "SinkPoints": 152
     },
     {
@@ -908,6 +1695,26 @@
       "SinkPoints": 0
     },
     {
+      "Name": "Reactive Non-Metals Pack",
+      "Tier": "3-69",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Post-Transition Metal Pack",
+      "Tier": "3-72",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Alkali Metal Pack",
+      "Tier": "99-99",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Metalloid Pack",
+      "Tier": "99-99",
+      "SinkPoints": 0
+    },
+    {
       "Name": "Transition Metals Ore",
       "Tier": "1-10",
       "SinkPoints": 1
@@ -928,8 +1735,23 @@
       "SinkPoints": 6
     },
     {
+      "Name": "Molten Iron",
+      "Tier": "3-33",
+      "SinkPoints": 0
+    },
+    {
       "Name": "Ferrum",
       "Tier": "1-7",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Ferrous Waste Water",
+      "Tier": "3-5",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Ferrous Waste Water",
+      "Tier": "3-9",
       "SinkPoints": 0
     },
     {
@@ -958,8 +1780,33 @@
       "SinkPoints": 15
     },
     {
+      "Name": "Molten Copper",
+      "Tier": "3-33",
+      "SinkPoints": 0
+    },
+    {
       "Name": "Patina",
       "Tier": "1-7",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Cupric Waste Water",
+      "Tier": "3-5",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Cupric Waste Water",
+      "Tier": "3-9",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Copper Froth",
+      "Tier": "3-37",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Copper Tailings",
+      "Tier": "3-37",
       "SinkPoints": 0
     },
     {
@@ -983,6 +1830,26 @@
       "SinkPoints": 0
     },
     {
+      "Name": "Molten Nickel",
+      "Tier": "3-33",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Nickel Froth",
+      "Tier": "3-20",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Nickel Tailings",
+      "Tier": "3-20",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Nickel Tailings",
+      "Tier": "3-20",
+      "SinkPoints": 0
+    },
+    {
       "Name": "Zinc Chunk",
       "Tier": "0-4",
       "SinkPoints": 1
@@ -1003,6 +1870,16 @@
       "SinkPoints": 0
     },
     {
+      "Name": "Molten Zinc",
+      "Tier": "3-33",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Zinc Tailings",
+      "Tier": "3-54",
+      "SinkPoints": 0
+    },
+    {
       "Name": "Manganese Ore",
       "Tier": "1-13",
       "SinkPoints": 0
@@ -1010,6 +1887,11 @@
     {
       "Name": "Manganese Plate",
       "Tier": "1-13",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Molten Manganese",
+      "Tier": "3-33",
       "SinkPoints": 0
     },
     {
@@ -1030,6 +1912,16 @@
     {
       "Name": "Liquid Mercury",
       "Tier": "1-10",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Liquid Mercury",
+      "Tier": "3-9",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Solid Mercury",
+      "Tier": "3-33",
       "SinkPoints": 0
     },
     {
@@ -1073,6 +1965,11 @@
       "SinkPoints": 0
     },
     {
+      "Name": "Molten Gold",
+      "Tier": "3-33",
+      "SinkPoints": 0
+    },
+    {
       "Name": "Silver Chunk",
       "Tier": "1-11",
       "SinkPoints": 0
@@ -1085,6 +1982,11 @@
     {
       "Name": "Silver Plate",
       "Tier": "1-11",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Molten Silver",
+      "Tier": "3-33",
       "SinkPoints": 0
     },
     {
@@ -1110,6 +2012,11 @@
     {
       "Name": "Titanium Plate",
       "Tier": "2-25",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Molten Titanium",
+      "Tier": "3-33",
       "SinkPoints": 0
     },
     {
@@ -1143,8 +2050,378 @@
       "SinkPoints": 0
     },
     {
+      "Name": "Molten Tungsten",
+      "Tier": "3-33",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Zirconium Sand",
+      "Tier": "3-32",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Zircon",
+      "Tier": "3-32",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Zirconia",
+      "Tier": "3-32",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Cadmium Sulfate",
+      "Tier": "3-54",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Cadmium Ore",
+      "Tier": "3-54",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Cadmium Plate",
+      "Tier": "3-54",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Molten Cadmium",
+      "Tier": "3-54",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Cobalt Blue",
+      "Tier": "3-37",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Cobaltite (CoAsS)",
+      "Tier": "3-37",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Cobalt Ore",
+      "Tier": "3-37",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Cobalt Plate",
+      "Tier": "3-37",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Molten Cobalt",
+      "Tier": "3-37",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Low-Sulfur Residuals",
+      "Tier": "3-11",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Low-Sulfur Residuals",
+      "Tier": "3-11",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Magnetite",
+      "Tier": "3-40",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Ferrovanadium",
+      "Tier": "3-40",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Vanadate Solution",
+      "Tier": "3-40",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Vanadium Ore",
+      "Tier": "3-40",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Chromic Acid",
+      "Tier": "3-35",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "High-Sulfur Residuals",
+      "Tier": "3-11",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged High-Sulfur Residuals",
+      "Tier": "3-11",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Chromite",
+      "Tier": "3-35",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Ferrochromium",
+      "Tier": "3-35",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Chromium Ore",
+      "Tier": "3-35",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Palladium Hydride",
+      "Tier": "3-19",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Palladium Ore",
+      "Tier": "3-19",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Palladium Plate",
+      "Tier": "3-19",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Molten Palladium",
+      "Tier": "3-33",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Platinum Powder",
+      "Tier": "3-43",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Ammonium Chloride",
+      "Tier": "3-43",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Platinum Ore",
+      "Tier": "3-43",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Platinum Plate",
+      "Tier": "3-43",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Molten Platinum",
+      "Tier": "3-43",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Post-Transition Metals Ore",
+      "Tier": "3-3",
+      "SinkPoints": 11
+    },
+    {
+      "Name": "Mixed Ore Slag",
+      "Tier": "3-70",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Bauxite",
+      "Tier": "3-3",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Bauxite Powder",
+      "Tier": "3-3",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Aluminium Hydroxide Slurry",
+      "Tier": "3-3",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Aluminium Hydroxide Slurry",
+      "Tier": "3-9",
+      "SinkPoints": 160
+    },
+    {
+      "Name": "Aluminium Ore",
+      "Tier": "3-3",
+      "SinkPoints": 27
+    },
+    {
+      "Name": "Aluminium Plate",
+      "Tier": "3-3",
+      "SinkPoints": 266
+    },
+    {
+      "Name": "Molten Aluminium",
+      "Tier": "3-33",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Cassiterite",
+      "Tier": "3-6",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Tin Chunk",
+      "Tier": "3-6",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Black Tin",
+      "Tier": "3-6",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "White Tin",
+      "Tier": "3-6",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Tin Ore",
+      "Tier": "3-6",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Tin Plate",
+      "Tier": "3-6",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Molten Tin",
+      "Tier": "3-33",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Bismuth Chunk",
+      "Tier": "3-70",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Bismite",
+      "Tier": "3-70",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Bismuth Crystals",
+      "Tier": "3-70",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Indium Ore",
+      "Tier": "99-99",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Lead Chunk",
+      "Tier": "3-71",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Lead Powder",
+      "Tier": "3-71",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Lead Froth",
+      "Tier": "3-71",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Impure Lead Ore",
+      "Tier": "3-71",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Arsenic Ore",
+      "Tier": "99-99",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Lead Ore",
+      "Tier": "3-71",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Lead Plate",
+      "Tier": "3-71",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Lorandite",
+      "Tier": "3-70",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Thallium Sulfate",
+      "Tier": "3-70",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Thallium Ore",
+      "Tier": "3-70",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Thallium Plate",
+      "Tier": "3-70",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Gallium Chunk",
+      "Tier": "3-70",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Sodium Hydroxide",
+      "Tier": "3-3",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Gallium Liquor",
+      "Tier": "3-70",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Ion-Exchange Beads",
+      "Tier": "3-70",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Liquid Gallium",
+      "Tier": "3-70",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Liquid Gallium",
+      "Tier": "3-70",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Atmosphere",
+      "Tier": "3-67",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Oxygen Air Filter",
+      "Tier": "3-67",
+      "SinkPoints": 0
+    },
+    {
       "Name": "Oxygen Gas",
       "Tier": "1-12",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Chlorine Air Filter",
+      "Tier": "3-67",
       "SinkPoints": 0
     },
     {
@@ -1153,8 +2430,28 @@
       "SinkPoints": 0
     },
     {
+      "Name": "Packaged Chlorine Gas",
+      "Tier": "3-9",
+      "SinkPoints": 0
+    },
+    {
       "Name": "Hydrochloric Acid",
       "Tier": "1-9",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Hydrochloric Acid",
+      "Tier": "3-9",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Nitrogen Air Filter",
+      "Tier": "3-67",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Nitrogen Gas",
+      "Tier": "3-67",
       "SinkPoints": 0
     },
     {
@@ -1163,14 +2460,129 @@
       "SinkPoints": 28
     },
     {
+      "Name": "Carbon Dioxide Air Filter",
+      "Tier": "3-67",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Carbon Dioxide Gas",
+      "Tier": "3-5",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Carbon Monoxide",
+      "Tier": "3-13",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Trace Gases",
+      "Tier": "3-67",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Trace Gas Air Filter",
+      "Tier": "3-67",
+      "SinkPoints": 0
+    },
+    {
       "Name": "Hydrogen Gas",
       "Tier": "1-9",
       "SinkPoints": 0
     },
     {
+      "Name": "Packaged Sulfuric Acid",
+      "Tier": "3-9",
+      "SinkPoints": 152
+    },
+    {
       "Name": "Sulfur",
-      "Tier": "1-6",
+      "Tier": "3-38",
       "SinkPoints": 11
+    },
+    {
+      "Name": "Sulfuric Acid",
+      "Tier": "3-4",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Hydrogen Sulfide",
+      "Tier": "3-38",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Sulfuric Waste Water",
+      "Tier": "3-5",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Sulfuric Waste Water",
+      "Tier": "3-9",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Sulfur Dioxide",
+      "Tier": "3-13",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Phosphate Rock",
+      "Tier": "3-68",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Phosphor Vapour",
+      "Tier": "3-68",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Phosphoric Acid",
+      "Tier": "3-68",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Phosphoric Acid",
+      "Tier": "3-68",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "White Phosphorus",
+      "Tier": "3-68",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Red Phosphorus",
+      "Tier": "3-68",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Nitric Oxide",
+      "Tier": "3-45",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Nitric Oxide",
+      "Tier": "3-45",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Nitric Acid",
+      "Tier": "3-45",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Aqua Regia",
+      "Tier": "3-45",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Nitrosyl Chloride",
+      "Tier": "3-45",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Nitrosyl Chloride",
+      "Tier": "3-45",
+      "SinkPoints": 0
     },
     {
       "Name": "Air Filter",
@@ -1203,6 +2615,11 @@
       "SinkPoints": 0
     },
     {
+      "Name": "Sodium Sulfite",
+      "Tier": "3-39",
+      "SinkPoints": 0
+    },
+    {
       "Name": "Calcite",
       "Tier": "0-0",
       "SinkPoints": 0
@@ -1218,6 +2635,26 @@
       "SinkPoints": 0
     },
     {
+      "Name": "Calcium Chloride",
+      "Tier": "3-39",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Ammonia Gas",
+      "Tier": "3-44",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Ammonia Gas",
+      "Tier": "3-44",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Creosote",
+      "Tier": "3-32",
+      "SinkPoints": 0
+    },
+    {
       "Name": "Steam",
       "Tier": "0-0",
       "SinkPoints": 0
@@ -1228,12 +2665,333 @@
       "SinkPoints": 0
     },
     {
+      "Name": "Packaged Water",
+      "Tier": "3-9",
+      "SinkPoints": 130
+    },
+    {
       "Name": "Seawater",
       "Tier": "1-5",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Seawater",
+      "Tier": "3-9",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Crude Oil",
+      "Tier": "3-10",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Crude Oil",
+      "Tier": "3-10",
+      "SinkPoints": 180
+    },
+    {
+      "Name": "Refinery Gases",
+      "Tier": "3-10",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Refinery Gases",
+      "Tier": "3-10",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Petrol",
+      "Tier": "3-17",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Petrol",
+      "Tier": "3-17",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Naptha",
+      "Tier": "3-10",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Naptha",
+      "Tier": "3-10",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Kerosene",
+      "Tier": "3-17",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Kerosene",
+      "Tier": "3-17",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Diesel",
+      "Tier": "3-17",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Diesel",
+      "Tier": "3-17",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "High Quality Diesel",
+      "Tier": "3-18",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Low Quality Diesel",
+      "Tier": "3-18",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Lubricating Oils",
+      "Tier": "3-17",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Lubricating Oils",
+      "Tier": "3-17",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Fuel Oils",
+      "Tier": "3-17",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Fuel Oils",
+      "Tier": "3-17",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Oil Residuals",
+      "Tier": "3-10",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Oil Residuals",
+      "Tier": "3-10",
+      "SinkPoints": 180
+    },
+    {
+      "Name": "Butane Gas",
+      "Tier": "3-15",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Butane Gas",
+      "Tier": "3-15",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Butene Gas",
+      "Tier": "3-15",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Butene Gas",
+      "Tier": "3-15",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Ethylene Gas",
+      "Tier": "3-14",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Ethylene Gas",
+      "Tier": "3-14",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Benzene",
+      "Tier": "3-14",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Benzene",
+      "Tier": "3-14",
       "SinkPoints": 0
     }
   ],
   "Recipes": [
+    {
+      "Name": "Ammonia Gas Voiding",
+      "Machine": "Burn-inator",
+      "BatchTime": "3",
+      "Tier": "3-44",
+      "Parts": [
+        {"Part": "Ammonia Gas", "Amount": "-25/10"}
+      ]
+    },
+    {
+      "Name": "Butane Gas Voiding",
+      "Machine": "Burn-inator",
+      "BatchTime": "3",
+      "Tier": "3-34",
+      "Parts": [
+        {"Part": "Butane Gas", "Amount": "-25/10"}
+      ]
+    },
+    {
+      "Name": "Butene Gas Voiding",
+      "Machine": "Burn-inator",
+      "BatchTime": "3",
+      "Tier": "3-34",
+      "Parts": [
+        {"Part": "Butene Gas", "Amount": "-25/10"}
+      ]
+    },
+    {
+      "Name": "Carbon Monoxide Voiding",
+      "Machine": "Burn-inator",
+      "BatchTime": "3",
+      "Tier": "3-34",
+      "Parts": [
+        {"Part": "Carbon Monoxide", "Amount": "-25/10"}
+      ]
+    },
+    {
+      "Name": "Low Quality Diesel Voiding",
+      "Machine": "Burn-inator",
+      "BatchTime": "3",
+      "Tier": "3-34",
+      "Parts": [
+        {"Part": "Low Quality Diesel", "Amount": "-25/10"}
+      ]
+    },
+    {
+      "Name": "Diesel Voiding",
+      "Machine": "Burn-inator",
+      "BatchTime": "3",
+      "Tier": "3-34",
+      "Parts": [
+        {"Part": "Diesel", "Amount": "-25/10"}
+      ]
+    },
+    {
+      "Name": "Ethylene Gas Voiding",
+      "Machine": "Burn-inator",
+      "BatchTime": "3",
+      "Tier": "3-34",
+      "Parts": [
+        {"Part": "Ethylene Gas", "Amount": "-25/10"}
+      ]
+    },
+    {
+      "Name": "Fuel Oils Voiding",
+      "Machine": "Burn-inator",
+      "BatchTime": "3",
+      "Tier": "3-34",
+      "Parts": [
+        {"Part": "Fuel Oils", "Amount": "-25/10"}
+      ]
+    },
+    {
+      "Name": "Hydrogen Sulfide Voiding",
+      "Machine": "Burn-inator",
+      "BatchTime": "3",
+      "Tier": "3-34",
+      "Parts": [
+        {"Part": "Hydrogen Sulfide", "Amount": "-25/10"}
+      ]
+    },
+    {
+      "Name": "Kerosene Voiding",
+      "Machine": "Burn-inator",
+      "BatchTime": "3",
+      "Tier": "3-34",
+      "Parts": [
+        {"Part": "Kerosene", "Amount": "-25/10"}
+      ]
+    },
+    {
+      "Name": "High Quality Diesel Voiding",
+      "Machine": "Burn-inator",
+      "BatchTime": "3",
+      "Tier": "3-34",
+      "Parts": [
+        {"Part": "High Quality Diesel", "Amount": "-25/10"}
+      ]
+    },
+    {
+      "Name": "Lubricating Oils Voiding",
+      "Machine": "Burn-inator",
+      "BatchTime": "3",
+      "Tier": "3-34",
+      "Parts": [
+        {"Part": "Lubricating Oils", "Amount": "-25/10"}
+      ]
+    },
+    {
+      "Name": "Naptha Voiding",
+      "Machine": "Burn-inator",
+      "BatchTime": "3",
+      "Tier": "3-34",
+      "Parts": [
+        {"Part": "Naptha", "Amount": "-25/10"}
+      ]
+    },
+    {
+      "Name": "Nitrosyl Chloride Voiding",
+      "Machine": "Burn-inator",
+      "BatchTime": "3",
+      "Tier": "3-45",
+      "Parts": [
+        {"Part": "Nitrosyl Chloride", "Amount": "-25/10"}
+      ]
+    },
+    {
+      "Name": "Oil Residuals Voiding",
+      "Machine": "Burn-inator",
+      "BatchTime": "3",
+      "Tier": "3-34",
+      "Parts": [
+        {"Part": "Oil Residuals", "Amount": "-25/10"}
+      ]
+    },
+    {
+      "Name": "Petrol Voiding",
+      "Machine": "Burn-inator",
+      "BatchTime": "3",
+      "Tier": "3-34",
+      "Parts": [
+        {"Part": "Petrol", "Amount": "-25/10"}
+      ]
+    },
+    {
+      "Name": "Refinery Gases Voiding",
+      "Machine": "Burn-inator",
+      "BatchTime": "3",
+      "Tier": "3-34",
+      "Parts": [
+        {"Part": "Refinery Gases", "Amount": "-25/10"}
+      ]
+    },
+    {
+      "Name": "Sulfur Dioxide Voiding",
+      "Machine": "Burn-inator",
+      "BatchTime": "3",
+      "Tier": "3-34",
+      "Parts": [
+        {"Part": "Sulfur Dioxide", "Amount": "-25/10"}
+      ]
+    },
+    {
+      "Name": "Syngas Voiding",
+      "Machine": "Burn-inator",
+      "BatchTime": "3",
+      "Tier": "3-34",
+      "Parts": [
+        {"Part": "Syngas", "Amount": "-25/10"}
+      ]
+    },
     {
       "Name": "Iron Basic Tubing",
       "Machine": "Assembling Machine",
@@ -1285,6 +3043,50 @@
       ]
     },
     {
+      "Name": "Gold Corrosion Resistant Tubing",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "3-8",
+      "Parts": [
+        {"Part": "Basic Tubing", "Amount": "-1"},
+        {"Part": "Gold Plate", "Amount": "-1"},
+        {"Part": "Corrosion Resistant Tubing", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Silver Corrosion Resistant Tubing",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "3-8",
+      "Parts": [
+        {"Part": "Basic Tubing", "Amount": "-1"},
+        {"Part": "Silver Plate", "Amount": "-1"},
+        {"Part": "Corrosion Resistant Tubing", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Stainless Steel Corrosion Resistant Tubing",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "3-8",
+      "Parts": [
+        {"Part": "Stainless Steel", "Amount": "-1"},
+        {"Part": "Basic Tubing", "Amount": "-1"},
+        {"Part": "Corrosion Resistant Tubing", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Brass Corrosion Resistant Tubing",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "3-8",
+      "Parts": [
+        {"Part": "Brass Plate", "Amount": "-1"},
+        {"Part": "Basic Tubing", "Amount": "-1"},
+        {"Part": "Corrosion Resistant Tubing", "Amount": "6"}
+      ]
+    },
+    {
       "Name": "Iron Basic Framing",
       "Machine": "Assembling Machine",
       "BatchTime": "1/2",
@@ -1302,6 +3104,71 @@
       "Parts": [
         {"Part": "Steel Plate", "Amount": "-1"},
         {"Part": "Basic Framing", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Stainless Steel Basic Framing",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "3-7",
+      "Parts": [
+        {"Part": "Stainless Steel", "Amount": "-1"},
+        {"Part": "Basic Framing", "Amount": "6"}
+      ]
+    },
+    {
+      "Name": "Tungsten Heavyweight Framing",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "3-8",
+      "Parts": [
+        {"Part": "Basic Framing", "Amount": "-1"},
+        {"Part": "Tungsten Plate", "Amount": "-1"},
+        {"Part": "Heavyweight Framing", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Chromium Heavyweight Framing",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "3-8",
+      "Parts": [
+        {"Part": "Basic Framing", "Amount": "-1"},
+        {"Part": "Chromium Ore", "Amount": "-1"},
+        {"Part": "Heavyweight Framing", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Tin Lightweight Framing",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "3-8",
+      "Parts": [
+        {"Part": "Basic Framing", "Amount": "-1"},
+        {"Part": "Tin Plate", "Amount": "-1"},
+        {"Part": "Lightweight Framing", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Titanium Lightweight Framing",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "3-8",
+      "Parts": [
+        {"Part": "Basic Framing", "Amount": "-1"},
+        {"Part": "Titanium Plate", "Amount": "-1"},
+        {"Part": "Lightweight Framing", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Aluminium Lightweight Framing",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "3-8",
+      "Parts": [
+        {"Part": "Basic Framing", "Amount": "-1"},
+        {"Part": "Aluminium Plate", "Amount": "-1"},
+        {"Part": "Lightweight Framing", "Amount": "4"}
       ]
     },
     {
@@ -1335,6 +3202,71 @@
       ]
     },
     {
+      "Name": "Stainless Steel Basic Panelling",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "3-7",
+      "Parts": [
+        {"Part": "Stainless Steel", "Amount": "-1"},
+        {"Part": "Basic Panelling", "Amount": "6"}
+      ]
+    },
+    {
+      "Name": "Tungsten Heavyweight Panelling",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "3-8",
+      "Parts": [
+        {"Part": "Basic Panelling", "Amount": "-1"},
+        {"Part": "Tungsten Plate", "Amount": "-1"},
+        {"Part": "Heavyweight Panelling", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Chromium Heavyweight Panelling",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "3-8",
+      "Parts": [
+        {"Part": "Basic Panelling", "Amount": "-1"},
+        {"Part": "Chromium Ore", "Amount": "-1"},
+        {"Part": "Heavyweight Panelling", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Tin Lightweight Panelling",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "3-8",
+      "Parts": [
+        {"Part": "Basic Panelling", "Amount": "-1"},
+        {"Part": "Tin Plate", "Amount": "-1"},
+        {"Part": "Lightweight Panelling", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Aluminium Lightweight Panelling",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "3-8",
+      "Parts": [
+        {"Part": "Basic Panelling", "Amount": "-1"},
+        {"Part": "Aluminium Plate", "Amount": "-1"},
+        {"Part": "Lightweight Panelling", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Titanium Lightweight Panelling",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "3-8",
+      "Parts": [
+        {"Part": "Basic Panelling", "Amount": "-1"},
+        {"Part": "Titanium Plate", "Amount": "-1"},
+        {"Part": "Lightweight Panelling", "Amount": "4"}
+      ]
+    },
+    {
       "Name": "Brass Heat-Resistant Plating",
       "Machine": "Assembling Machine",
       "BatchTime": "1",
@@ -1354,6 +3286,17 @@
         {"Part": "Gold Wire", "Amount": "-2"},
         {"Part": "Basic Panelling", "Amount": "-2"},
         {"Part": "Heat-Resistant Plating", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Kasethal Heat-Resistant Plating",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1",
+      "Tier": "2-8",
+      "Parts": [
+        {"Part": "Kasethal Plate", "Amount": "-1"},
+        {"Part": "Basic Panelling", "Amount": "-2"},
+        {"Part": "Heat-Resistant Plating", "Amount": "4"}
       ]
     },
     {
@@ -1412,6 +3355,61 @@
       ]
     },
     {
+      "Name": "Copper Heating Coil",
+      "Machine": "Assembling Machine",
+      "BatchTime": "75/10",
+      "Tier": "5-51",
+      "Parts": [
+        {"Part": "Lightweight Framing", "Amount": "-5"},
+        {"Part": "Copper Plate", "Amount": "-10"},
+        {"Part": "Copper Heating Coil", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Aluminium Heating Coil",
+      "Machine": "Assembling Machine",
+      "BatchTime": "75/10",
+      "Tier": "5-52",
+      "Parts": [
+        {"Part": "Lightweight Framing", "Amount": "-5"},
+        {"Part": "Aluminium Plate", "Amount": "-10"},
+        {"Part": "Aluminium Heating Coil", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Tungsten Heating Coil",
+      "Machine": "Assembling Machine",
+      "BatchTime": "75/10",
+      "Tier": "5-52",
+      "Parts": [
+        {"Part": "Lightweight Framing", "Amount": "-5"},
+        {"Part": "Tungsten Plate", "Amount": "-10"},
+        {"Part": "Tungsten Heating Coil", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Molybdenum Heating Coil",
+      "Machine": "Assembling Machine",
+      "BatchTime": "75/10",
+      "Tier": "5-52",
+      "Parts": [
+        {"Part": "Lightweight Framing", "Amount": "-5"},
+        {"Part": "Molybdenum Ore", "Amount": "-10"},
+        {"Part": "Molybdenum Heating Coil", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Gold Heating Coil",
+      "Machine": "Assembling Machine",
+      "BatchTime": "75/10",
+      "Tier": "5-52",
+      "Parts": [
+        {"Part": "Lightweight Framing", "Amount": "-5"},
+        {"Part": "Gold Plate", "Amount": "-10"},
+        {"Part": "Gold Heating Coil", "Amount": "1"}
+      ]
+    },
+    {
       "Name": "Coal",
       "Machine": "Miner",
       "BatchTime": "60",
@@ -1430,6 +3428,383 @@
       ]
     },
     {
+      "Name": "Basic Oil Cracking",
+      "Machine": "Oil Refinery",
+      "BatchTime": "6",
+      "Tier": "3-10",
+      "Parts": [
+        {"Part": "Crude Oil", "Amount": "-100/10"},
+        {"Part": "Refinery Gases", "Amount": "30/10"},
+        {"Part": "Naptha", "Amount": "30/10"},
+        {"Part": "Oil Residuals", "Amount": "30/10"}
+      ]
+    },
+    {
+      "Name": "Diesel Separation",
+      "Machine": "Mixing Tank",
+      "BatchTime": "2",
+      "Tier": "3-18",
+      "Parts": [
+        {"Part": "Diesel", "Amount": "-20/10"},
+        {"Part": "Steam", "Amount": "-10/10"},
+        {"Part": "High Quality Diesel", "Amount": "9/10"},
+        {"Part": "Low Quality Diesel", "Amount": "11/10"}
+      ]
+    },
+    {
+      "Name": "Crude Oil Fractional Distillation",
+      "Machine": "Fractional Distillator",
+      "BatchTime": "8",
+      "Tier": "3-17",
+      "Parts": [
+        {"Part": "Crude Oil", "Amount": "-250/10"},
+        {"Part": "Oil Residuals", "Amount": "50/10"},
+        {"Part": "Fuel Oils", "Amount": "50/10"},
+        {"Part": "Lubricating Oils", "Amount": "50/10"},
+        {"Part": "Diesel", "Amount": "50/10"},
+        {"Part": "Kerosene", "Amount": "50/10"},
+        {"Part": "Naptha", "Amount": "50/10"},
+        {"Part": "Petrol", "Amount": "50/10"},
+        {"Part": "Refinery Gases", "Amount": "50/10"}
+      ]
+    },
+    {
+      "Name": "Naptha Steam Cracking",
+      "Machine": "Oil Refinery",
+      "BatchTime": "8",
+      "Tier": "3-14",
+      "Parts": [
+        {"Part": "Naptha", "Amount": "-60/10"},
+        {"Part": "Steam", "Amount": "-20/10"},
+        {"Part": "Benzene", "Amount": "10/10"},
+        {"Part": "Ethylene Gas", "Amount": "4/10"},
+        {"Part": "Sulfur", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Molybdenum Disulfide",
+      "Machine": "Chemical Plant",
+      "BatchTime": "3/2",
+      "Tier": "3-10",
+      "Parts": [
+        {"Part": "Molybdenum Ore", "Amount": "-1"},
+        {"Part": "Sulfur", "Amount": "-2"},
+        {"Part": "Molybdenum Disulfide", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Oil Residuals Splitting",
+      "Machine": "Chemical Plant",
+      "BatchTime": "4",
+      "Tier": "3-11",
+      "Parts": [
+        {"Part": "Glass Fibers", "Amount": "-5"},
+        {"Part": "Oil Residuals", "Amount": "-30/10"},
+        {"Part": "Steam", "Amount": "-20/10"},
+        {"Part": "Glass Fibers", "Amount": "4"},
+        {"Part": "High-Sulfur Residuals", "Amount": "12/10"},
+        {"Part": "Low-Sulfur Residuals", "Amount": "12/10"}
+      ]
+    },
+    {
+      "Name": "Bitumen Separation",
+      "Machine": "Washing Plant",
+      "BatchTime": "4",
+      "Tier": "3-11",
+      "Parts": [
+        {"Part": "Bitumen", "Amount": "-6"},
+        {"Part": "Calcium Ore", "Amount": "-3"},
+        {"Part": "Water", "Amount": "-30/10"},
+        {"Part": "Coke", "Amount": "4"},
+        {"Part": "Acidic Water", "Amount": "875/1000"},
+        {"Part": "Naptha", "Amount": "25/100"}
+      ]
+    },
+    {
+      "Name": "Syngas",
+      "Machine": "Oil Refinery",
+      "BatchTime": "6",
+      "Tier": "3-13",
+      "Parts": [
+        {"Part": "Carbon", "Amount": "-6"},
+        {"Part": "Steam", "Amount": "-10/10"},
+        {"Part": "Syngas", "Amount": "20/10"},
+        {"Part": "Oxygen Gas", "Amount": "1/10"}
+      ]
+    },
+    {
+      "Name": "Bitumen To Crude Oil",
+      "Machine": "Oil Refinery",
+      "BatchTime": "6",
+      "Tier": "3-11",
+      "Parts": [
+        {"Part": "Bitumen", "Amount": "-10"},
+        {"Part": "Crude Oil", "Amount": "-20/10"},
+        {"Part": "Crude Oil", "Amount": "35/10"},
+        {"Part": "Oil Residuals", "Amount": "275/1000"}
+      ]
+    },
+    {
+      "Name": "Oil Residuals Cracking",
+      "Machine": "Fluid Catalyst Cracker",
+      "BatchTime": "2",
+      "Tier": "3-29",
+      "Parts": [
+        {"Part": "Oil Residuals", "Amount": "-20/10"},
+        {"Part": "Steam", "Amount": "-20/10"},
+        {"Part": "Fuel Oils", "Amount": "30/10"}
+      ]
+    },
+    {
+      "Name": "Fuel Oils Cracking",
+      "Machine": "Fluid Catalyst Cracker",
+      "BatchTime": "2",
+      "Tier": "3-29",
+      "Parts": [
+        {"Part": "Fuel Oils", "Amount": "-30/10"},
+        {"Part": "Steam", "Amount": "-20/10"},
+        {"Part": "Lubricating Oils", "Amount": "40/10"}
+      ]
+    },
+    {
+      "Name": "Lubricating Oils Cracking",
+      "Machine": "Fluid Catalyst Cracker",
+      "BatchTime": "2",
+      "Tier": "3-29",
+      "Parts": [
+        {"Part": "Lubricating Oils", "Amount": "-40/10"},
+        {"Part": "Steam", "Amount": "-20/10"},
+        {"Part": "Diesel", "Amount": "50/10"}
+      ]
+    },
+    {
+      "Name": "Diesel Cracking",
+      "Machine": "Fluid Catalyst Cracker",
+      "BatchTime": "2",
+      "Tier": "3-29",
+      "Parts": [
+        {"Part": "Diesel", "Amount": "-50/10"},
+        {"Part": "Steam", "Amount": "-20/10"},
+        {"Part": "Kerosene", "Amount": "60/10"}
+      ]
+    },
+    {
+      "Name": "Kerosene Cracking",
+      "Machine": "Fluid Catalyst Cracker",
+      "BatchTime": "2",
+      "Tier": "3-29",
+      "Parts": [
+        {"Part": "Kerosene", "Amount": "-60/10"},
+        {"Part": "Steam", "Amount": "-20/10"},
+        {"Part": "Naptha", "Amount": "70/10"}
+      ]
+    },
+    {
+      "Name": "Naptha Cracking",
+      "Machine": "Fluid Catalyst Cracker",
+      "BatchTime": "2",
+      "Tier": "3-29",
+      "Parts": [
+        {"Part": "Naptha", "Amount": "-70/10"},
+        {"Part": "Steam", "Amount": "-20/10"},
+        {"Part": "Petrol", "Amount": "80/10"}
+      ]
+    },
+    {
+      "Name": "Petrol Cracking",
+      "Machine": "Fluid Catalyst Cracker",
+      "BatchTime": "2",
+      "Tier": "3-29",
+      "Parts": [
+        {"Part": "Petrol", "Amount": "-80/10"},
+        {"Part": "Steam", "Amount": "-20/10"},
+        {"Part": "Refinery Gases", "Amount": "90/10"}
+      ]
+    },
+    {
+      "Name": "Petrol Reforming",
+      "Machine": "Fluid Catalyst Cracker",
+      "BatchTime": "2",
+      "Tier": "3-29",
+      "Parts": [
+        {"Part": "Refinery Gases", "Amount": "-100/10"},
+        {"Part": "Petrol", "Amount": "-10/10"},
+        {"Part": "Petrol", "Amount": "90/10"}
+      ]
+    },
+    {
+      "Name": "Naptha Reforming",
+      "Machine": "Fluid Catalyst Cracker",
+      "BatchTime": "2",
+      "Tier": "3-29",
+      "Parts": [
+        {"Part": "Petrol", "Amount": "-90/10"},
+        {"Part": "Naptha", "Amount": "-10/10"},
+        {"Part": "Naptha", "Amount": "80/10"}
+      ]
+    },
+    {
+      "Name": "Kerosene Reforming",
+      "Machine": "Fluid Catalyst Cracker",
+      "BatchTime": "2",
+      "Tier": "3-29",
+      "Parts": [
+        {"Part": "Naptha", "Amount": "-80/10"},
+        {"Part": "Kerosene", "Amount": "-10/10"},
+        {"Part": "Kerosene", "Amount": "70/10"}
+      ]
+    },
+    {
+      "Name": "Diesel Reforming",
+      "Machine": "Fluid Catalyst Cracker",
+      "BatchTime": "2",
+      "Tier": "3-29",
+      "Parts": [
+        {"Part": "Kerosene", "Amount": "-70/10"},
+        {"Part": "Diesel", "Amount": "-10/10"},
+        {"Part": "Diesel", "Amount": "60/10"}
+      ]
+    },
+    {
+      "Name": "Lubricating Oils Reforming",
+      "Machine": "Fluid Catalyst Cracker",
+      "BatchTime": "2",
+      "Tier": "3-29",
+      "Parts": [
+        {"Part": "Diesel", "Amount": "-60/10"},
+        {"Part": "Lubricating Oils", "Amount": "-10/10"},
+        {"Part": "Lubricating Oils", "Amount": "50/10"}
+      ]
+    },
+    {
+      "Name": "Fuel Oils Reforming",
+      "Machine": "Fluid Catalyst Cracker",
+      "BatchTime": "2",
+      "Tier": "3-29",
+      "Parts": [
+        {"Part": "Lubricating Oils", "Amount": "-50/10"},
+        {"Part": "Fuel Oils", "Amount": "-10/10"},
+        {"Part": "Fuel Oils", "Amount": "40/10"}
+      ]
+    },
+    {
+      "Name": "Oil Residuals Reforming",
+      "Machine": "Fluid Catalyst Cracker",
+      "BatchTime": "2",
+      "Tier": "3-29",
+      "Parts": [
+        {"Part": "Fuel Oils", "Amount": "-40/10"},
+        {"Part": "Oil Residuals", "Amount": "-10/10"},
+        {"Part": "Oil Residuals", "Amount": "30/10"}
+      ]
+    },
+    {
+      "Name": "Packaged Burning Oil",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-47",
+      "Parts": [
+        {"Part": "Burning Oil", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Burning Oil", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Burning Oil",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-47",
+      "Parts": [
+        {"Part": "Packaged Burning Oil", "Amount": "-1"},
+        {"Part": "Burning Oil", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Petrol to Burning Oil",
+      "Machine": "Chemical Plant",
+      "BatchTime": "4",
+      "Tier": "3-47",
+      "Parts": [
+        {"Part": "Solid Fuel", "Amount": "-2"},
+        {"Part": "Petrol", "Amount": "-15/10"},
+        {"Part": "Burning Oil", "Amount": "75/100"}
+      ]
+    },
+    {
+      "Name": "Naptha to Burning Oil",
+      "Machine": "Chemical Plant",
+      "BatchTime": "4",
+      "Tier": "3-47",
+      "Parts": [
+        {"Part": "Solid Fuel", "Amount": "-2"},
+        {"Part": "Naptha", "Amount": "-15/10"},
+        {"Part": "Burning Oil", "Amount": "75/100"}
+      ]
+    },
+    {
+      "Name": "Kerosene to Burning Oil",
+      "Machine": "Chemical Plant",
+      "BatchTime": "4",
+      "Tier": "3-47",
+      "Parts": [
+        {"Part": "Solid Fuel", "Amount": "-2"},
+        {"Part": "Kerosene", "Amount": "-15/10"},
+        {"Part": "Burning Oil", "Amount": "75/100"}
+      ]
+    },
+    {
+      "Name": "Diesel to Burning Oil",
+      "Machine": "Chemical Plant",
+      "BatchTime": "4",
+      "Tier": "3-47",
+      "Parts": [
+        {"Part": "Solid Fuel", "Amount": "-2"},
+        {"Part": "Diesel", "Amount": "-15/10"},
+        {"Part": "Burning Oil", "Amount": "75/100"}
+      ]
+    },
+    {
+      "Name": "High Quality Diesel to Solid Fuel",
+      "Machine": "Chemical Plant",
+      "BatchTime": "2",
+      "Tier": "3-18",
+      "Parts": [
+        {"Part": "High Quality Diesel", "Amount": "-10/10"},
+        {"Part": "Solid Fuel", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Low Quality Diesel to Solid Fuel",
+      "Machine": "Chemical Plant",
+      "BatchTime": "4",
+      "Tier": "3-18",
+      "Parts": [
+        {"Part": "Low Quality Diesel", "Amount": "-40/10"},
+        {"Part": "Solid Fuel", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Kerosene to Solid Fuel",
+      "Machine": "Chemical Plant",
+      "BatchTime": "2",
+      "Tier": "3-22",
+      "Parts": [
+        {"Part": "Kerosene", "Amount": "-20/10"},
+        {"Part": "Solid Fuel", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Petrol to Solid Fuel",
+      "Machine": "Chemical Plant",
+      "BatchTime": "2",
+      "Tier": "3-25",
+      "Parts": [
+        {"Part": "Petrol", "Amount": "-20/10"},
+        {"Part": "Solid Fuel", "Amount": "2"}
+      ]
+    },
+    {
       "Name": "Oxidiser",
       "Machine": "Assembling Machine",
       "BatchTime": "1",
@@ -1438,6 +3813,65 @@
         {"Part": "Iron Plate", "Amount": "-2"},
         {"Part": "Oxygen Gas", "Amount": "-15/10"},
         {"Part": "Oxidiser", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Empty Fuel Canister",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1",
+      "Tier": "3-21",
+      "Parts": [
+        {"Part": "Steel Plate", "Amount": "-2"},
+        {"Part": "Polyethylene Plastic", "Amount": "-2"},
+        {"Part": "Empty Fuel Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Diesel Fuel Canister",
+      "Machine": "Chemical Plant",
+      "BatchTime": "2",
+      "Tier": "3-21",
+      "Parts": [
+        {"Part": "Solid Fuel", "Amount": "-1"},
+        {"Part": "Empty Fuel Canister", "Amount": "-1"},
+        {"Part": "Diesel", "Amount": "-40/10"},
+        {"Part": "Diesel Fuel Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Petrol Fuel Canister",
+      "Machine": "Chemical Plant",
+      "BatchTime": "2",
+      "Tier": "3-26",
+      "Parts": [
+        {"Part": "Solid Fuel", "Amount": "-1"},
+        {"Part": "Empty Fuel Canister", "Amount": "-1"},
+        {"Part": "Petrol", "Amount": "-40/10"},
+        {"Part": "Petrol Fuel Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Kerosene Fuel Canister",
+      "Machine": "Chemical Plant",
+      "BatchTime": "2",
+      "Tier": "3-23",
+      "Parts": [
+        {"Part": "Solid Fuel", "Amount": "-1"},
+        {"Part": "Empty Fuel Canister", "Amount": "-1"},
+        {"Part": "Kerosene", "Amount": "-40/10"},
+        {"Part": "Kerosene Fuel Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Naptha Fuel Canister",
+      "Machine": "Chemical Plant",
+      "BatchTime": "2",
+      "Tier": "3-30",
+      "Parts": [
+        {"Part": "Solid Fuel", "Amount": "-1"},
+        {"Part": "Empty Fuel Canister", "Amount": "-1"},
+        {"Part": "Naptha", "Amount": "-40/10"},
+        {"Part": "Naptha Fuel Canister", "Amount": "1"}
       ]
     },
     {
@@ -1515,6 +3949,130 @@
       ]
     },
     {
+      "Name": "Advanced Coke",
+      "Machine": "Stone Coke Oven",
+      "BatchTime": "12/5",
+      "Tier": "3-31",
+      "Parts": [
+        {"Part": "Coal", "Amount": "-9"},
+        {"Part": "Coke", "Amount": "4"},
+        {"Part": "Coal Tar", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Coal Tar Separation",
+      "Machine": "Washing Plant",
+      "BatchTime": "9",
+      "Tier": "3-31",
+      "Parts": [
+        {"Part": "Coal Tar", "Amount": "-6"},
+        {"Part": "Acidic Water", "Amount": "-30/10"},
+        {"Part": "Coke", "Amount": "6"},
+        {"Part": "Sulfur", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Unfiltered Lubricant",
+      "Machine": "Chemical Plant",
+      "BatchTime": "2",
+      "Tier": "3-27",
+      "Parts": [
+        {"Part": "Molybdenum Disulfide", "Amount": "-2"},
+        {"Part": "Lubricating Oils", "Amount": "-12/10"},
+        {"Part": "Unfiltered Lubricant", "Amount": "10/10"}
+      ]
+    },
+    {
+      "Name": "Packaged Unfiltered Lubricant",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-27",
+      "Parts": [
+        {"Part": "Unfiltered Lubricant", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Unfiltered Lubricant", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Unfiltered Lubricant",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-27",
+      "Parts": [
+        {"Part": "Packaged Unfiltered Lubricant", "Amount": "-1"},
+        {"Part": "Unfiltered Lubricant", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Solid Lubricant",
+      "Machine": "Chemical Plant",
+      "BatchTime": "4",
+      "Tier": "3-27",
+      "Parts": [
+        {"Part": "Carbon", "Amount": "-12"},
+        {"Part": "Unfiltered Lubricant", "Amount": "-10/10"},
+        {"Part": "Solid Lubricant", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Ethylene Glycol",
+      "Machine": "Chemical Plant",
+      "BatchTime": "24",
+      "Tier": "3-70",
+      "Parts": [
+        {"Part": "Palladium Catalyst", "Amount": "-6"},
+        {"Part": "Ethylene Gas", "Amount": "-72/10"},
+        {"Part": "Water", "Amount": "-144/10"},
+        {"Part": "Ethylene Glycol", "Amount": "60/10"},
+        {"Part": "Palladium Catalyst", "Amount": "5"},
+        {"Part": "Catalyst Container", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Coolant",
+      "Machine": "Cooling Plant",
+      "BatchTime": "4",
+      "Tier": "3-70",
+      "Parts": [
+        {"Part": "Ethylene Glycol", "Amount": "-10/10"},
+        {"Part": "Nitrogen Gas", "Amount": "-10/10"},
+        {"Part": "Coolant", "Amount": "10/10"}
+      ]
+    },
+    {
+      "Name": "Packaged Coolant",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-70",
+      "Parts": [
+        {"Part": "Coolant", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Coolant", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Coolant",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-70",
+      "Parts": [
+        {"Part": "Packaged Coolant", "Amount": "-1"},
+        {"Part": "Coolant", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Hot Coolant Cooling",
+      "Machine": "Cooling Plant",
+      "BatchTime": "8",
+      "Tier": "3-70",
+      "Parts": [
+        {"Part": "Hot Coolant", "Amount": "-10/10"},
+        {"Part": "Coolant", "Amount": "95/100"}
+      ]
+    },
+    {
       "Name": "Steel Plate",
       "Machine": "Welder",
       "BatchTime": "8",
@@ -1526,6 +4084,18 @@
       ]
     },
     {
+      "Name": "Advanced Steel Plate",
+      "Machine": "Welder",
+      "BatchTime": "4",
+      "Tier": "3-41",
+      "Parts": [
+        {"Part": "Vanadium-Oxide", "Amount": "-2"},
+        {"Part": "Iron Plate", "Amount": "-4"},
+        {"Part": "Manganese Plate", "Amount": "-4"},
+        {"Part": "Steel Plate", "Amount": "4"}
+      ]
+    },
+    {
       "Name": "Brass Plate",
       "Machine": "Welder",
       "BatchTime": "8",
@@ -1534,6 +4104,68 @@
         {"Part": "Copper Plate", "Amount": "-1"},
         {"Part": "Zinc Plate", "Amount": "-1"},
         {"Part": "Brass Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Stainless Steel",
+      "Machine": "Welder",
+      "BatchTime": "16",
+      "Tier": "3-7",
+      "Parts": [
+        {"Part": "Steel Plate", "Amount": "-2"},
+        {"Part": "Manganese Plate", "Amount": "-2"},
+        {"Part": "Molybdenum Ore", "Amount": "-2"},
+        {"Part": "Stainless Steel", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Advanced Stainless Steel Alloy",
+      "Machine": "Welder",
+      "BatchTime": "16",
+      "Tier": "3-41",
+      "Parts": [
+        {"Part": "Steel Plate", "Amount": "-3"},
+        {"Part": "Manganese Plate", "Amount": "-3"},
+        {"Part": "Molybdenum Ore", "Amount": "-2"},
+        {"Part": "Chromium Ore", "Amount": "-3"},
+        {"Part": "Stainless Steel", "Amount": "6"}
+      ]
+    },
+    {
+      "Name": "Kasethal Plate",
+      "Machine": "Welder",
+      "BatchTime": "24",
+      "Tier": "3-41",
+      "Parts": [
+        {"Part": "Iron Plate", "Amount": "-4"},
+        {"Part": "Chromium Ore", "Amount": "-3"},
+        {"Part": "Aluminium Plate", "Amount": "-2"},
+        {"Part": "Kasethal Plate", "Amount": "3"}
+      ]
+    },
+    {
+      "Name": "Molten Solder",
+      "Machine": "Molten-inator",
+      "BatchTime": "9",
+      "Tier": "3-48",
+      "Parts": [
+        {"Part": "Copper Plate", "Amount": "-10"},
+        {"Part": "Ammonium Chloride", "Amount": "-3"},
+        {"Part": "Tin Plate", "Amount": "-10"},
+        {"Part": "Molten Iron", "Amount": "-25/100"},
+        {"Part": "Molten Solder", "Amount": "10/10"}
+      ]
+    },
+    {
+      "Name": "Solder Plate Cooling",
+      "Machine": "Cold-inator",
+      "BatchTime": "45",
+      "Tier": "3-48",
+      "Parts": [
+        {"Part": "Crucible", "Amount": "-5"},
+        {"Part": "Molten Solder", "Amount": "-25/10"},
+        {"Part": "Solder Plate", "Amount": "50"},
+        {"Part": "Crucible", "Amount": "4"}
       ]
     },
     {
@@ -1569,7 +4201,7 @@
     },
     {
       "Name": "Glass Pane",
-      "Machine": "Smelter",
+      "Machine": "Furnace",
       "BatchTime": "16/5",
       "Tier": "2-5",
       "Parts": [
@@ -1579,7 +4211,7 @@
     },
     {
       "Name": "Gravel-Based Glass Pane",
-      "Machine": "Smelter",
+      "Machine": "Furnace",
       "BatchTime": "24/5",
       "Tier": "0-3",
       "Parts": [
@@ -1610,12 +4242,36 @@
     },
     {
       "Name": "Glass Resmelting",
-      "Machine": "Smelter",
+      "Machine": "Furnace",
       "BatchTime": "2",
       "Tier": "2-14",
       "Parts": [
         {"Part": "Glass Shards", "Amount": "-4"},
         {"Part": "Glass Pane", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Molten Glass",
+      "Machine": "Molten-inator",
+      "BatchTime": "9",
+      "Tier": "3-42",
+      "Parts": [
+        {"Part": "Glass Pane", "Amount": "-10"},
+        {"Part": "Steam", "Amount": "-50/10"},
+        {"Part": "Molten Glass", "Amount": "4/10"},
+        {"Part": "Glass Shards", "Amount": "5"}
+      ]
+    },
+    {
+      "Name": "Glass Plate Cooling",
+      "Machine": "Cold-inator",
+      "BatchTime": "45",
+      "Tier": "3-42",
+      "Parts": [
+        {"Part": "Crucible", "Amount": "-5"},
+        {"Part": "Molten Glass", "Amount": "-25/10"},
+        {"Part": "Glass Pane", "Amount": "50"},
+        {"Part": "Crucible", "Amount": "4"}
       ]
     },
     {
@@ -1672,12 +4328,79 @@
     },
     {
       "Name": "Stone Brick",
-      "Machine": "Smelter",
+      "Machine": "Furnace",
       "BatchTime": "16/2",
       "Tier": "0-1",
       "Parts": [
         {"Part": "Stone", "Amount": "-2"},
         {"Part": "Stone Brick", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Concrete Slurry",
+      "Machine": "Mixing Tank",
+      "BatchTime": "10",
+      "Tier": "3-12",
+      "Parts": [
+        {"Part": "Bitumen", "Amount": "-6"},
+        {"Part": "Stone Brick", "Amount": "-10"},
+        {"Part": "Calcium Dust", "Amount": "-8"},
+        {"Part": "Water", "Amount": "-75/10"},
+        {"Part": "Concrete Slurry", "Amount": "50/10"}
+      ]
+    },
+    {
+      "Name": "Packaged Concrete Slurry",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-12",
+      "Parts": [
+        {"Part": "Concrete Slurry", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Concrete Slurry", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Concrete Slurry",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-12",
+      "Parts": [
+        {"Part": "Packaged Concrete Slurry", "Amount": "-1"},
+        {"Part": "Concrete Slurry", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Concrete",
+      "Machine": "Assembling Machine",
+      "BatchTime": "25/10",
+      "Tier": "3-12",
+      "Parts": [
+        {"Part": "Sand", "Amount": "-5"},
+        {"Part": "Concrete Slurry", "Amount": "-5/10"},
+        {"Part": "Concrete", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Solder Wire",
+      "Machine": "Assembling Machine",
+      "BatchTime": "3/2",
+      "Tier": "3-48",
+      "Parts": [
+        {"Part": "Solder Plate", "Amount": "-1"},
+        {"Part": "Solder Wire", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Solder Case",
+      "Machine": "Assembling Machine",
+      "BatchTime": "3",
+      "Tier": "3-48",
+      "Parts": [
+        {"Part": "Polyethylene Plastic", "Amount": "-2"},
+        {"Part": "Silver Plate", "Amount": "-1"},
+        {"Part": "Solder Case", "Amount": "2"}
       ]
     },
     {
@@ -1692,6 +4415,16 @@
       ]
     },
     {
+      "Name": "Empty Canister",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Steel Plate", "Amount": "-1"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
       "Name": "Iron Rod",
       "Machine": "Assembling Machine",
       "BatchTime": "1/2",
@@ -1699,6 +4432,45 @@
       "Parts": [
         {"Part": "Iron Plate", "Amount": "-1"},
         {"Part": "Iron Rod", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Crucible",
+      "Machine": "Assembling Machine",
+      "BatchTime": "225/100",
+      "Tier": "3-32",
+      "Parts": [
+        {"Part": "Zirconia", "Amount": "-3"},
+        {"Part": "Aluminium Plate", "Amount": "-4"},
+        {"Part": "Creosote", "Amount": "-10/10"},
+        {"Part": "Crucible", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Engine Unit",
+      "Machine": "Assembling Machine",
+      "BatchTime": "10",
+      "Tier": "3-46",
+      "Parts": [
+        {"Part": "Stainless Steel", "Amount": "-2"},
+        {"Part": "Corrosion Resistant Tubing", "Amount": "-6"},
+        {"Part": "Lightweight Framing", "Amount": "-4"},
+        {"Part": "Platinum Plate", "Amount": "-3"},
+        {"Part": "Engine Unit", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Electric Engine Unit",
+      "Machine": "Assembling Machine",
+      "BatchTime": "10",
+      "Tier": "3-56",
+      "Parts": [
+        {"Part": "Solid Lubricant", "Amount": "-8"},
+        {"Part": "Kasethal Plate", "Amount": "-4"},
+        {"Part": "Gold Wire", "Amount": "-8"},
+        {"Part": "Engine Unit", "Amount": "-1"},
+        {"Part": "Advanced Circuit", "Amount": "-2"},
+        {"Part": "Electric Engine Unit", "Amount": "1"}
       ]
     },
     {
@@ -1719,6 +4491,38 @@
       "Parts": [
         {"Part": "Zinc Plate", "Amount": "-1"},
         {"Part": "Zinc Disk", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Copper Disk Anodization",
+      "Machine": "Furnace",
+      "BatchTime": "16/5",
+      "Tier": "3-61",
+      "Parts": [
+        {"Part": "Copper Disk", "Amount": "-1"},
+        {"Part": "Copper Anode", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Zinc Disk Cathodization",
+      "Machine": "Furnace",
+      "BatchTime": "16/5",
+      "Tier": "3-61",
+      "Parts": [
+        {"Part": "Zinc Disk", "Amount": "-1"},
+        {"Part": "Zinc Cathode", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Battery Casing",
+      "Machine": "Assembling Machine",
+      "BatchTime": "2",
+      "Tier": "3-61",
+      "Parts": [
+        {"Part": "Polyethylene Plastic", "Amount": "-4"},
+        {"Part": "Nickel Plate", "Amount": "-2"},
+        {"Part": "Aluminium Plate", "Amount": "-2"},
+        {"Part": "Zinc Cathode", "Amount": "1"}
       ]
     },
     {
@@ -1766,6 +4570,225 @@
       ]
     },
     {
+      "Name": "Vanadium-Oxide",
+      "Machine": "Assembling Machine",
+      "BatchTime": "2",
+      "Tier": "3-38",
+      "Parts": [
+        {"Part": "Vanadium Ore", "Amount": "-4"},
+        {"Part": "Oxygen Gas", "Amount": "-10/10"},
+        {"Part": "Vanadium-Oxide", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Positive Vanadium-Oxide Solution",
+      "Machine": "Chemical Plant",
+      "BatchTime": "2",
+      "Tier": "3-61",
+      "Parts": [
+        {"Part": "Vanadium-Oxide", "Amount": "-2"},
+        {"Part": "Water", "Amount": "-50/10"},
+        {"Part": "Positive Vanadium-Oxide Solution", "Amount": "60/10"}
+      ]
+    },
+    {
+      "Name": "Negative Vanadium-Oxide Solution",
+      "Machine": "Chemical Plant",
+      "BatchTime": "2",
+      "Tier": "3-61",
+      "Parts": [
+        {"Part": "Vanadium-Oxide", "Amount": "-2"},
+        {"Part": "Acidic Water", "Amount": "-50/10"},
+        {"Part": "Negative Vanadium-Oxide Solution", "Amount": "60/10"}
+      ]
+    },
+    {
+      "Name": "Vanadium-Oxide Redox Battery",
+      "Machine": "Chemical Plant",
+      "BatchTime": "6",
+      "Tier": "3-61",
+      "Parts": [
+        {"Part": "Copper Anode", "Amount": "-2"},
+        {"Part": "Zinc Cathode", "Amount": "-2"},
+        {"Part": "Battery Casing", "Amount": "-1"},
+        {"Part": "Negative Vanadium-Oxide Solution", "Amount": "-20/10"},
+        {"Part": "Positive Vanadium-Oxide Solution", "Amount": "-20/10"},
+        {"Part": "Vanadium-Oxide Redox Battery", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Charged Vanadium-Oxide Redox Battery",
+      "Machine": "Battery Charger",
+      "BatchTime": "25",
+      "Tier": "3-62",
+      "Parts": [
+        {"Part": "Vanadium-Oxide Redox Battery", "Amount": "-5"},
+        {"Part": "Charged Vanadium-Oxide Redox Battery", "Amount": "4"},
+        {"Part": "Broken Vanadium-Oxide Redox Battery", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Vanadium-Oxide Redox Battery Discharging",
+      "Machine": "Battery Discharger",
+      "BatchTime": "5",
+      "Tier": "3-62",
+      "Parts": [
+        {"Part": "Charged Vanadium-Oxide Redox Battery", "Amount": "-1"},
+        {"Part": "Vanadium-Oxide Redox Battery", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Vanadium-Oxide Redox Battery Fixing",
+      "Machine": "Assembling Machine",
+      "BatchTime": "5",
+      "Tier": "3-62",
+      "Parts": [
+        {"Part": "Zinc Cathode", "Amount": "-3"},
+        {"Part": "Broken Vanadium-Oxide Redox Battery", "Amount": "-2"},
+        {"Part": "Negative Vanadium-Oxide Solution", "Amount": "-20/10"},
+        {"Part": "Vanadium-Oxide Redox Battery", "Amount": "-2"}
+      ]
+    },
+    {
+      "Name": "Catalyst Container",
+      "Machine": "Assembling Machine",
+      "BatchTime": "3/2",
+      "Tier": "3-19",
+      "Parts": [
+        {"Part": "Vulcanised Rubber", "Amount": "-4"},
+        {"Part": "Catalyst Container", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Vanadium-Oxide Catalyst",
+      "Machine": "Assembling Machine",
+      "BatchTime": "3",
+      "Tier": "3-22",
+      "Parts": [
+        {"Part": "Vanadium-Oxide", "Amount": "-1"},
+        {"Part": "Catalyst Container", "Amount": "-1"},
+        {"Part": "Vanadium-Oxide Catalyst", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Palladium Catalyst",
+      "Machine": "Assembling Machine",
+      "BatchTime": "3",
+      "Tier": "3-19",
+      "Parts": [
+        {"Part": "Catalyst Container", "Amount": "-1"},
+        {"Part": "Palladium Plate", "Amount": "-4"},
+        {"Part": "Carbon", "Amount": "-2"},
+        {"Part": "Palladium Catalyst", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Cobalt Catalyst",
+      "Machine": "Assembling Machine",
+      "BatchTime": "3",
+      "Tier": "3-22",
+      "Parts": [
+        {"Part": "Catalyst Container", "Amount": "-1"},
+        {"Part": "Cobalt Plate", "Amount": "-2"},
+        {"Part": "Cobalt Catalyst", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Nickel-Tungsten Catalyst (Ni-W)",
+      "Machine": "Assembling Machine",
+      "BatchTime": "3",
+      "Tier": "3-38",
+      "Parts": [
+        {"Part": "Catalyst Container", "Amount": "-1"},
+        {"Part": "Nickel Plate", "Amount": "-2"},
+        {"Part": "Tungsten Plate", "Amount": "-1"},
+        {"Part": "Nickel-Tungsten Catalyst (Ni-W)", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Refinery Gas Refining",
+      "Machine": "Chemical Plant",
+      "BatchTime": "2",
+      "Tier": "3-15",
+      "Parts": [
+        {"Part": "Refinery Gases", "Amount": "-30/10"},
+        {"Part": "Butane Gas", "Amount": "75/100"},
+        {"Part": "Butene Gas", "Amount": "75/100"}
+      ]
+    },
+    {
+      "Name": "Palladium Catalyst Refinery Gas Cracking",
+      "Machine": "Chemical Plant",
+      "BatchTime": "20",
+      "Tier": "3-19",
+      "Parts": [
+        {"Part": "Palladium Catalyst", "Amount": "-5"},
+        {"Part": "Refinery Gases", "Amount": "-125/10"},
+        {"Part": "Butane Gas", "Amount": "75/10"},
+        {"Part": "Syngas", "Amount": "40/30"},
+        {"Part": "Palladium Hydride", "Amount": "5"},
+        {"Part": "Palladium Catalyst", "Amount": "4"},
+        {"Part": "Catalyst Container", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Butene Cracking",
+      "Machine": "Washing Plant",
+      "BatchTime": "1",
+      "Tier": "3-16",
+      "Parts": [
+        {"Part": "Naptha", "Amount": "-5/10"},
+        {"Part": "Butene Gas", "Amount": "-10/10"},
+        {"Part": "Ethylene Gas", "Amount": "6/10"}
+      ]
+    },
+    {
+      "Name": "Butane Cracking",
+      "Machine": "Washing Plant",
+      "BatchTime": "1",
+      "Tier": "3-14",
+      "Parts": [
+        {"Part": "Naptha", "Amount": "-5/10"},
+        {"Part": "Butane Gas", "Amount": "-10/10"},
+        {"Part": "Ethylene Gas", "Amount": "18/10"},
+        {"Part": "Hydrogen Gas", "Amount": "45/100"}
+      ]
+    },
+    {
+      "Name": "Butene to Butane",
+      "Machine": "Chemical Plant",
+      "BatchTime": "2",
+      "Tier": "3-19",
+      "Parts": [
+        {"Part": "Nickel Plate", "Amount": "-3"},
+        {"Part": "Butene Gas", "Amount": "-15/10"},
+        {"Part": "Butane Gas", "Amount": "15/10"}
+      ]
+    },
+    {
+      "Name": "Ethylene Polymerisation",
+      "Machine": "Chemical Plant",
+      "BatchTime": "3",
+      "Tier": "3-16",
+      "Parts": [
+        {"Part": "Carbon", "Amount": "-2"},
+        {"Part": "Ethylene Gas", "Amount": "-6/10"},
+        {"Part": "Hydrogen Gas", "Amount": "-4/10"},
+        {"Part": "Plastic Pellets", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Polyethylene Plastic",
+      "Machine": "Chemical Plant",
+      "BatchTime": "2",
+      "Tier": "3-16",
+      "Parts": [
+        {"Part": "Plastic Pellets", "Amount": "-5"},
+        {"Part": "Naptha", "Amount": "-20/10"},
+        {"Part": "Polyethylene Plastic", "Amount": "1"}
+      ]
+    },
+    {
       "Name": "Resin",
       "Machine": "Assembling Machine",
       "BatchTime": "2",
@@ -1774,6 +4797,28 @@
         {"Part": "Wood Strips", "Amount": "-10"},
         {"Part": "Water", "Amount": "-75/10"},
         {"Part": "Resin", "Amount": "25/10"}
+      ]
+    },
+    {
+      "Name": "Packaged Resin",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Resin", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Resin", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Resin",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Packaged Resin", "Amount": "-1"},
+        {"Part": "Resin", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
       ]
     },
     {
@@ -1788,6 +4833,28 @@
       ]
     },
     {
+      "Name": "Packaged Phenolic Resin",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Phenolic Resin", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Phenolic Resin", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Phenolic Resin",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Packaged Phenolic Resin", "Amount": "-1"},
+        {"Part": "Phenolic Resin", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
       "Name": "Rubber Resin",
       "Machine": "Acid Plant",
       "BatchTime": "1",
@@ -1796,6 +4863,28 @@
         {"Part": "Carbon", "Amount": "-10"},
         {"Part": "Resin", "Amount": "-50/10"},
         {"Part": "Rubber Resin", "Amount": "50/10"}
+      ]
+    },
+    {
+      "Name": "Packaged Rubber Resin",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Rubber Resin", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Rubber Resin", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Rubber Resin",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Packaged Rubber Resin", "Amount": "-1"},
+        {"Part": "Rubber Resin", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
       ]
     },
     {
@@ -1915,6 +5004,54 @@
       ]
     },
     {
+      "Name": "Advanced Circuit Breadboard",
+      "Machine": "Assembling Machine",
+      "BatchTime": "6",
+      "Tier": "3-49",
+      "Parts": [
+        {"Part": "Fluid Resistant Breadboard", "Amount": "-1"},
+        {"Part": "Palladium Plate", "Amount": "-2"},
+        {"Part": "Platinum Plate", "Amount": "-2"},
+        {"Part": "Advanced Circuit Breadboard", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Advanced Integrated Circuits",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "3-49",
+      "Parts": [
+        {"Part": "Gold Wire", "Amount": "-2"},
+        {"Part": "Polyethylene Plastic", "Amount": "-1"},
+        {"Part": "Advanced Integrated Circuits", "Amount": "3"}
+      ]
+    },
+    {
+      "Name": "Solder",
+      "Machine": "Assembling Machine",
+      "BatchTime": "3",
+      "Tier": "3-48",
+      "Parts": [
+        {"Part": "Solder Case", "Amount": "-1"},
+        {"Part": "Solder Wire", "Amount": "-2"},
+        {"Part": "Solder", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Advanced Circuit",
+      "Machine": "Assembling Machine",
+      "BatchTime": "3",
+      "Tier": "3-49",
+      "Parts": [
+        {"Part": "Gold Wire", "Amount": "-3"},
+        {"Part": "Transistors", "Amount": "-5"},
+        {"Part": "Advanced Circuit Breadboard", "Amount": "-1"},
+        {"Part": "Advanced Integrated Circuits", "Amount": "-3"},
+        {"Part": "Solder", "Amount": "-1"},
+        {"Part": "Advanced Circuit", "Amount": "1"}
+      ]
+    },
+    {
       "Name": "Circuit Mold",
       "Machine": "Vacuum Former",
       "BatchTime": "3",
@@ -1973,8 +5110,33 @@
       ]
     },
     {
+      "Name": "Advanced Circuit Molding",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1",
+      "Tier": "3-50",
+      "Parts": [
+        {"Part": "Advanced Circuit Breadboard", "Amount": "-1"},
+        {"Part": "Circuit Mold", "Amount": "-1"},
+        {"Part": "Advanced Breadboard Mold", "Amount": "1"},
+        {"Part": "Advanced Circuit Breadboard", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Advanced Breadboard Molding",
+      "Machine": "Assembling Machine",
+      "BatchTime": "2",
+      "Tier": "3-50",
+      "Parts": [
+        {"Part": "Advanced Breadboard Mold", "Amount": "-2"},
+        {"Part": "Palladium Plate", "Amount": "-4"},
+        {"Part": "Platinum Plate", "Amount": "-4"},
+        {"Part": "Advanced Circuit Breadboard", "Amount": "4"},
+        {"Part": "Advanced Breadboard Mold", "Amount": "1"}
+      ]
+    },
+    {
       "Name": "Gunpowder",
-      "Machine": "Acid Plant",
+      "Machine": "Chemical Plant",
       "BatchTime": "3",
       "Tier": "2-19",
       "Parts": [
@@ -2021,8 +5183,21 @@
       ]
     },
     {
+      "Name": "Pulse Nobelisk",
+      "Machine": "Assembling Machine",
+      "BatchTime": "8",
+      "Tier": "3-65",
+      "Parts": [
+        {"Part": "Polyethylene Plastic", "Amount": "-5"},
+        {"Part": "Gunpowder", "Amount": "-4"},
+        {"Part": "Explosives", "Amount": "-8"},
+        {"Part": "Naptha", "Amount": "-6/10"},
+        {"Part": "Pulse Nobelisk", "Amount": "1"}
+      ]
+    },
+    {
       "Name": "Explosives",
-      "Machine": "Acid Plant",
+      "Machine": "Chemical Plant",
       "BatchTime": "4",
       "Tier": "2-19",
       "Parts": [
@@ -2069,6 +5244,37 @@
         {"Part": "Titanium Plate", "Amount": "-8"},
         {"Part": "Tungsten Plate", "Amount": "-8"},
         {"Part": "Advanced-Advanced Transition Metal Pack", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Reactive Non-Metals Pack",
+      "Machine": "Science Center",
+      "BatchTime": "6",
+      "Tier": "3-69",
+      "Parts": [
+        {"Part": "Science Bottle", "Amount": "-1"},
+        {"Part": "Carbon", "Amount": "-28"},
+        {"Part": "Sulfur", "Amount": "-14"},
+        {"Part": "Red Phosphorus", "Amount": "-7"},
+        {"Part": "Chlorine Gas", "Amount": "-28/10"},
+        {"Part": "Nitrogen Gas", "Amount": "-28/10"},
+        {"Part": "Reactive Non-Metals Pack", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Post-Transition Metal Pack",
+      "Machine": "Science Center",
+      "BatchTime": "6",
+      "Tier": "3-72",
+      "Parts": [
+        {"Part": "Science Bottle", "Amount": "-1"},
+        {"Part": "Aluminium Plate", "Amount": "-5"},
+        {"Part": "Tin Plate", "Amount": "-5"},
+        {"Part": "Bismuth Crystals", "Amount": "-3"},
+        {"Part": "Lead Plate", "Amount": "-6"},
+        {"Part": "Thallium Plate", "Amount": "-3"},
+        {"Part": "Liquid Gallium", "Amount": "-10/10"},
+        {"Part": "Post-Transition Metal Pack", "Amount": "1"}
       ]
     },
     {
@@ -2137,8 +5343,19 @@
       ]
     },
     {
+      "Name": "Chromic Pig Iron Separation",
+      "Machine": "Acid Plant",
+      "BatchTime": "2",
+      "Tier": "3-36",
+      "Parts": [
+        {"Part": "Pig Iron", "Amount": "-4"},
+        {"Part": "Chromic Acid", "Amount": "-2/10"},
+        {"Part": "Iron Ore", "Amount": "4"}
+      ]
+    },
+    {
       "Name": "Chunk Iron Plate",
-      "Machine": "Smelter",
+      "Machine": "Furnace",
       "BatchTime": "16/5",
       "Tier": "0-0",
       "Parts": [
@@ -2148,12 +5365,95 @@
     },
     {
       "Name": "Iron Plate",
-      "Machine": "Smelter",
+      "Machine": "Furnace",
       "BatchTime": "16/5",
       "Tier": "1-7",
       "Parts": [
         {"Part": "Iron Ore", "Amount": "-1"},
         {"Part": "Iron Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Molten Iron",
+      "Machine": "Molten-inator",
+      "BatchTime": "9",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Iron Plate", "Amount": "-10"},
+        {"Part": "Steam", "Amount": "-50/10"},
+        {"Part": "Molten Iron", "Amount": "5/10"}
+      ]
+    },
+    {
+      "Name": "Iron Plate Cooling",
+      "Machine": "Cold-inator",
+      "BatchTime": "45",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Crucible", "Amount": "-5"},
+        {"Part": "Molten Iron", "Amount": "-25/10"},
+        {"Part": "Iron Plate", "Amount": "50"},
+        {"Part": "Crucible", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Ferrous Waste Water",
+      "Machine": "Mixing Tank",
+      "BatchTime": "5",
+      "Tier": "3-5",
+      "Parts": [
+        {"Part": "Ferrum", "Amount": "-12"},
+        {"Part": "Sodium Hydroxide", "Amount": "-4/10"},
+        {"Part": "Water", "Amount": "-20/10"},
+        {"Part": "Ferrous Waste Water", "Amount": "15/10"}
+      ]
+    },
+    {
+      "Name": "Packaged Ferrous Waste Water",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Ferrous Waste Water", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Ferrous Waste Water", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Ferrous Waste Water",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Packaged Ferrous Waste Water", "Amount": "-1"},
+        {"Part": "Ferrous Waste Water", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Ferrous Waste Water Separation",
+      "Machine": "Chemical Plant",
+      "BatchTime": "60",
+      "Tier": "3-5",
+      "Parts": [
+        {"Part": "Ferrous Waste Water", "Amount": "-40/10"},
+        {"Part": "Manganese Ore", "Amount": "5"},
+        {"Part": "Iron Ore", "Amount": "8"},
+        {"Part": "Titanium Ore", "Amount": "4"},
+        {"Part": "Lead Ore", "Amount": "2"},
+        {"Part": "Silver Ore", "Amount": "5"}
+      ]
+    },
+    {
+      "Name": "Ferrous Waste Water Looping",
+      "Machine": "Mixing Tank",
+      "BatchTime": "10",
+      "Tier": "3-5",
+      "Parts": [
+        {"Part": "Ferrous Waste Water", "Amount": "-30/10"},
+        {"Part": "Water", "Amount": "-30/10"},
+        {"Part": "Ferrum", "Amount": "1"},
+        {"Part": "Water", "Amount": "35/10"}
       ]
     },
     {
@@ -2189,8 +5489,19 @@
       ]
     },
     {
+      "Name": "Chromic Crude Matte Copper Leeching",
+      "Machine": "Acid Plant",
+      "BatchTime": "2",
+      "Tier": "3-36",
+      "Parts": [
+        {"Part": "Crude Matte Copper", "Amount": "-4"},
+        {"Part": "Chromic Acid", "Amount": "-2/10"},
+        {"Part": "Copper Ore", "Amount": "4"}
+      ]
+    },
+    {
       "Name": "Chunk Copper Plate",
-      "Machine": "Smelter",
+      "Machine": "Furnace",
       "BatchTime": "16/5",
       "Tier": "0-2",
       "Parts": [
@@ -2200,12 +5511,120 @@
     },
     {
       "Name": "Copper Plate",
-      "Machine": "Smelter",
+      "Machine": "Furnace",
       "BatchTime": "16/5",
       "Tier": "1-7",
       "Parts": [
         {"Part": "Copper Ore", "Amount": "-1"},
         {"Part": "Copper Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Molten Copper",
+      "Machine": "Molten-inator",
+      "BatchTime": "9",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Copper Plate", "Amount": "-10"},
+        {"Part": "Steam", "Amount": "-50/10"},
+        {"Part": "Molten Copper", "Amount": "5/10"}
+      ]
+    },
+    {
+      "Name": "Copper Plate Cooling",
+      "Machine": "Cold-inator",
+      "BatchTime": "45",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Crucible", "Amount": "-5"},
+        {"Part": "Molten Copper", "Amount": "-25/10"},
+        {"Part": "Copper Plate", "Amount": "50"},
+        {"Part": "Crucible", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Cupric Waste Water",
+      "Machine": "Mixing Tank",
+      "BatchTime": "5",
+      "Tier": "3-5",
+      "Parts": [
+        {"Part": "Ferrum", "Amount": "-12"},
+        {"Part": "Sodium Hydroxide", "Amount": "-4/10"},
+        {"Part": "Water", "Amount": "-20/10"},
+        {"Part": "Cupric Waste Water", "Amount": "15/10"}
+      ]
+    },
+    {
+      "Name": "Packaged Cupric Waste Water",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Cupric Waste Water", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Cupric Waste Water", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Cupric Waste Water",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Packaged Cupric Waste Water", "Amount": "-1"},
+        {"Part": "Cupric Waste Water", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Cupric Waste Water Separation",
+      "Machine": "Chemical Plant",
+      "BatchTime": "60",
+      "Tier": "3-5",
+      "Parts": [
+        {"Part": "Cupric Waste Water", "Amount": "-40/10"},
+        {"Part": "Gold Ore", "Amount": "5"},
+        {"Part": "Copper Ore", "Amount": "8"},
+        {"Part": "Palladium Ore", "Amount": "3"},
+        {"Part": "Platinum Ore", "Amount": "3"},
+        {"Part": "Indium Ore", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Cupric Waste Water Looping",
+      "Machine": "Mixing Tank",
+      "BatchTime": "10",
+      "Tier": "3-5",
+      "Parts": [
+        {"Part": "Cupric Waste Water", "Amount": "-30/10"},
+        {"Part": "Water", "Amount": "-30/10"},
+        {"Part": "Ferrum", "Amount": "1"},
+        {"Part": "Water", "Amount": "35/10"}
+      ]
+    },
+    {
+      "Name": "Copper Chunk Frothing",
+      "Machine": "Washing Plant",
+      "BatchTime": "2",
+      "Tier": "3-37",
+      "Parts": [
+        {"Part": "Copper Chunk", "Amount": "-8"},
+        {"Part": "Water", "Amount": "-25/10"},
+        {"Part": "Acidic Water", "Amount": "-10/10"},
+        {"Part": "Copper Froth", "Amount": "5/10"},
+        {"Part": "Copper Tailings", "Amount": "10/10"}
+      ]
+    },
+    {
+      "Name": "Copper Tailings Looping",
+      "Machine": "Mixing Tank",
+      "BatchTime": "1",
+      "Tier": "3-37",
+      "Parts": [
+        {"Part": "Copper Tailings", "Amount": "-10/10"},
+        {"Part": "Acidic Water", "Amount": "-5/10"},
+        {"Part": "Copper Tailings", "Amount": "5/10"},
+        {"Part": "Copper Froth", "Amount": "35/100"}
       ]
     },
     {
@@ -2240,8 +5659,19 @@
       ]
     },
     {
+      "Name": "Chromic Nickel Powder Leeching",
+      "Machine": "Acid Plant",
+      "BatchTime": "2",
+      "Tier": "3-36",
+      "Parts": [
+        {"Part": "Nickel Powder", "Amount": "-4"},
+        {"Part": "Chromic Acid", "Amount": "-2/10"},
+        {"Part": "Nickel Ore", "Amount": "2"}
+      ]
+    },
+    {
       "Name": "Chunk Nickel Plate",
-      "Machine": "Smelter",
+      "Machine": "Furnace",
       "BatchTime": "16/5",
       "Tier": "0-4",
       "Parts": [
@@ -2251,12 +5681,82 @@
     },
     {
       "Name": "Nickel Plate",
-      "Machine": "Smelter",
+      "Machine": "Furnace",
       "BatchTime": "16/5",
       "Tier": "1-7",
       "Parts": [
         {"Part": "Nickel Ore", "Amount": "-1"},
         {"Part": "Nickel Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Molten Nickel",
+      "Machine": "Molten-inator",
+      "BatchTime": "9",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Nickel Plate", "Amount": "-10"},
+        {"Part": "Steam", "Amount": "-50/10"},
+        {"Part": "Molten Nickel", "Amount": "5/10"}
+      ]
+    },
+    {
+      "Name": "Nickel Plate Cooling",
+      "Machine": "Cold-inator",
+      "BatchTime": "45",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Crucible", "Amount": "-5"},
+        {"Part": "Molten Nickel", "Amount": "-25/10"},
+        {"Part": "Nickel Plate", "Amount": "50"},
+        {"Part": "Crucible", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Nickel Powder Frothing",
+      "Machine": "Washing Plant",
+      "BatchTime": "2",
+      "Tier": "3-20",
+      "Parts": [
+        {"Part": "Nickel Powder", "Amount": "-12"},
+        {"Part": "Water", "Amount": "-25/10"},
+        {"Part": "Sulfuric Acid", "Amount": "-4/10"},
+        {"Part": "Nickel Froth", "Amount": "5/10"},
+        {"Part": "Nickel Tailings", "Amount": "10/10"}
+      ]
+    },
+    {
+      "Name": "Nickel Tailings Looping",
+      "Machine": "Mixing Tank",
+      "BatchTime": "1",
+      "Tier": "3-20",
+      "Parts": [
+        {"Part": "Nickel Tailings", "Amount": "-10/10"},
+        {"Part": "Sulfuric Acid", "Amount": "-2/10"},
+        {"Part": "Nickel Tailings", "Amount": "5/10"},
+        {"Part": "Nickel Froth", "Amount": "45/100"}
+      ]
+    },
+    {
+      "Name": "Packaged Nickel Tailings",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-20",
+      "Parts": [
+        {"Part": "Nickel Tailings", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Nickel Tailings", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Nickel Tailings",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-20",
+      "Parts": [
+        {"Part": "Packaged Nickel Tailings", "Amount": "-1"},
+        {"Part": "Nickel Tailings", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
       ]
     },
     {
@@ -2291,8 +5791,19 @@
       ]
     },
     {
+      "Name": "Chromic Zinc Powder Leeching",
+      "Machine": "Acid Plant",
+      "BatchTime": "2",
+      "Tier": "3-36",
+      "Parts": [
+        {"Part": "Zinc Powder", "Amount": "-4"},
+        {"Part": "Chromic Acid", "Amount": "-2/10"},
+        {"Part": "Zinc Ore", "Amount": "2"}
+      ]
+    },
+    {
       "Name": "Chunk Zinc Plate",
-      "Machine": "Smelter",
+      "Machine": "Furnace",
       "BatchTime": "16/5",
       "Tier": "0-4",
       "Parts": [
@@ -2302,7 +5813,7 @@
     },
     {
       "Name": "Zinc Plate",
-      "Machine": "Smelter",
+      "Machine": "Furnace",
       "BatchTime": "16/5",
       "Tier": "1-7",
       "Parts": [
@@ -2311,7 +5822,42 @@
       ]
     },
     {
-      "Name": "Transition Managanese Leeching",
+      "Name": "Molten Zinc",
+      "Machine": "Molten-inator",
+      "BatchTime": "9",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Zinc Plate", "Amount": "-10"},
+        {"Part": "Steam", "Amount": "-50/10"},
+        {"Part": "Molten Zinc", "Amount": "5/10"}
+      ]
+    },
+    {
+      "Name": "Zinc Plate Cooling",
+      "Machine": "Cold-inator",
+      "BatchTime": "45",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Crucible", "Amount": "-5"},
+        {"Part": "Molten Zinc", "Amount": "-25/10"},
+        {"Part": "Zinc Plate", "Amount": "50"},
+        {"Part": "Crucible", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Zinc Powder Separation",
+      "Machine": "Molten-inator",
+      "BatchTime": "4",
+      "Tier": "3-54",
+      "Parts": [
+        {"Part": "Zinc Powder", "Amount": "-12"},
+        {"Part": "Sulfur", "Amount": "-3"},
+        {"Part": "Steam", "Amount": "-25/10"},
+        {"Part": "Zinc Tailings", "Amount": "10/10"}
+      ]
+    },
+    {
+      "Name": "Transition Manganese Leeching",
       "Machine": "Acid Plant",
       "BatchTime": "4",
       "Tier": "1-13",
@@ -2323,13 +5869,48 @@
       ]
     },
     {
+      "Name": "Chromic Transition Manganese Leeching",
+      "Machine": "Acid Plant",
+      "BatchTime": "2",
+      "Tier": "3-36",
+      "Parts": [
+        {"Part": "Transition Metals Ore", "Amount": "-12"},
+        {"Part": "Chromic Acid", "Amount": "-2/10"},
+        {"Part": "Manganese Ore", "Amount": "8"},
+        {"Part": "Ferrum", "Amount": "1"}
+      ]
+    },
+    {
       "Name": "Manganese Plate",
-      "Machine": "Smelter",
+      "Machine": "Furnace",
       "BatchTime": "16/5",
       "Tier": "1-13",
       "Parts": [
         {"Part": "Manganese Ore", "Amount": "-1"},
         {"Part": "Manganese Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Molten Manganese",
+      "Machine": "Molten-inator",
+      "BatchTime": "9",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Manganese Plate", "Amount": "-10"},
+        {"Part": "Steam", "Amount": "-50/10"},
+        {"Part": "Molten Manganese", "Amount": "5/10"}
+      ]
+    },
+    {
+      "Name": "Manganese Plate Cooling",
+      "Machine": "Cold-inator",
+      "BatchTime": "45",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Crucible", "Amount": "-5"},
+        {"Part": "Molten Manganese", "Amount": "-25/10"},
+        {"Part": "Manganese Plate", "Amount": "50"},
+        {"Part": "Crucible", "Amount": "4"}
       ]
     },
     {
@@ -2340,6 +5921,17 @@
       "Parts": [
         {"Part": "Transition Metals Ore", "Amount": "-12"},
         {"Part": "Acidic Water", "Amount": "-8/10"},
+        {"Part": "Mercury Ore", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Chromic Mercury Ore Leeching",
+      "Machine": "Acid Plant",
+      "BatchTime": "2",
+      "Tier": "3-36",
+      "Parts": [
+        {"Part": "Transition Metals Ore", "Amount": "-12"},
+        {"Part": "Chromic Acid", "Amount": "-5/10"},
         {"Part": "Mercury Ore", "Amount": "8"}
       ]
     },
@@ -2367,6 +5959,48 @@
       ]
     },
     {
+      "Name": "Packaged Liquid Mercury",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Liquid Mercury", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Liquid Mercury", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Liquid Mercury",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Packaged Liquid Mercury", "Amount": "-1"},
+        {"Part": "Liquid Mercury", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Solid Mercury",
+      "Machine": "Cold-inator",
+      "BatchTime": "3",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Liquid Mercury", "Amount": "-10/10"},
+        {"Part": "Solid Mercury", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Solid Mercury Melting",
+      "Machine": "Molten-inator",
+      "BatchTime": "3",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Solid Mercury", "Amount": "-1"},
+        {"Part": "Liquid Mercury", "Amount": "10/10"}
+      ]
+    },
+    {
       "Name": "Mercury Vapour Condensing",
       "Machine": "Acid Plant",
       "BatchTime": "4",
@@ -2384,6 +6018,17 @@
       "Parts": [
         {"Part": "Transition Metals Ore", "Amount": "-12"},
         {"Part": "Hydrochloric Acid", "Amount": "-20/10"},
+        {"Part": "Molybdenite", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Chromic Molybdenum Leeching",
+      "Machine": "Acid Plant",
+      "BatchTime": "2",
+      "Tier": "3-36",
+      "Parts": [
+        {"Part": "Transition Metals Ore", "Amount": "-12"},
+        {"Part": "Chromic Acid", "Amount": "-10/10"},
         {"Part": "Molybdenite", "Amount": "8"}
       ]
     },
@@ -2422,6 +6067,17 @@
       ]
     },
     {
+      "Name": "Chromic Gold Leeching",
+      "Machine": "Acid Plant",
+      "BatchTime": "2",
+      "Tier": "3-36",
+      "Parts": [
+        {"Part": "Transition Metals Ore", "Amount": "-12"},
+        {"Part": "Chromic Acid", "Amount": "-5/10"},
+        {"Part": "Gold Chunk", "Amount": "5"}
+      ]
+    },
+    {
       "Name": "Gold Ore",
       "Machine": "Acid Plant",
       "BatchTime": "2",
@@ -2435,12 +6091,35 @@
     },
     {
       "Name": "Gold Plate",
-      "Machine": "Smelter",
+      "Machine": "Furnace",
       "BatchTime": "16/5",
       "Tier": "1-11",
       "Parts": [
         {"Part": "Gold Ore", "Amount": "-1"},
         {"Part": "Gold Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Molten Gold",
+      "Machine": "Molten-inator",
+      "BatchTime": "9",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Gold Plate", "Amount": "-10"},
+        {"Part": "Steam", "Amount": "-50/10"},
+        {"Part": "Molten Gold", "Amount": "5/10"}
+      ]
+    },
+    {
+      "Name": "Gold Plate Cooling",
+      "Machine": "Cold-inator",
+      "BatchTime": "45",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Crucible", "Amount": "-5"},
+        {"Part": "Molten Gold", "Amount": "-25/10"},
+        {"Part": "Gold Plate", "Amount": "50"},
+        {"Part": "Crucible", "Amount": "4"}
       ]
     },
     {
@@ -2451,6 +6130,17 @@
       "Parts": [
         {"Part": "Transition Metals Ore", "Amount": "-12"},
         {"Part": "Hydrochloric Acid", "Amount": "-10/10"},
+        {"Part": "Silver Chunk", "Amount": "5"}
+      ]
+    },
+    {
+      "Name": "Chromic Silver Leeching",
+      "Machine": "Acid Plant",
+      "BatchTime": "2",
+      "Tier": "3-36",
+      "Parts": [
+        {"Part": "Transition Metals Ore", "Amount": "-12"},
+        {"Part": "Chromic Acid", "Amount": "-5/10"},
         {"Part": "Silver Chunk", "Amount": "5"}
       ]
     },
@@ -2468,12 +6158,35 @@
     },
     {
       "Name": "Silver Plate",
-      "Machine": "Smelter",
+      "Machine": "Furnace",
       "BatchTime": "16/5",
       "Tier": "1-11",
       "Parts": [
         {"Part": "Silver Ore", "Amount": "-1"},
         {"Part": "Silver Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Molten Silver",
+      "Machine": "Molten-inator",
+      "BatchTime": "9",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Silver Plate", "Amount": "-10"},
+        {"Part": "Steam", "Amount": "-50/10"},
+        {"Part": "Molten Silver", "Amount": "5/10"}
+      ]
+    },
+    {
+      "Name": "Silver Plate Cooling",
+      "Machine": "Cold-inator",
+      "BatchTime": "45",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Crucible", "Amount": "-5"},
+        {"Part": "Molten Silver", "Amount": "-25/10"},
+        {"Part": "Silver Plate", "Amount": "50"},
+        {"Part": "Crucible", "Amount": "4"}
       ]
     },
     {
@@ -2484,6 +6197,17 @@
       "Parts": [
         {"Part": "Transition Metals Ore", "Amount": "-12"},
         {"Part": "Hydrochloric Acid", "Amount": "-20/10"},
+        {"Part": "Titanium Chunk", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Chromic Titanium Leeching",
+      "Machine": "Acid Plant",
+      "BatchTime": "4",
+      "Tier": "3-36",
+      "Parts": [
+        {"Part": "Transition Metals Ore", "Amount": "-12"},
+        {"Part": "Chromic Acid", "Amount": "-10/10"},
         {"Part": "Titanium Chunk", "Amount": "8"}
       ]
     },
@@ -2524,12 +6248,35 @@
     },
     {
       "Name": "Titanium Plate",
-      "Machine": "Smelter",
+      "Machine": "Furnace",
       "BatchTime": "16/5",
       "Tier": "2-25",
       "Parts": [
         {"Part": "Titanium Ore", "Amount": "-1"},
         {"Part": "Titanium Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Molten Titanium",
+      "Machine": "Molten-inator",
+      "BatchTime": "9",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Titanium Plate", "Amount": "-10"},
+        {"Part": "Steam", "Amount": "-50/10"},
+        {"Part": "Molten Titanium", "Amount": "5/10"}
+      ]
+    },
+    {
+      "Name": "Titanium Plate Cooling",
+      "Machine": "Cold-inator",
+      "BatchTime": "45",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Crucible", "Amount": "-5"},
+        {"Part": "Molten Titanium", "Amount": "-25/10"},
+        {"Part": "Titanium Plate", "Amount": "50"},
+        {"Part": "Crucible", "Amount": "4"}
       ]
     },
     {
@@ -2540,6 +6287,17 @@
       "Parts": [
         {"Part": "Transition Metals Ore", "Amount": "-12"},
         {"Part": "Hydrochloric Acid", "Amount": "-20/10"},
+        {"Part": "Tungsten Chunk", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Chromic Tungsten Leeching",
+      "Machine": "Acid Plant",
+      "BatchTime": "4",
+      "Tier": "3-36",
+      "Parts": [
+        {"Part": "Transition Metals Ore", "Amount": "-12"},
+        {"Part": "Chromic Acid", "Amount": "-10/10"},
         {"Part": "Tungsten Chunk", "Amount": "8"}
       ]
     },
@@ -2578,12 +6336,1051 @@
     },
     {
       "Name": "Tungsten Plate",
-      "Machine": "Smelter",
+      "Machine": "Furnace",
       "BatchTime": "16/5",
       "Tier": "2-25",
       "Parts": [
         {"Part": "Tungsten Ore", "Amount": "-1"},
         {"Part": "Tungsten Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Molten Tungsten",
+      "Machine": "Molten-inator",
+      "BatchTime": "9",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Tungsten Plate", "Amount": "-10"},
+        {"Part": "Steam", "Amount": "-50/10"},
+        {"Part": "Molten Tungsten", "Amount": "5/10"}
+      ]
+    },
+    {
+      "Name": "Tungsten Plate Cooling",
+      "Machine": "Cold-inator",
+      "BatchTime": "45",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Crucible", "Amount": "-5"},
+        {"Part": "Molten Tungsten", "Amount": "-25/10"},
+        {"Part": "Tungsten Plate", "Amount": "50"},
+        {"Part": "Crucible", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Zirconium Sand",
+      "Machine": "Acid Plant",
+      "BatchTime": "9",
+      "Tier": "3-32",
+      "Parts": [
+        {"Part": "Transition Metals Ore", "Amount": "-12"},
+        {"Part": "Seawater", "Amount": "-20/10"},
+        {"Part": "Acidic Water", "Amount": "-25/10"},
+        {"Part": "Zirconium Sand", "Amount": "8"},
+        {"Part": "Water", "Amount": "7/10"}
+      ]
+    },
+    {
+      "Name": "Zircon",
+      "Machine": "Evaporator",
+      "BatchTime": "9",
+      "Tier": "3-32",
+      "Parts": [
+        {"Part": "Zirconium Sand", "Amount": "-8"},
+        {"Part": "Zircon", "Amount": "4"},
+        {"Part": "Sand", "Amount": "5"},
+        {"Part": "Titanium Ore", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Zirconia",
+      "Machine": "Assembling Machine",
+      "BatchTime": "9",
+      "Tier": "3-32",
+      "Parts": [
+        {"Part": "Coke", "Amount": "-3"},
+        {"Part": "Zircon", "Amount": "-8"},
+        {"Part": "Zirconia", "Amount": "6"}
+      ]
+    },
+    {
+      "Name": "Sand-Based Creosote",
+      "Machine": "Assembling Machine",
+      "BatchTime": "2",
+      "Tier": "3-32",
+      "Parts": [
+        {"Part": "Wood", "Amount": "-4"},
+        {"Part": "Sand", "Amount": "-10"},
+        {"Part": "Seawater", "Amount": "-100/10"},
+        {"Part": "Creosote", "Amount": "40/10"}
+      ]
+    },
+    {
+      "Name": "Bitumen-Based Creosote",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1",
+      "Tier": "3-11",
+      "Parts": [
+        {"Part": "Bitumen", "Amount": "-5"},
+        {"Part": "Wood", "Amount": "-2"},
+        {"Part": "Seawater", "Amount": "-100/10"},
+        {"Part": "Creosote", "Amount": "40/10"}
+      ]
+    },
+    {
+      "Name": "Zinc Tailings Condensing",
+      "Machine": "Cold-inator",
+      "BatchTime": "2",
+      "Tier": "3-54",
+      "Parts": [
+        {"Part": "Zinc Tailings", "Amount": "-10/10"},
+        {"Part": "Cadmium Sulfate", "Amount": "2"},
+        {"Part": "Zinc Chunk", "Amount": "1"},
+        {"Part": "Patina", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Cadmium Ore",
+      "Machine": "Electrolysis Plant",
+      "BatchTime": "4",
+      "Tier": "3-54",
+      "Parts": [
+        {"Part": "Zinc Plate", "Amount": "-8"},
+        {"Part": "Cadmium Sulfate", "Amount": "-8"},
+        {"Part": "Carbon", "Amount": "-8"},
+        {"Part": "Cadmium Ore", "Amount": "7"},
+        {"Part": "Sulfur", "Amount": "5"}
+      ]
+    },
+    {
+      "Name": "Cadmium Plate",
+      "Machine": "Furnace",
+      "BatchTime": "16/5",
+      "Tier": "3-54",
+      "Parts": [
+        {"Part": "Cadmium Ore", "Amount": "-1"},
+        {"Part": "Cadmium Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Molten Cadmium",
+      "Machine": "Molten-inator",
+      "BatchTime": "9",
+      "Tier": "3-54",
+      "Parts": [
+        {"Part": "Cadmium Plate", "Amount": "-10"},
+        {"Part": "Steam", "Amount": "-50/10"},
+        {"Part": "Molten Cadmium", "Amount": "5/10"}
+      ]
+    },
+    {
+      "Name": "Cadmium Plate Cooling",
+      "Machine": "Cold-inator",
+      "BatchTime": "45",
+      "Tier": "3-54",
+      "Parts": [
+        {"Part": "Crucible", "Amount": "-5"},
+        {"Part": "Molten Cadmium", "Amount": "-25/10"},
+        {"Part": "Cadmium Plate", "Amount": "50"},
+        {"Part": "Crucible", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Copper Froth Separation",
+      "Machine": "Molten-inator",
+      "BatchTime": "12",
+      "Tier": "3-37",
+      "Parts": [
+        {"Part": "Coke", "Amount": "-3"},
+        {"Part": "Sand", "Amount": "-5"},
+        {"Part": "Copper Froth", "Amount": "-10/10"},
+        {"Part": "Cobalt Blue", "Amount": "4"},
+        {"Part": "Cobaltite (CoAsS)", "Amount": "1"},
+        {"Part": "Copper Chunk", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Cobalt Blue Separation",
+      "Machine": "Crusher",
+      "BatchTime": "3",
+      "Tier": "3-37",
+      "Parts": [
+        {"Part": "Cobalt Blue", "Amount": "-4"},
+        {"Part": "Cobalt Ore", "Amount": "2"},
+        {"Part": "Aluminium Ore", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Cobaltite Washing",
+      "Machine": "Mixing Tank",
+      "BatchTime": "6",
+      "Tier": "3-37",
+      "Parts": [
+        {"Part": "Cobaltite (CoAsS)", "Amount": "-6"},
+        {"Part": "Water", "Amount": "-25/10"},
+        {"Part": "Sodium Hydroxide", "Amount": "-5/10"},
+        {"Part": "Ferrous Waste Water", "Amount": "1875/1000"},
+        {"Part": "Sulfuric Waste Water", "Amount": "1875/1000"}
+      ]
+    },
+    {
+      "Name": "Cobalt Plate",
+      "Machine": "Furnace",
+      "BatchTime": "16/5",
+      "Tier": "3-37",
+      "Parts": [
+        {"Part": "Cobalt Ore", "Amount": "-1"},
+        {"Part": "Cobalt Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Molten Cobalt",
+      "Machine": "Molten-inator",
+      "BatchTime": "9",
+      "Tier": "3-37",
+      "Parts": [
+        {"Part": "Cobalt Plate", "Amount": "-10"},
+        {"Part": "Steam", "Amount": "-50/10"},
+        {"Part": "Molten Cobalt", "Amount": "5/10"}
+      ]
+    },
+    {
+      "Name": "Cobalt Plate Cooling",
+      "Machine": "Cold-inator",
+      "BatchTime": "45",
+      "Tier": "3-37",
+      "Parts": [
+        {"Part": "Crucible", "Amount": "-5"},
+        {"Part": "Molten Cobalt", "Amount": "-25/10"},
+        {"Part": "Cobalt Plate", "Amount": "50"},
+        {"Part": "Crucible", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Packaged Low-Sulfur Residuals",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-11",
+      "Parts": [
+        {"Part": "Low-Sulfur Residuals", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Low-Sulfur Residuals", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Low-Sulfur Residuals",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-11",
+      "Parts": [
+        {"Part": "Packaged Low-Sulfur Residuals", "Amount": "-1"},
+        {"Part": "Low-Sulfur Residuals", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Low-Sulfur Residuals Filtering",
+      "Machine": "Chemical Plant",
+      "BatchTime": "12",
+      "Tier": "3-11",
+      "Parts": [
+        {"Part": "Molybdenum Disulfide", "Amount": "-4"},
+        {"Part": "Low-Sulfur Residuals", "Amount": "-12/10"},
+        {"Part": "Vanadium Ore", "Amount": "5"},
+        {"Part": "Syngas", "Amount": "55/100"},
+        {"Part": "Sulfur", "Amount": "7"},
+        {"Part": "Bitumen", "Amount": "6"}
+      ]
+    },
+    {
+      "Name": "Magnetite Forming",
+      "Machine": "Molten-inator",
+      "BatchTime": "9",
+      "Tier": "3-40",
+      "Parts": [
+        {"Part": "Bitumen", "Amount": "-3"},
+        {"Part": "Vanadium-Oxide", "Amount": "-2"},
+        {"Part": "Ferrum", "Amount": "-6"},
+        {"Part": "Magnetite", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Ferrovanadium",
+      "Machine": "Chemical Plant",
+      "BatchTime": "6",
+      "Tier": "3-40",
+      "Parts": [
+        {"Part": "Magnetite", "Amount": "-2"},
+        {"Part": "Oxygen Gas", "Amount": "-6/10"},
+        {"Part": "Ferrovanadium", "Amount": "4"},
+        {"Part": "Iron Ore", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Vanadate Solution",
+      "Machine": "Washing Plant",
+      "BatchTime": "3",
+      "Tier": "3-40",
+      "Parts": [
+        {"Part": "Ferrovanadium", "Amount": "-2"},
+        {"Part": "Sulfuric Acid", "Amount": "-5/10"},
+        {"Part": "Chlorine Gas", "Amount": "-10/10"},
+        {"Part": "Vanadate Solution", "Amount": "5/10"}
+      ]
+    },
+    {
+      "Name": "Vanadate Solution Separation",
+      "Machine": "Cold-inator",
+      "BatchTime": "9",
+      "Tier": "3-40",
+      "Parts": [
+        {"Part": "Vanadate Solution", "Amount": "-5/10"},
+        {"Part": "Vanadium Ore", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Packaged High-Sulfur Residuals",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-11",
+      "Parts": [
+        {"Part": "High-Sulfur Residuals", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged High-Sulfur Residuals", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage High-Sulfur Residuals",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-11",
+      "Parts": [
+        {"Part": "Packaged High-Sulfur Residuals", "Amount": "-1"},
+        {"Part": "High-Sulfur Residuals", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "High-Sulfur Residuals Filtering",
+      "Machine": "Chemical Plant",
+      "BatchTime": "12",
+      "Tier": "3-11",
+      "Parts": [
+        {"Part": "Molybdenum Disulfide", "Amount": "-4"},
+        {"Part": "High-Sulfur Residuals", "Amount": "-12/10"},
+        {"Part": "Chromium Ore", "Amount": "5"},
+        {"Part": "Sulfur", "Amount": "15"},
+        {"Part": "Bitumen", "Amount": "2"},
+        {"Part": "Hydrogen Sulfide", "Amount": "105/100"}
+      ]
+    },
+    {
+      "Name": "Chromite",
+      "Machine": "Acid Plant",
+      "BatchTime": "4",
+      "Tier": "3-35",
+      "Parts": [
+        {"Part": "Transition Metals Ore", "Amount": "-12"},
+        {"Part": "Acidic Water", "Amount": "-25/10"},
+        {"Part": "Chromite", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Chromic Chromium Leeching",
+      "Machine": "Acid Plant",
+      "BatchTime": "4",
+      "Tier": "3-36",
+      "Parts": [
+        {"Part": "Transition Metals Ore", "Amount": "-12"},
+        {"Part": "Chromic Acid", "Amount": "-10/10"},
+        {"Part": "Chromite", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Ferrochromium",
+      "Machine": "Molten-inator",
+      "BatchTime": "2",
+      "Tier": "3-35",
+      "Parts": [
+        {"Part": "Chromite", "Amount": "-2"},
+        {"Part": "Carbon", "Amount": "-6"},
+        {"Part": "Steam", "Amount": "-20/10"},
+        {"Part": "Ferrochromium", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Chromium Ore",
+      "Machine": "Cold-inator",
+      "BatchTime": "4",
+      "Tier": "3-35",
+      "Parts": [
+        {"Part": "Ferrochromium", "Amount": "-8"},
+        {"Part": "Calcium Ore", "Amount": "-4"},
+        {"Part": "Chromium Ore", "Amount": "6"},
+        {"Part": "Ferrum", "Amount": "3"}
+      ]
+    },
+    {
+      "Name": "Chromic Acid",
+      "Machine": "Acid Plant",
+      "BatchTime": "2",
+      "Tier": "3-35",
+      "Parts": [
+        {"Part": "Chromium Ore", "Amount": "-12"},
+        {"Part": "Sodium", "Amount": "-10"},
+        {"Part": "Sulfuric Acid", "Amount": "-10/10"},
+        {"Part": "Chromic Acid", "Amount": "100/10"}
+      ]
+    },
+    {
+      "Name": "Chromic Acid Neutralisation",
+      "Machine": "Chemical Plant",
+      "BatchTime": "2",
+      "Tier": "3-39",
+      "Parts": [
+        {"Part": "Sodium Sulfite", "Amount": "-6"},
+        {"Part": "Chromic Acid", "Amount": "-20/10"},
+        {"Part": "Water", "Amount": "-25/10"},
+        {"Part": "Chromium Ore", "Amount": "5"},
+        {"Part": "Sulfur Dioxide", "Amount": "115/100"},
+        {"Part": "Carbon Dioxide Gas", "Amount": "68/100"}
+      ]
+    },
+    {
+      "Name": "Low Quality Diesel Cracking",
+      "Machine": "Washing Plant",
+      "BatchTime": "4",
+      "Tier": "3-18",
+      "Parts": [
+        {"Part": "Low Quality Diesel", "Amount": "-12/10"},
+        {"Part": "Steam", "Amount": "-40/10"},
+        {"Part": "Palladium Ore", "Amount": "6"},
+        {"Part": "Bitumen", "Amount": "3"},
+        {"Part": "Syngas", "Amount": "5/10"},
+        {"Part": "Water", "Amount": "38/100"}
+      ]
+    },
+    {
+      "Name": "Palladium Hydride Washing",
+      "Machine": "Washing Plant",
+      "BatchTime": "4",
+      "Tier": "3-19",
+      "Parts": [
+        {"Part": "Palladium Hydride", "Amount": "-8"},
+        {"Part": "Palladium Ore", "Amount": "4"},
+        {"Part": "Hydrogen Gas", "Amount": "3/10"}
+      ]
+    },
+    {
+      "Name": "Palladium-Based Nickel Froth Separation",
+      "Machine": "Molten-inator",
+      "BatchTime": "256/10",
+      "Tier": "3-20",
+      "Parts": [
+        {"Part": "Coke", "Amount": "-12"},
+        {"Part": "Sand", "Amount": "-20"},
+        {"Part": "Nickel Froth", "Amount": "-40/10"},
+        {"Part": "Palladium Ore", "Amount": "16"},
+        {"Part": "Nickel Chunk", "Amount": "12"},
+        {"Part": "Patina", "Amount": "7"}
+      ]
+    },
+    {
+      "Name": "Palladium Plate",
+      "Machine": "Furnace",
+      "BatchTime": "16/5",
+      "Tier": "3-19",
+      "Parts": [
+        {"Part": "Palladium Ore", "Amount": "-1"},
+        {"Part": "Palladium Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Molten Palladium",
+      "Machine": "Molten-inator",
+      "BatchTime": "9",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Palladium Plate", "Amount": "-10"},
+        {"Part": "Steam", "Amount": "-50/10"},
+        {"Part": "Molten Palladium", "Amount": "5/10"}
+      ]
+    },
+    {
+      "Name": "Palladium Plate Cooling",
+      "Machine": "Cold-inator",
+      "BatchTime": "45",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Crucible", "Amount": "-5"},
+        {"Part": "Molten Palladium", "Amount": "-25/10"},
+        {"Part": "Palladium Plate", "Amount": "50"},
+        {"Part": "Crucible", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Platinum-Based Nickel Froth Separation",
+      "Machine": "Molten-inator",
+      "BatchTime": "32",
+      "Tier": "3-43",
+      "Parts": [
+        {"Part": "Coke", "Amount": "-12"},
+        {"Part": "Sand", "Amount": "-20"},
+        {"Part": "Nickel Froth", "Amount": "-40/10"},
+        {"Part": "Platinum Powder", "Amount": "32"},
+        {"Part": "Nickel Chunk", "Amount": "12"},
+        {"Part": "Ferrum", "Amount": "7"}
+      ]
+    },
+    {
+      "Name": "Ammonium Chloride",
+      "Machine": "Chemical Plant",
+      "BatchTime": "3",
+      "Tier": "3-44",
+      "Parts": [
+        {"Part": "Ammonia Gas", "Amount": "-10/10"},
+        {"Part": "Hydrochloric Acid", "Amount": "-20/10"},
+        {"Part": "Ammonium Chloride", "Amount": "10"}
+      ]
+    },
+    {
+      "Name": "Platinum Powder Separation",
+      "Machine": "Acid Plant",
+      "BatchTime": "6",
+      "Tier": "3-43",
+      "Parts": [
+        {"Part": "Platinum Powder", "Amount": "-4"},
+        {"Part": "Hydrochloric Acid", "Amount": "-20/10"},
+        {"Part": "Platinum Ore", "Amount": "2"},
+        {"Part": "Ammonium Chloride", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Platinum Plate",
+      "Machine": "Furnace",
+      "BatchTime": "16/5",
+      "Tier": "3-19",
+      "Parts": [
+        {"Part": "Platinum Ore", "Amount": "-1"},
+        {"Part": "Platinum Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Molten Platinum",
+      "Machine": "Molten-inator",
+      "BatchTime": "9",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Platinum Plate", "Amount": "-10"},
+        {"Part": "Steam", "Amount": "-50/10"},
+        {"Part": "Molten Platinum", "Amount": "5/10"}
+      ]
+    },
+    {
+      "Name": "Platinum Plate Cooling",
+      "Machine": "Cold-inator",
+      "BatchTime": "45",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Crucible", "Amount": "-5"},
+        {"Part": "Molten Platinum", "Amount": "-25/10"},
+        {"Part": "Platinum Plate", "Amount": "50"},
+        {"Part": "Crucible", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Post-Transition Metals Ore",
+      "Machine": "Miner",
+      "BatchTime": "60",
+      "Tier": "3-3",
+      "Parts": [
+        {"Part": "Post-Transition Metals Ore", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Transition Aluminium Leeching",
+      "Machine": "Acid Plant",
+      "BatchTime": "4",
+      "Tier": "3-3",
+      "Parts": [
+        {"Part": "Post-Transition Metals Ore", "Amount": "-12"},
+        {"Part": "Hydrochloric Acid", "Amount": "-20/10"},
+        {"Part": "Bauxite", "Amount": "6"}
+      ]
+    },
+    {
+      "Name": "Chromic Transition Aluminium Leeching",
+      "Machine": "Acid Plant",
+      "BatchTime": "2",
+      "Tier": "3-36",
+      "Parts": [
+        {"Part": "Post-Transition Metals Ore", "Amount": "-12"},
+        {"Part": "Chromic Acid", "Amount": "-2/10"},
+        {"Part": "Bauxite", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Bauxite Powder",
+      "Machine": "Crusher",
+      "BatchTime": "25/10",
+      "Tier": "3-3",
+      "Parts": [
+        {"Part": "Bauxite", "Amount": "-6"},
+        {"Part": "Bauxite Powder", "Amount": "12"}
+      ]
+    },
+    {
+      "Name": "Aluminium Hydroxide Slurry",
+      "Machine": "Mixing Tank",
+      "BatchTime": "4",
+      "Tier": "3-3",
+      "Parts": [
+        {"Part": "Bauxite Powder", "Amount": "-8"},
+        {"Part": "Sodium Hydroxide", "Amount": "-5/10"},
+        {"Part": "Aluminium Hydroxide Slurry", "Amount": "12/10"},
+        {"Part": "Steam", "Amount": "15/10"}
+      ]
+    },
+    {
+      "Name": "Packaged Aluminium Hydroxide Slurry",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Aluminium Hydroxide Slurry", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Aluminium Hydroxide Slurry", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Aluminium Hydroxide Slurry",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Packaged Aluminium Hydroxide Slurry", "Amount": "-1"},
+        {"Part": "Aluminium Hydroxide Slurry", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Aluminium Ore",
+      "Machine": "Electrolysis Plant",
+      "BatchTime": "8",
+      "Tier": "3-3",
+      "Parts": [
+        {"Part": "Calcium Ore", "Amount": "-3"},
+        {"Part": "Aluminium Hydroxide Slurry", "Amount": "-10/10"},
+        {"Part": "Aluminium Ore", "Amount": "5"}
+      ]
+    },
+    {
+      "Name": "Aluminium Plate",
+      "Machine": "Furnace",
+      "BatchTime": "16/5",
+      "Tier": "3-3",
+      "Parts": [
+        {"Part": "Aluminium Ore", "Amount": "-1"},
+        {"Part": "Aluminium Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Molten Aluminium",
+      "Machine": "Molten-inator",
+      "BatchTime": "9",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Aluminium Plate", "Amount": "-10"},
+        {"Part": "Steam", "Amount": "-50/10"},
+        {"Part": "Molten Aluminium", "Amount": "5/10"}
+      ]
+    },
+    {
+      "Name": "Aluminium Plate Cooling",
+      "Machine": "Cold-inator",
+      "BatchTime": "45",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Crucible", "Amount": "-5"},
+        {"Part": "Molten Aluminium", "Amount": "-25/10"},
+        {"Part": "Aluminium Plate", "Amount": "50"},
+        {"Part": "Crucible", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Tin Leeching",
+      "Machine": "Acid Plant",
+      "BatchTime": "6",
+      "Tier": "3-6",
+      "Parts": [
+        {"Part": "Post-Transition Metals Ore", "Amount": "-12"},
+        {"Part": "Hydrochloric Acid", "Amount": "-20/10"},
+        {"Part": "Cassiterite", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Chromic Tin Leeching",
+      "Machine": "Acid Plant",
+      "BatchTime": "3",
+      "Tier": "3-36",
+      "Parts": [
+        {"Part": "Post-Transition Metals Ore", "Amount": "-12"},
+        {"Part": "Chromic Acid", "Amount": "-10/10"},
+        {"Part": "Cassiterite", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Tin Chunk",
+      "Machine": "Crusher",
+      "BatchTime": "8",
+      "Tier": "3-6",
+      "Parts": [
+        {"Part": "Cassiterite", "Amount": "-2"},
+        {"Part": "Carbon", "Amount": "-4"},
+        {"Part": "Tin Chunk", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Tin Chunk Leeching",
+      "Machine": "Acid Plant",
+      "BatchTime": "6",
+      "Tier": "3-6",
+      "Parts": [
+        {"Part": "Tin Chunk", "Amount": "-4"},
+        {"Part": "Calcium Ore", "Amount": "-4"},
+        {"Part": "Hydrochloric Acid", "Amount": "-25/10"},
+        {"Part": "Black Tin", "Amount": "4"},
+        {"Part": "White Tin", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Tin Ore",
+      "Machine": "Chemical Plant",
+      "BatchTime": "6",
+      "Tier": "3-6",
+      "Parts": [
+        {"Part": "Black Tin", "Amount": "-4"},
+        {"Part": "White Tin", "Amount": "-4"},
+        {"Part": "Tin Ore", "Amount": "6"},
+        {"Part": "Cassiterite", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Tin Plate",
+      "Machine": "Furnace",
+      "BatchTime": "16/5",
+      "Tier": "3-6",
+      "Parts": [
+        {"Part": "Tin Ore", "Amount": "-1"},
+        {"Part": "Tin Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Molten Tin",
+      "Machine": "Molten-inator",
+      "BatchTime": "9",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Tin Plate", "Amount": "-10"},
+        {"Part": "Steam", "Amount": "-50/10"},
+        {"Part": "Molten Tin", "Amount": "5/10"}
+      ]
+    },
+    {
+      "Name": "Tin Plate Cooling",
+      "Machine": "Cold-inator",
+      "BatchTime": "45",
+      "Tier": "3-33",
+      "Parts": [
+        {"Part": "Crucible", "Amount": "-5"},
+        {"Part": "Molten Tin", "Amount": "-25/10"},
+        {"Part": "Tin Plate", "Amount": "50"},
+        {"Part": "Crucible", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Bismuth Leeching",
+      "Machine": "Acid Plant",
+      "BatchTime": "8",
+      "Tier": "3-70",
+      "Parts": [
+        {"Part": "Post-Transition Metals Ore", "Amount": "-12"},
+        {"Part": "Chromic Acid", "Amount": "-10/10"},
+        {"Part": "Bismuth Chunk", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Bismite",
+      "Machine": "Acid Plant",
+      "BatchTime": "16",
+      "Tier": "3-70",
+      "Parts": [
+        {"Part": "Molybdenum Ore", "Amount": "-4"},
+        {"Part": "Tin Ore", "Amount": "-4"},
+        {"Part": "Bismuth Chunk", "Amount": "-6"},
+        {"Part": "Chlorine Gas", "Amount": "-12/10"},
+        {"Part": "Bismite", "Amount": "4"},
+        {"Part": "Tin Ore", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Fluxed Bismite",
+      "Machine": "Acid Plant",
+      "BatchTime": "16",
+      "Tier": "3-70",
+      "Parts": [
+        {"Part": "Filled Flux Container", "Amount": "-2"},
+        {"Part": "Molybdenum Ore", "Amount": "-8"},
+        {"Part": "Tin Ore", "Amount": "-8"},
+        {"Part": "Bismuth Chunk", "Amount": "-8"},
+        {"Part": "Chlorine Gas", "Amount": "-24/10"},
+        {"Part": "Bismite", "Amount": "10"},
+        {"Part": "Tin Ore", "Amount": "5"},
+        {"Part": "Flux Container", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Bismuth Crystals",
+      "Machine": "Crystallizer",
+      "BatchTime": "20",
+      "Tier": "3-70",
+      "Parts": [
+        {"Part": "Bismite", "Amount": "-8"},
+        {"Part": "Liquid Mercury", "Amount": "-100/10"},
+        {"Part": "Coolant", "Amount": "-10/10"},
+        {"Part": "Bismuth Crystals", "Amount": "16"},
+        {"Part": "Mixed Ore Slag", "Amount": "3"},
+        {"Part": "Hot Coolant", "Amount": "10/10"}
+      ]
+    },
+    {
+      "Name": "Lead Leeching",
+      "Machine": "Acid Plant",
+      "BatchTime": "8",
+      "Tier": "3-71",
+      "Parts": [
+        {"Part": "Post-Transition Metals Ore", "Amount": "-12"},
+        {"Part": "Chromic Acid", "Amount": "-10/10"},
+        {"Part": "Lead Chunk", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Lead Powder",
+      "Machine": "Crusher",
+      "BatchTime": "3",
+      "Tier": "3-71",
+      "Parts": [
+        {"Part": "Lead Chunk", "Amount": "-4"},
+        {"Part": "Lead Powder", "Amount": "7"},
+        {"Part": "Mixed Ore Slag", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Lead Froth",
+      "Machine": "Washing Plant",
+      "BatchTime": "6",
+      "Tier": "3-71",
+      "Parts": [
+        {"Part": "Lead Powder", "Amount": "-4"},
+        {"Part": "Water", "Amount": "-100/10"},
+        {"Part": "Lead Froth", "Amount": "30/10"},
+        {"Part": "Acidic Water", "Amount": "15/10"}
+      ]
+    },
+    {
+      "Name": "Impure Lead Ore",
+      "Machine": "Washing Plant",
+      "BatchTime": "15",
+      "Tier": "3-71",
+      "Parts": [
+        {"Part": "Lead Froth", "Amount": "-25/10"},
+        {"Part": "Impure Lead Ore", "Amount": "5"},
+        {"Part": "Thallium Ore", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Lead Ore",
+      "Machine": "Molten-inator",
+      "BatchTime": "3",
+      "Tier": "3-71",
+      "Parts": [
+        {"Part": "Impure Lead Ore", "Amount": "-2"},
+        {"Part": "Carbon", "Amount": "-4"},
+        {"Part": "Steam", "Amount": "-10/10"},
+        {"Part": "Lead Ore", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Lead Plate",
+      "Machine": "Furnace",
+      "BatchTime": "32/5",
+      "Tier": "3-71",
+      "Parts": [
+        {"Part": "Lead Ore", "Amount": "-1"},
+        {"Part": "Lead Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Lorandite",
+      "Machine": "Acid Plant",
+      "BatchTime": "8",
+      "Tier": "3-70",
+      "Parts": [
+        {"Part": "Post-Transition Metals Ore", "Amount": "-24"},
+        {"Part": "Chromic Acid", "Amount": "-20/10"},
+        {"Part": "Lorandite", "Amount": "12"},
+        {"Part": "Sulfur", "Amount": "3"}
+      ]
+    },
+    {
+      "Name": "Thallium Mixing",
+      "Machine": "Mixing Tank",
+      "BatchTime": "6",
+      "Tier": "3-70",
+      "Parts": [
+        {"Part": "Copper Ore", "Amount": "-6"},
+        {"Part": "Zinc Ore", "Amount": "-6"},
+        {"Part": "Gold Ore", "Amount": "-5"},
+        {"Part": "Lorandite"  , "Amount": "-2"},
+        {"Part": "Sulfuric Acid", "Amount": "-10/10"},
+        {"Part": "Thallium Sulfate", "Amount": "8"},
+        {"Part": "Arsenic Ore", "Amount": "1"},
+        {"Part": "Copper Ore", "Amount": "5"}
+      ]
+    },
+    {
+      "Name": "Thallium Sulfate Electrolysis",
+      "Machine": "Electrolysis Plant",
+      "BatchTime": "6",
+      "Tier": "3-70",
+      "Parts": [
+        {"Part": "Stainless Steel", "Amount": "-12"},
+        {"Part": "Thallium Sulfate", "Amount": "-8"},
+        {"Part": "Thallium Ore", "Amount": "4"},
+        {"Part": "Sulfur", "Amount": "3"}
+      ]
+    },
+    {
+      "Name": "Thallium Plate",
+      "Machine": "Furnace",
+      "BatchTime": "32/5",
+      "Tier": "3-70",
+      "Parts": [
+        {"Part": "Thallium Ore", "Amount": "-1"},
+        {"Part": "Thallium Plate", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Bauxite Mixing",
+      "Machine": "Acid Plant",
+      "BatchTime": "2",
+      "Tier": "3-70",
+      "Parts": [
+        {"Part": "Post-Transition Metals Ore", "Amount": "-8"},
+        {"Part": "Aluminium Ore", "Amount": "-4"},
+        {"Part": "Gallium Chunk", "Amount": "9"},
+        {"Part": "Aluminium Ore", "Amount": "3"}
+      ]
+    },
+    {
+      "Name": "Sodium Hydroxide",
+      "Machine": "Electrolysis Plant",
+      "BatchTime": "4",
+      "Tier": "3-3",
+      "Parts": [
+        {"Part": "Sea Salt", "Amount": "-20"},
+        {"Part": "Sodium Hydroxide", "Amount": "10/10"},
+        {"Part": "Chlorine Gas", "Amount": "8/10"}
+      ]
+    },
+    {
+      "Name": "Sodium Sodium Hydroxide",
+      "Machine": "Chemical Plant",
+      "BatchTime": "4",
+      "Tier": "3-70",
+      "Parts": [
+        {"Part": "Sodium", "Amount": "-6"},
+        {"Part": "Water", "Amount": "-12/10"},
+        {"Part": "Sodium Hydroxide", "Amount": "6/10"},
+        {"Part": "Hydrogen Gas", "Amount": "17/10"}
+      ]
+    },
+    {
+      "Name": "Gallium Liquoring",
+      "Machine": "Washing Plant",
+      "BatchTime": "1",
+      "Tier": "3-70",
+      "Parts": [
+        {"Part": "Gallium Chunk", "Amount": "-4"},
+        {"Part": "Sodium Hydroxide", "Amount": "-2/10"},
+        {"Part": "Gallium Liquor", "Amount": "6/10"},
+        {"Part": "Sodium", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Ion-Exchange Beads",
+      "Machine": "Chemical Plant",
+      "BatchTime": "5",
+      "Tier": "3-70",
+      "Parts": [
+        {"Part": "Sulfur", "Amount": "-3"},
+        {"Part": "Resin", "Amount": "-80/10"},
+        {"Part": "Butane Gas", "Amount": "-20/10"},
+        {"Part": "Ion-Exchange Beads", "Amount": "15"}
+      ]
+    },
+    {
+      "Name": "Gallium Liquor Filtering",
+      "Machine": "Electrolysis Plant",
+      "BatchTime": "10",
+      "Tier": "3-70",
+      "Parts": [
+        {"Part": "Ion-Exchange Beads", "Amount": "-10"},
+        {"Part": "Gallium Liquor", "Amount": "-40/10"},
+        {"Part": "Liquid Gallium", "Amount": "10/10"},
+        {"Part": "Ion-Exchange Beads", "Amount": "7"}
+      ]
+    },
+    {
+      "Name": "Packaged Liquid Gallium",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-70",
+      "Parts": [
+        {"Part": "Liquid Gallium", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Liquid Gallium", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Liquid Gallium",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-70",
+      "Parts": [
+        {"Part": "Packaged Liquid Gallium", "Amount": "-1"},
+        {"Part": "Liquid Gallium", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Atmosphere",
+      "Machine": "Atmospheric Condenser",
+      "BatchTime": "6",
+      "Tier": "3-67",
+      "Parts": [
+        {"Part": "Atmosphere", "Amount": "50/10"}
+      ]
+    },
+    {
+      "Name": "Oxygen Air Filter",
+      "Machine": "Assembling Machine",
+      "BatchTime": "4",
+      "Tier": "3-67",
+      "Parts": [
+        {"Part": "Iron Plate", "Amount": "-4"},
+        {"Part": "Air Filter", "Amount": "-1"},
+        {"Part": "Oxygen Air Filter", "Amount": "1"}
       ]
     },
     {
@@ -2600,6 +7397,19 @@
       ]
     },
     {
+      "Name": "Water-Platinum Electrolysis",
+      "Machine": "Electrolysis Plant",
+      "BatchTime": "1",
+      "Tier": "3-43",
+      "Parts": [
+        {"Part": "Platinum Plate", "Amount": "-4"},
+        {"Part": "Water", "Amount": "-30/10"},
+        {"Part": "Oxygen Gas", "Amount": "25/10"},
+        {"Part": "Hydrogen Gas", "Amount": "35/10"},
+        {"Part": "Platinum Plate", "Amount": "3"}
+      ]
+    },
+    {
       "Name": "Water-Mercury Electrolysis",
       "Machine": "Electrolysis Plant",
       "BatchTime": "1",
@@ -2609,6 +7419,26 @@
         {"Part": "Liquid Mercury", "Amount": "-75/100"},
         {"Part": "Oxygen Gas", "Amount": "20/10"},
         {"Part": "Hydrogen Gas", "Amount": "30/10"}
+      ]
+    },
+    {
+      "Name": "Oxygen Gas",
+      "Machine": "Atmospheric Condenser",
+      "BatchTime": "6",
+      "Tier": "3-67",
+      "Parts": [
+        {"Part": "Oxygen Air Filter", "Amount": "-1"},
+        {"Part": "Atmosphere", "Amount": "-25/10"},
+        {"Part": "Oxygen Gas", "Amount": "25/10"}
+      ]
+    },
+    {
+      "Name": "Oxygen Gas Voiding",
+      "Machine": "Atmospheric Condenser",
+      "BatchTime": "6",
+      "Tier": "3-67",
+      "Parts": [
+        {"Part": "Oxygen Gas", "Amount": "-25/10"}
       ]
     },
     {
@@ -2631,6 +7461,59 @@
         {"Part": "Water", "Amount": "-20/10"},
         {"Part": "Oxygen Gas", "Amount": "10/10"},
         {"Part": "Seawater", "Amount": "125/100"}
+      ]
+    },
+    {
+      "Name": "Chlorine Air Filter",
+      "Machine": "Assembling Machine",
+      "BatchTime": "4",
+      "Tier": "3-67",
+      "Parts": [
+        {"Part": "Copper Plate", "Amount": "-4"},
+        {"Part": "Air Filter", "Amount": "-1"},
+        {"Part": "Chlorine Air Filter", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Chlorine Gas",
+      "Machine": "Atmospheric Condenser",
+      "BatchTime": "6",
+      "Tier": "3-67",
+      "Parts": [
+        {"Part": "Chlorine Air Filter", "Amount": "-1"},
+        {"Part": "Atmosphere", "Amount": "-25/10"},
+        {"Part": "Chlorine Gas", "Amount": "25/10"}
+      ]
+    },
+    {
+      "Name": "Packaged Chlorine Gas",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Chlorine Gas", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Chlorine Gas", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Chlorine Gas",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Packaged Chlorine Gas", "Amount": "-1"},
+        {"Part": "Chlorine Gas", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Chlorine Gas Voiding",
+      "Machine": "Atmospheric Condenser",
+      "BatchTime": "6",
+      "Tier": "3-67",
+      "Parts": [
+        {"Part": "Chlorine Gas", "Amount": "-25/10"}
       ]
     },
     {
@@ -2702,12 +7585,69 @@
       ]
     },
     {
-      "Name": "Hydrogen Evaporation",
-      "Machine": "Evaporator",
-      "BatchTime": "1/2",
-      "Tier": "1-9",
+      "Name": "Packaged Hydrochloric Acid",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-9",
       "Parts": [
-        {"Part": "Hydrogen Gas", "Amount": "-10/10"}
+        {"Part": "Hydrochloric Acid", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Hydrochloric Acid", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Hydrochloric Acid",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Packaged Hydrochloric Acid", "Amount": "-1"},
+        {"Part": "Hydrochloric Acid", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Hydrochloric Acid Neutralisation",
+      "Machine": "Washing Plant",
+      "BatchTime": "4",
+      "Tier": "3-39",
+      "Parts": [
+        {"Part": "Calcium Ore", "Amount": "-24"},
+        {"Part": "Hydrochloric Acid", "Amount": "-80/10"},
+        {"Part": "Chlorine Gas", "Amount": "48/10"},
+        {"Part": "Hydrogen Gas", "Amount": "68/10"},
+        {"Part": "Calcium Chloride", "Amount": "3"}
+      ]
+    },
+    {
+      "Name": "Nitrogen Air Filter",
+      "Machine": "Assembling Machine",
+      "BatchTime": "4",
+      "Tier": "3-67",
+      "Parts": [
+        {"Part": "Manganese Plate", "Amount": "-4"},
+        {"Part": "Air Filter", "Amount": "-1"},
+        {"Part": "Nitrogen Air Filter", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Nitrogen Gas",
+      "Machine": "Atmospheric Condenser",
+      "BatchTime": "6",
+      "Tier": "3-67",
+      "Parts": [
+        {"Part": "Nitrogen Air Filter", "Amount": "-1"},
+        {"Part": "Atmosphere", "Amount": "-25/10"},
+        {"Part": "Nitrogen Gas", "Amount": "25/10"}
+      ]
+    },
+    {
+      "Name": "Nitrogen Gas Voiding",
+      "Machine": "Atmospheric Condenser",
+      "BatchTime": "6",
+      "Tier": "3-67",
+      "Parts": [
+        {"Part": "Nitrogen Gas", "Amount": "-25/10"}
       ]
     },
     {
@@ -2718,6 +7658,452 @@
       "Parts": [
         {"Part": "Coal", "Amount": "-2"},
         {"Part": "Carbon", "Amount": "10"}
+      ]
+    },
+    {
+      "Name": "Carbon Dioxide Air Filter",
+      "Machine": "Assembling Machine",
+      "BatchTime": "4",
+      "Tier": "3-67",
+      "Parts": [
+        {"Part": "Nickel Plate", "Amount": "-4"},
+        {"Part": "Air Filter", "Amount": "-1"},
+        {"Part": "Carbon Dioxide Air Filter", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Carbon Dioxide Gas",
+      "Machine": "Atmospheric Condenser",
+      "BatchTime": "6",
+      "Tier": "3-67",
+      "Parts": [
+        {"Part": "Carbon Dioxide Air Filter", "Amount": "-1"},
+        {"Part": "Atmosphere", "Amount": "-25/10"},
+        {"Part": "Carbon Dioxide Gas", "Amount": "25/10"}
+      ]
+    },
+    {
+      "Name": "Carbon Dioxide Gas Voiding",
+      "Machine": "Atmospheric Condenser",
+      "BatchTime": "6",
+      "Tier": "3-67",
+      "Parts": [
+        {"Part": "Carbon Dioxide Gas", "Amount": "-25/10"}
+      ]
+    },
+    {
+      "Name": "Syngas Separation",
+      "Machine": "Oil Refinery",
+      "BatchTime": "3",
+      "Tier": "3-13",
+      "Parts": [
+        {"Part": "Syngas", "Amount": "-12/10"},
+        {"Part": "Carbon Monoxide", "Amount": "8/10"},
+        {"Part": "Sulfur Dioxide", "Amount": "1/10"}
+      ]
+    },
+    {
+      "Name": "Carbon to CO2",
+      "Machine": "Mixing Tank",
+      "BatchTime": "5",
+      "Tier": "3-5",
+      "Parts": [
+        {"Part": "Carbon", "Amount": "-10"},
+        {"Part": "Sodium Hydroxide", "Amount": "-6/10"},
+        {"Part": "Carbon Dioxide Gas", "Amount": "9/10"}
+      ]
+    },
+    {
+      "Name": "Trace Gas Air Filter",
+      "Machine": "Assembling Machine",
+      "BatchTime": "4",
+      "Tier": "3-67",
+      "Parts": [
+        {"Part": "Air Filter", "Amount": "-1"},
+        {"Part": "Calcium Ore", "Amount": "-4"},
+        {"Part": "Trace Gas Air Filter", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Trace Gases",
+      "Machine": "Atmospheric Condenser",
+      "BatchTime": "6",
+      "Tier": "3-67",
+      "Parts": [
+        {"Part": "Trace Gas Air Filter", "Amount": "-1"},
+        {"Part": "Atmosphere", "Amount": "-25/10"},
+        {"Part": "Trace Gases", "Amount": "25/10"}
+      ]
+    },
+    {
+      "Name": "Hydrogen Evaporation",
+      "Machine": "Evaporator",
+      "BatchTime": "1/2",
+      "Tier": "1-9",
+      "Parts": [
+        {"Part": "Hydrogen Gas", "Amount": "-10/10"}
+      ]
+    },
+    {
+      "Name": "Sulfuric Acid",
+      "Machine": "Mixing Tank",
+      "BatchTime": "8",
+      "Tier": "3-4",
+      "Parts": [
+        {"Part": "Ferrum", "Amount": "-6"},
+        {"Part": "Patina", "Amount": "-6"},
+        {"Part": "Sulfur", "Amount": "-8"},
+        {"Part": "Acidic Water", "Amount": "-10/10"},
+        {"Part": "Sulfuric Acid", "Amount": "20/10"},
+        {"Part": "Ferrum", "Amount": "3"},
+        {"Part": "Patina", "Amount": "3"}
+      ]
+    },
+    {
+      "Name": "Packaged Sulfuric Acid",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Sulfuric Acid", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Sulfuric Acid", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Sulfuric Acid",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Packaged Sulfuric Acid", "Amount": "-1"},
+        {"Part": "Sulfuric Acid", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Fuel Oil Hydrodesulfurisation",
+      "Machine": "Washing Plant",
+      "BatchTime": "8",
+      "Tier": "3-24",
+      "Parts": [
+        {"Part": "Cobalt Catalyst", "Amount": "-4"},
+        {"Part": "Fuel Oils", "Amount": "-40/10"},
+        {"Part": "Steam", "Amount": "-40/10"},
+        {"Part": "Sulfur Dioxide", "Amount": "20/10"},
+        {"Part": "Water", "Amount": "32/100"},
+        {"Part": "Cobalt Catalyst", "Amount": "3"},
+        {"Part": "Catalyst Container", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Kerosene Hydrodesulfurisation",
+      "Machine": "Washing Plant",
+      "BatchTime": "8",
+      "Tier": "3-22",
+      "Parts": [
+        {"Part": "Cobalt Catalyst", "Amount": "-4"},
+        {"Part": "Kerosene", "Amount": "-40/10"},
+        {"Part": "Steam", "Amount": "-40/10"},
+        {"Part": "Sulfur Dioxide", "Amount": "20/10"},
+        {"Part": "Water", "Amount": "32/100"},
+        {"Part": "Cobalt Catalyst", "Amount": "3"},
+        {"Part": "Catalyst Container", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Sulfur Dioxide Cracking",
+      "Machine": "Chemical Plant",
+      "BatchTime": "8",
+      "Tier": "3-38",
+      "Parts": [
+        {"Part": "Vanadium-Oxide Catalyst", "Amount": "-4"},
+        {"Part": "Sulfur Dioxide", "Amount": "-40/10"},
+        {"Part": "Sulfuric Acid", "Amount": "80/10"},
+        {"Part": "Vanadium-Oxide Catalyst", "Amount": "3"},
+        {"Part": "Catalyst Container", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Hydrogen Sulfide",
+      "Machine": "Chemical Plant",
+      "BatchTime": "2",
+      "Tier": "3-38",
+      "Parts": [
+        {"Part": "Molybdenum Disulfide", "Amount": "-1"},
+        {"Part": "Syngas", "Amount": "-20/10"},
+        {"Part": "Hydrogen Sulfide", "Amount": "15/10"},
+        {"Part": "Carbon Dioxide Gas", "Amount": "25/100"}
+      ]
+    },
+    {
+      "Name": "Sulfur",
+      "Machine": "Chemical Plant",
+      "BatchTime": "24",
+      "Tier": "3-38",
+      "Parts": [
+        {"Part": "Nickel-Tungsten Catalyst (Ni-W)", "Amount": "-6"},
+        {"Part": "Hydrogen Sulfide", "Amount": "-45/10"},
+        {"Part": "Sulfur", "Amount": "42"},
+        {"Part": "Water", "Amount": "15/10"},
+        {"Part": "Nickel-Tungsten Catalyst (Ni-W)", "Amount": "5"},
+        {"Part": "Catalyst Container", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Sulfuric Waste Water",
+      "Machine": "Mixing Tank",
+      "BatchTime": "5",
+      "Tier": "3-5",
+      "Parts": [
+        {"Part": "Sulfur", "Amount": "-12"},
+        {"Part": "Sodium Hydroxide", "Amount": "-4/10"},
+        {"Part": "Water", "Amount": "-20/10"},
+        {"Part": "Sulfuric Waste Water", "Amount": "15/10"}
+      ]
+    },
+    {
+      "Name": "Packaged Sulfuric Waste Water",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Sulfuric Waste Water", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Sulfuric Waste Water", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Sulfuric Waste Water",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Packaged Sulfuric Waste Water", "Amount": "-1"},
+        {"Part": "Sulfuric Waste Water", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Sulfuric Waste Water Separation",
+      "Machine": "Chemical Plant",
+      "BatchTime": "60",
+      "Tier": "3-5",
+      "Parts": [
+        {"Part": "Sulfuric Waste Water", "Amount": "-40/10"},
+        {"Part": "Iron Ore", "Amount": "4"},
+        {"Part": "Zinc Ore", "Amount": "2"},
+        {"Part": "Mercury Ore", "Amount": "3"},
+        {"Part": "Hydrogen Sulfide", "Amount": "5/10"}
+      ]
+    },
+    {
+      "Name": "Sulfuric Waste Water Looping",
+      "Machine": "Mixing Tank",
+      "BatchTime": "5",
+      "Tier": "3-5",
+      "Parts": [
+        {"Part": "Sulfuric Waste Water", "Amount": "-15/10"},
+        {"Part": "Water", "Amount": "-15/10"},
+        {"Part": "Acidic Water", "Amount": "5/4"},
+        {"Part": "Water", "Amount": "175/100"}
+      ]
+    },
+    {
+      "Name": "Sulfuric Acid to Acidic Water",
+      "Machine": "Washing Plant",
+      "BatchTime": "8",
+      "Tier": "3-39",
+      "Parts": [
+        {"Part": "Calcium Ore", "Amount": "-12"},
+        {"Part": "Sulfuric Acid", "Amount": "-20/10"},
+        {"Part": "Sulfur", "Amount": "7"},
+        {"Part": "Acidic Water", "Amount": "100/10"}
+      ]
+    },
+    {
+      "Name": "Acidic Water Neutralisation",
+      "Machine": "Acid Plant",
+      "BatchTime": "8",
+      "Tier": "3-39",
+      "Parts": [
+        {"Part": "Calcium Ore", "Amount": "-12"},
+        {"Part": "Acidic Water", "Amount": "-100/10"},
+        {"Part": "Sulfur", "Amount": "7"},
+        {"Part": "Water", "Amount": "100/10"}
+      ]
+    },
+    {
+      "Name": "Phosphate Rock",
+      "Machine": "Crusher",
+      "BatchTime": "3",
+      "Tier": "3-68",
+      "Parts": [
+        {"Part": "Stone", "Amount": "-6"},
+        {"Part": "Phosphate Rock", "Amount": "4"},
+        {"Part": "Sand", "Amount": "3"}
+      ]
+    },
+    {
+      "Name": "Phosphor Vapour",
+      "Machine": "Molten-inator",
+      "BatchTime": "9",
+      "Tier": "3-68",
+      "Parts": [
+        {"Part": "Coke", "Amount": "-3"},
+        {"Part": "Sand", "Amount": "-4"},
+        {"Part": "Phosphate Rock", "Amount": "-4"},
+        {"Part": "Phosphor Vapour", "Amount": "10/10"}
+      ]
+    },
+    {
+      "Name": "Phosphor Vapour Cooling",
+      "Machine": "Washing Plant",
+      "BatchTime": "45/10",
+      "Tier": "3-68",
+      "Parts": [
+        {"Part": "Phosphor Vapour", "Amount": "-5/10"},
+        {"Part": "Sulfuric Acid", "Amount": "-5/10"},
+        {"Part": "Phosphoric Acid", "Amount": "10/10"},
+        {"Part": "Oxygen Gas", "Amount": "12/100"}
+      ]
+    },
+    {
+      "Name": "Packaged Phosphoric Acid",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-68",
+      "Parts": [
+        {"Part": "Phosphoric Acid", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Phosphoric Acid", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Phosphoric Acid",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-68",
+      "Parts": [
+        {"Part": "Packaged Phosphoric Acid", "Amount": "-1"},
+        {"Part": "Phosphoric Acid", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Phosphoric Acid Filtering",
+      "Machine": "Acid Plant",
+      "BatchTime": "24",
+      "Tier": "3-68",
+      "Parts": [
+        {"Part": "Calcium Ore", "Amount": "-12"},
+        {"Part": "Phosphoric Acid", "Amount": "-40/10"},
+        {"Part": "White Phosphorus", "Amount": "16"},
+        {"Part": "Red Phosphorus", "Amount": "3"}
+      ]
+    },
+    {
+      "Name": "White to Red Phosphorus",
+      "Machine": "Furnace",
+      "BatchTime": "48/10",
+      "Tier": "3-68",
+      "Parts": [
+        {"Part": "White Phosphorus", "Amount": "-2"},
+        {"Part": "Red Phosphorus", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Nitric Oxide",
+      "Machine": "Chemical Plant",
+      "BatchTime": "12",
+      "Tier": "3-45",
+      "Parts": [
+        {"Part": "Platinum Plate", "Amount": "-8"},
+        {"Part": "Ammonia Gas", "Amount": "-20/10"},
+        {"Part": "Oxygen Gas", "Amount": "-48/10"},
+        {"Part": "Nitric Oxide", "Amount": "20/10"},
+        {"Part": "Water", "Amount": "30/10"},
+        {"Part": "Platinum Plate", "Amount": "7"}
+      ]
+    },
+    {
+      "Name": "Packaged Nitric Oxide",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-45",
+      "Parts": [
+        {"Part": "Nitric Oxide", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Nitric Oxide", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Nitric Oxide",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-45",
+      "Parts": [
+        {"Part": "Packaged Nitric Oxide", "Amount": "-1"},
+        {"Part": "Nitric Oxide", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Nitric Acid",
+      "Machine": "Acid Plant",
+      "BatchTime": "6",
+      "Tier": "3-45",
+      "Parts": [
+        {"Part": "Nitric Oxide", "Amount": "-75/100"},
+        {"Part": "Water", "Amount": "-15/10"},
+        {"Part": "Nitric Acid", "Amount": "5/10"},
+        {"Part": "Hydrogen Gas", "Amount": "105/100"}
+      ]
+    },
+    {
+      "Name": "Aqua Regia",
+      "Machine": "Oil Refinery",
+      "BatchTime": "6",
+      "Tier": "3-45",
+      "Parts": [
+        {"Part": "Nitric Acid", "Amount": "-10/10"},
+        {"Part": "Hydrochloric Acid", "Amount": "-30/10"},
+        {"Part": "Aqua Regia", "Amount": "10/10"},
+        {"Part": "Nitrosyl Chloride", "Amount": "4/10"},
+        {"Part": "Water", "Amount": "75/100"}
+      ]
+    },
+    {
+      "Name": "Packaged Nitrosyl Chloride",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-45",
+      "Parts": [
+        {"Part": "Nitrosyl Chloride", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Nitrosyl Chloride", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Nitrosyl Chloride",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-45",
+      "Parts": [
+        {"Part": "Packaged Nitrosyl Chloride", "Amount": "-1"},
+        {"Part": "Nitrosyl Chloride", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Nitrosyl Separation",
+      "Machine": "Chemical Plant",
+      "BatchTime": "3",
+      "Tier": "3-45",
+      "Parts": [
+        {"Part": "Nitrosyl Chloride", "Amount": "-10/10"},
+        {"Part": "Nitric Oxide", "Amount": "25/100"},
+        {"Part": "Chlorine Gas", "Amount": "25/100"}
       ]
     },
     {
@@ -2741,6 +8127,19 @@
         {"Part": "Glass Fibers", "Amount": "-5"},
         {"Part": "Vulcanised Rubber", "Amount": "-4"},
         {"Part": "Air Filter", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Better Air Filter",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1/2",
+      "Tier": "3-43",
+      "Parts": [
+        {"Part": "Steel Plate", "Amount": "-2"},
+        {"Part": "Polyethylene Plastic", "Amount": "-4"},
+        {"Part": "Gold Plate", "Amount": "-3"},
+        {"Part": "Platinum Plate", "Amount": "-3"},
+        {"Part": "Air Filter", "Amount": "8"}
       ]
     },
     {
@@ -2797,6 +8196,31 @@
       ]
     },
     {
+      "Name": "Ammonium Chloride Separation",
+      "Machine": "Acid Plant",
+      "BatchTime": "8",
+      "Tier": "3-44",
+      "Parts": [
+        {"Part": "Ammonium Chloride", "Amount": "-20"},
+        {"Part": "Calcium Ore", "Amount": "-12"},
+        {"Part": "Ammonia Gas", "Amount": "20/10"},
+        {"Part": "Chlorine Gas", "Amount": "40/10"},
+        {"Part": "Calcium Chloride", "Amount": "7"}
+      ]
+    },
+    {
+      "Name": "Sodium Sulfite",
+      "Machine": "Acid Plant",
+      "BatchTime": "1/2",
+      "Tier": "3-39",
+      "Parts": [
+        {"Part": "Sodium", "Amount": "-5"},
+        {"Part": "Oxygen Gas", "Amount": "-10/10"},
+        {"Part": "Hydrogen Sulfide", "Amount": "-5"},
+        {"Part": "Sodium Sulfite", "Amount": "5"}
+      ]
+    },
+    {
       "Name": "Calcite",
       "Machine": "Evaporator",
       "BatchTime": "16",
@@ -2819,6 +8243,18 @@
       ]
     },
     {
+      "Name": "Calcium Chloride Separation",
+      "Machine": "Washing Plant",
+      "BatchTime": "5",
+      "Tier": "3-44",
+      "Parts": [
+        {"Part": "Calcium Chloride", "Amount": "-6"},
+        {"Part": "Water", "Amount": "-40/10"},
+        {"Part": "Calcium Ore", "Amount": "3"},
+        {"Part": "Chlorine Gas", "Amount": "6/10"}
+      ]
+    },
+    {
       "Name": "Calcium Ore",
       "Machine": "Washing Plant",
       "BatchTime": "4",
@@ -2831,12 +8267,56 @@
       ]
     },
     {
+      "Name": "Packaged Ammonia Gas",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-17",
+      "Parts": [
+        {"Part": "Ammonia Gas", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Ammonia Gas", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Ammonia Gas",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-17",
+      "Parts": [
+        {"Part": "Packaged Ammonia Gas", "Amount": "-1"},
+        {"Part": "Ammonia Gas", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
       "Name": "Water",
       "Machine": "Water Extractor",
       "BatchTime": "60",
       "Tier": "2-6",
       "Parts": [
         {"Part": "Water", "Amount": "120"}
+      ]
+    },
+    {
+      "Name": "Packaged Water",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Water", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Water", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Water",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Packaged Water", "Amount": "-1"},
+        {"Part": "Water", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
       ]
     },
     {
@@ -2849,6 +8329,382 @@
       ]
     },
     {
+      "Name": "Packaged Seawater",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Seawater", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Seawater", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Seawater",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Packaged Seawater", "Amount": "-1"},
+        {"Part": "Seawater", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Crude Oil",
+      "Machine": "Oil Extractor",
+      "BatchTime": "1",
+      "Tier": "3-10",
+      "Parts": [
+        {"Part": "Crude Oil", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Packaged Crude Oil",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-10",
+      "Parts": [
+        {"Part": "Crude Oil", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Crude Oil", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Crude Oil",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-10",
+      "Parts": [
+        {"Part": "Packaged Crude Oil", "Amount": "-1"},
+        {"Part": "Crude Oil", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Packaged Refinery Gases",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-10",
+      "Parts": [
+        {"Part": "Refinery Gases", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Refinery Gases", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Refinery Gases",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-10",
+      "Parts": [
+        {"Part": "Packaged Refinery Gases", "Amount": "-1"},
+        {"Part": "Refinery Gases", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Packaged Petrol",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-17",
+      "Parts": [
+        {"Part": "Petrol", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Petrol", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Petrol",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-17",
+      "Parts": [
+        {"Part": "Packaged Petrol", "Amount": "-1"},
+        {"Part": "Petrol", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Packaged Naptha",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-10",
+      "Parts": [
+        {"Part": "Naptha", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Naptha", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Naptha",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-10",
+      "Parts": [
+        {"Part": "Packaged Naptha", "Amount": "-1"},
+        {"Part": "Naptha", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Packaged Kerosene",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-17",
+      "Parts": [
+        {"Part": "Kerosene", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Kerosene", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Kerosene",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-17",
+      "Parts": [
+        {"Part": "Packaged Kerosene", "Amount": "-1"},
+        {"Part": "Kerosene", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Packaged Diesel",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-17",
+      "Parts": [
+        {"Part": "Diesel", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Diesel", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Diesel",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-17",
+      "Parts": [
+        {"Part": "Packaged Diesel", "Amount": "-1"},
+        {"Part": "Diesel", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Packaged Lubricating Oils",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-17",
+      "Parts": [
+        {"Part": "Lubricating Oils", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Lubricating Oils", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Lubricating Oils",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-17",
+      "Parts": [
+        {"Part": "Packaged Lubricating Oils", "Amount": "-1"},
+        {"Part": "Lubricating Oils", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Packaged Fuel Oils",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-17",
+      "Parts": [
+        {"Part": "Fuel Oils", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Fuel Oils", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Fuel Oils",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-17",
+      "Parts": [
+        {"Part": "Packaged Fuel Oils", "Amount": "-1"},
+        {"Part": "Fuel Oils", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Packaged Oil Residuals",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-10",
+      "Parts": [
+        {"Part": "Oil Residuals", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Oil Residuals", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Oil Residuals",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-10",
+      "Parts": [
+        {"Part": "Packaged Oil Residuals", "Amount": "-1"},
+        {"Part": "Oil Residuals", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Packaged Butane Gas",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-15",
+      "Parts": [
+        {"Part": "Butane Gas", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Butane Gas", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Butane Gas",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-15",
+      "Parts": [
+        {"Part": "Packaged Butane Gas", "Amount": "-1"},
+        {"Part": "Butane Gas", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Packaged Butene Gas",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-15",
+      "Parts": [
+        {"Part": "Butene Gas", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Butene Gas", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Butene Gas",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-15",
+      "Parts": [
+        {"Part": "Packaged Butene Gas", "Amount": "-1"},
+        {"Part": "Butene Gas", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Packaged Ethylene Gas",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-10",
+      "Parts": [
+        {"Part": "Ethylene Gas", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Ethylene Gas", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Ethylene Gas",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-10",
+      "Parts": [
+        {"Part": "Packaged Ethylene Gas", "Amount": "-1"},
+        {"Part": "Ethylene Gas", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Packaged Benzene",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-10",
+      "Parts": [
+        {"Part": "Benzene", "Amount": "-50/10"},
+        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Packaged Benzene", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Benzene",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-10",
+      "Parts": [
+        {"Part": "Packaged Benzene", "Amount": "-1"},
+        {"Part": "Benzene", "Amount": "50/10"},
+        {"Part": "Empty Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Electric Boiler: Steam",
+      "Machine": "Electric Boiler",
+      "BatchTime": "1",
+      "Tier": "5-57",
+      "Parts": [
+        {"Part": "Water", "Amount": "-6/10"},
+        {"Part": "Steam", "Amount": "60/10"}
+      ]
+    },
+    {
+      "Name": "Coal Generator",
+      "Machine": "Coal-Powered Generator",
+      "BatchTime": "4",
+      "Tier": "1-17",
+      "Parts": [
+        {"Part": "Coal", "Amount": "-1"},
+        {"Part": "Water", "Amount": "-3"}
+      ]
+    },
+    {
+      "Name": "Coke Generator",
+      "Machine": "Coal-Powered Generator",
+      "BatchTime": "20/3",
+      "Tier": "2-24",
+      "Parts": [
+        {"Part": "Coke", "Amount": "-1"},
+        {"Part": "Water", "Amount": "-5"}
+      ]
+    },
+    {
+      "Name": "Solid Fuel Generator",
+      "Machine": "Coal-Powered Generator",
+      "BatchTime": "40/3",
+      "Tier": "3-18",
+      "Parts": [
+        {"Part": "Solid Fuel", "Amount": "-1"},
+        {"Part": "Water", "Amount": "-10"}
+      ]
+    },
+    {
+      "Name": "Naptha Fuel Canister Generator",
+      "Machine": "Coal-Powered Generator",
+      "BatchTime": "40",
+      "Tier": "3-30",
+      "Parts": [
+        {"Part": "Naptha Fuel Canister", "Amount": "-1"},
+        {"Part": "Water", "Amount": "-30"}
+      ]
+    },
+    {
+      "Name": "Burning Oil Generator",
+      "Machine": "Fuel-Powered Generator",
+      "BatchTime": "4",
+      "Tier": "4-47",
+      "Parts": [
+        {"Part": "Burning Oil", "Amount": "-1"}
+      ]
+    },
+    {
       "Name": "Space Elevator Phase 1",
       "Machine": "Space Elevator",
       "BatchTime": "60",
@@ -2857,6 +8713,19 @@
         {"Part": "Transition Metal Pack", "Amount": "-1000"},
         {"Part": "Advanced Transition Metal Pack", "Amount": "-1000"},
         {"Part": "Advanced-Advanced Transition Metal Pack", "Amount": "-100"}
+      ]
+    },
+    {
+      "Name": "Space Elevator Phase 2",
+      "Machine": "Space Elevator",
+      "BatchTime": "60",
+      "Tier": "3-0",
+      "Parts": [
+        {"Part": "Advanced-Advanced Transition Metal Pack", "Amount": "-1000"},
+        {"Part": "Reactive Non-Metals Pack", "Amount": "-1000"},
+        {"Part": "Post-Transition Metal Pack", "Amount": "-1000"},
+        {"Part": "Alkali Metal Pack", "Amount": "-100"},
+        {"Part": "Metalloid Pack", "Amount": "-100"}
       ]
     }
   ]
