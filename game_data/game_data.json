@@ -7736,6 +7736,15 @@
       ]
     },
     {
+      "Name": "Trace Gas Voiding",
+      "Machine": "Atmospheric Condenser",
+      "BatchTime": "6",
+      "Tier": "3-67",
+      "Parts": [
+        {"Part": "Trace Gases", "Amount": "-25/10"}
+      ]
+    },
+    {
       "Name": "Hydrogen Evaporation",
       "Machine": "Evaporator",
       "BatchTime": "1/2",
