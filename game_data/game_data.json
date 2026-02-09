@@ -545,13 +545,45 @@
     {
       "Name": "Electric Boiler",
       "Tier": "3-57",
-      "AveragePower": "-180",
+      "AveragePower": "-190",
       "OverclockPowerExponent": "16/10",
       "Cost": [
         {"Part": "Electric Engine Unit", "Amount": "1"},
         {"Part": "Fluid Resistant Circuit", "Amount": "4"},
         {"Part": "Corrosion Resistant Tubing", "Amount": "8"},
         {"Part": "Heat-Resistant Plating", "Amount": "8"}
+      ]
+    },
+    {
+      "Name": "Biomass Burner",
+      "Tier": "0-6",
+      "AveragePower": "30",
+      "OverclockPowerExponent": "1",
+      "Cost": [
+        {"Part": "Iron Gear Wheel", "Amount": "6"},
+        {"Part": "Basic Tubing", "Amount": "4"},
+        {"Part": "Basic Panelling", "Amount": "12"}
+      ]
+    },
+    {
+      "Name": "Biomass Heater (Boiler Mk.1)",
+      "Tier": "0-6",
+      "Cost": [
+        {"Part": "Basic Panelling", "Amount": "6"},
+        {"Part": "Basic Tubing", "Amount": "28"},
+        {"Part": "Basic Framing", "Amount": "2"},
+        {"Part": "Nickel Plate", "Amount": "10"}
+      ]
+    },
+    {
+      "Name": "Biomass Heater (Boiler Mk.2)",
+      "Tier": "1-17",
+      "Cost": [
+        {"Part": "Basic Panelling", "Amount": "9"},
+        {"Part": "Basic Tubing", "Amount": "28"},
+        {"Part": "Basic Framing", "Amount": "2"},
+        {"Part": "Nickel Plate", "Amount": "5"},
+        {"Part": "Stone", "Amount": "5"}
       ]
     },
     {
@@ -566,6 +598,27 @@
       ]
     },
     {
+      "Name": "Coal Heater (Boiler Mk.1)",
+      "Tier": "0-6",
+      "Cost": [
+        {"Part": "Basic Panelling", "Amount": "6"},
+        {"Part": "Basic Tubing", "Amount": "28"},
+        {"Part": "Basic Framing", "Amount": "2"},
+        {"Part": "Nickel Plate", "Amount": "10"}
+      ]
+    },
+    {
+      "Name": "Coal Heater (Boiler Mk.2)",
+      "Tier": "1-17",
+      "Cost": [
+        {"Part": "Basic Panelling", "Amount": "9"},
+        {"Part": "Basic Tubing", "Amount": "28"},
+        {"Part": "Basic Framing", "Amount": "2"},
+        {"Part": "Nickel Plate", "Amount": "5"},
+        {"Part": "Stone", "Amount": "5"}
+      ]
+    },
+    {
       "Name": "Fuel-Powered Generator",
       "Tier": "4-47",
       "AveragePower": "250",
@@ -575,6 +628,118 @@
         {"Part": "Corrosion Resistant Tubing", "Amount": "12"},
         {"Part": "Heavyweight Framing", "Amount": "16"},
         {"Part": "Heat-Resistant Plating", "Amount": "6"}
+      ]
+    },
+    {
+      "Name": "Solution Heater (Boiler Mk.1)",
+      "Tier": "3-47",
+      "Cost": [
+        {"Part": "Basic Panelling", "Amount": "6"},
+        {"Part": "Basic Tubing", "Amount": "24"},
+        {"Part": "Basic Framing", "Amount": "2"},
+        {"Part": "Nickel Plate", "Amount": "5"},
+        {"Part": "Fluid Resistant Circuit", "Amount": "2"},
+        {"Part": "Corrosion Resistant Tubing", "Amount": "8"},
+        {"Part": "Heavyweight Panelling", "Amount": "12"},
+        {"Part": "Heat-Resistant Plating", "Amount": "6"}
+      ]
+    },
+    {
+      "Name": "Solution Heater (Boiler Mk.2)",
+      "Tier": "3-47",
+      "Cost": [
+        {"Part": "Basic Panelling", "Amount": "6"},
+        {"Part": "Basic Tubing", "Amount": "24"},
+        {"Part": "Basic Framing", "Amount": "2"},
+        {"Part": "Nickel Plate", "Amount": "5"},
+        {"Part": "Stone", "Amount": "5"},
+        {"Part": "Fluid Resistant Circuit", "Amount": "2"},
+        {"Part": "Corrosion Resistant Tubing", "Amount": "8"},
+        {"Part": "Heavyweight Panelling", "Amount": "12"},
+        {"Part": "Heat-Resistant Plating", "Amount": "6"}
+      ]
+    },
+    {
+      "Name": "Turbine Mk.1 (LV Generator)",
+      "Tier": "0-6",
+      "AveragePower": "150",
+      "Cost": [
+        {"Part": "Iron Gear Wheel", "Amount": "12"},
+        {"Part": "Basic Tubing", "Amount": "28"},
+        {"Part": "Basic Panelling", "Amount": "30"},
+        {"Part": "Basic Framing", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Turbine Mk.1 (MV Generator)",
+      "Tier": "1-17",
+      "AveragePower": "182",
+      "Cost": [
+        {"Part": "Iron Gear Wheel", "Amount": "12"},
+        {"Part": "Basic Tubing", "Amount": "28"},
+        {"Part": "Basic Panelling", "Amount": "30"},
+        {"Part": "Basic Framing", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Turbine Mk.1 (HV Generator)",
+      "Tier": "1-17",
+      "AveragePower": "176",
+      "Cost": [
+        {"Part": "Iron Gear Wheel", "Amount": "6"},
+        {"Part": "Basic Tubing", "Amount": "24"},
+        {"Part": "Basic Panelling", "Amount": "18"},
+        {"Part": "Basic Framing", "Amount": "2"},
+        {"Part": "Brass Cog", "Amount": "4"},
+        {"Part": "Engine Unit", "Amount": "2"},
+        {"Part": "Corrosion Resistant Tubing", "Amount": "6"},
+        {"Part": "Air Filter", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Turbine Mk.2 (LV Generator)",
+      "Tier": "3-47",
+      "AveragePower": "150",
+      "Cost": [
+        {"Part": "Iron Gear Wheel", "Amount": "6"},
+        {"Part": "Basic Tubing", "Amount": "24"},
+        {"Part": "Basic Panelling", "Amount": "18"},
+        {"Part": "Basic Framing", "Amount": "2"},
+        {"Part": "Engine Unit", "Amount": "2"},
+        {"Part": "Corrosion Resistant Tubing", "Amount": "8"},
+        {"Part": "Heavyweight Framing", "Amount": "12"},
+        {"Part": "Heat-Resistant Plating", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Turbine Mk.2 (MV Generator)",
+      "Tier": "3-47",
+      "AveragePower": "300",
+      "Cost": [
+        {"Part": "Iron Gear Wheel", "Amount": "6"},
+        {"Part": "Basic Tubing", "Amount": "24"},
+        {"Part": "Basic Panelling", "Amount": "18"},
+        {"Part": "Basic Framing", "Amount": "2"},
+        {"Part": "Engine Unit", "Amount": "2"},
+        {"Part": "Corrosion Resistant Tubing", "Amount": "8"},
+        {"Part": "Heavyweight Framing", "Amount": "12"},
+        {"Part": "Heat-Resistant Plating", "Amount": "4"}
+      ]
+    },
+    {
+      "Name": "Turbine Mk.2 (HV Generator)",
+      "Tier": "3-47",
+      "AveragePower": "500",
+      "Cost": [
+        {"Part": "Basic Tubing", "Amount": "20"},
+        {"Part": "Basic Panelling", "Amount": "6"},
+        {"Part": "Basic Framing", "Amount": "2"},
+        {"Part": "Brass Cog", "Amount": "2"},
+        {"Part": "Engine Unit", "Amount": "4"},
+        {"Part": "Corrosion Resistant Tubing", "Amount": "14"},
+        {"Part": "Heavyweight Framing", "Amount": "12"},
+        {"Part": "Heat-Resistant Plating", "Amount": "4"},
+        {"Part": "Air Filter", "Amount": "2"}
       ]
     },
     {
@@ -1047,6 +1212,42 @@
       ]
     },
     {
+      "Name": "Turbine Mk.1",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "",
+      "Machines": [
+        {
+          "Name": "Turbine Mk.1 (LV Generator)",
+          "Default": true
+        },
+        {
+          "Name": "Turbine Mk.1 (MV Generator)"
+        },
+        {
+          "Name": "Turbine Mk.1 (HV Generator)"
+        }
+      ]
+    },
+    {
+      "Name": "Turbine Mk.2",
+      "ShowPpm": false,
+      "AutoRound": false,
+      "DefaultMax": "",
+      "Machines": [
+        {
+          "Name": "Turbine Mk.2 (LV Generator)",
+          "Default": true
+        },
+        {
+          "Name": "Turbine Mk.2 (MV Generator)"
+        },
+        {
+          "Name": "Turbine Mk.2 (HV Generator)"
+        }
+      ]
+    },
+    {
       "Name": "Storage Container",
       "Machines": [
         {
@@ -1264,6 +1465,11 @@
     },
     {
       "Name": "Leaves",
+      "Tier": "0-0",
+      "SinkPoints": 3
+    },
+    {
+      "Name": "Mycelia",
       "Tier": "0-0",
       "SinkPoints": 3
     },
@@ -1515,6 +1721,11 @@
     {
       "Name": "Sea Salt",
       "Tier": "0-0",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Solar Cells",
+      "Tier": "3-60",
       "SinkPoints": 0
     },
     {
@@ -4526,7 +4737,7 @@
       "Tier": "0-0",
       "Parts": [
         {"Part": "Steam", "Amount": "-10/10"},
-        {"Part": "Water", "Amount": "1/10"}
+        {"Part": "Water", "Amount": "75/100"}
       ]
     },
     {
@@ -5002,6 +5213,19 @@
       "Parts": [
         {"Part": "Solder Plate", "Amount": "-1"},
         {"Part": "Solder Wire", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Solar Cells",
+      "Machine": "Assembling Machine",
+      "BatchTime": "5",
+      "Tier": "3-60",
+      "Parts": [
+        {"Part": "Solid Lubricant", "Amount": "-4"},
+        {"Part": "Glass Pane", "Amount": "-4"},
+        {"Part": "Gold Wire", "Amount": "-3"},
+        {"Part": "Cadmium Plate", "Amount": "-2"},
+        {"Part": "Solar Cells", "Amount": "2"}
       ]
     },
     {
@@ -9679,6 +9903,16 @@
       ]
     },
     {
+      "Name": "Biomass (Mycelia)",
+      "Machine": "Assembling Machine",
+      "BatchTime": "4",
+      "Tier": "0-6",
+      "Parts": [
+        {"Part": "Mycelia", "Amount": "-1"},
+        {"Part": "Biomass", "Amount": "10"}
+      ]
+    },
+    {
       "Name": "Biomass (Wood)",
       "Machine": "Assembling Machine",
       "BatchTime": "4",
@@ -10597,8 +10831,206 @@
       "BatchTime": "1",
       "Tier": "5-57",
       "Parts": [
-        {"Part": "Water", "Amount": "-6/10"},
-        {"Part": "Steam", "Amount": "60/10"}
+        {"Part": "Water", "Amount": "-3/2"},
+        {"Part": "Steam", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Leaves Burner",
+      "Machine": "Biomass Burner",
+      "BatchTime": "1/2",
+      "Tier": "0-6",
+      "Parts": [
+        {"Part": "Leaves", "Amount": "-1"}
+      ]
+    },
+    {
+      "Name": "Leaves Heater (Boiler Mk.1)",
+      "Machine": "Biomass Heater (Boiler Mk.1)",
+      "BatchTime": "1/4",
+      "Tier": "0-6",
+      "Parts": [
+        {"Part": "Seawater", "Amount": "-3/16"},
+        {"Part": "Leaves", "Amount": "-1"},
+        {"Part": "Steam", "Amount": "1/4"},
+        {"Part": "Carbon Dioxide Gas", "Amount": "1/8"}
+      ]
+    },
+    {
+      "Name": "Leaves Heater (Boiler Mk.2)",
+      "Machine": "Biomass Heater (Boiler Mk.2)",
+      "BatchTime": "1/4",
+      "Tier": "1-17",
+      "Parts": [
+        {"Part": "Water", "Amount": "-3/16"},
+        {"Part": "Leaves", "Amount": "-1"},
+        {"Part": "Steam", "Amount": "1/4"},
+        {"Part": "Carbon Dioxide Gas", "Amount": "1/8"}
+      ]
+    },
+    {
+      "Name": "Mycelia Burner",
+      "Machine": "Biomass Burner",
+      "BatchTime": "2/3",
+      "Tier": "0-6",
+      "Parts": [
+        {"Part": "Mycelia", "Amount": "-1"}
+      ]
+    },
+    {
+      "Name": "Mycelia Heater (Boiler Mk.1)",
+      "Machine": "Biomass Heater (Boiler Mk.1)",
+      "BatchTime": "2/6",
+      "Tier": "0-6",
+      "Parts": [
+        {"Part": "Seawater", "Amount": "-1/4"},
+        {"Part": "Mycelia", "Amount": "-1"},
+        {"Part": "Steam", "Amount": "1/3"},
+        {"Part": "Carbon Dioxide Gas", "Amount": "1/4"}
+      ]
+    },
+    {
+      "Name": "Mycelia Heater (Boiler Mk.2)",
+      "Machine": "Biomass Heater (Boiler Mk.2)",
+      "BatchTime": "2/6",
+      "Tier": "1-17",
+      "Parts": [
+        {"Part": "Water", "Amount": "-1/4"},
+        {"Part": "Mycelia", "Amount": "-1"},
+        {"Part": "Steam", "Amount": "1/3"},
+        {"Part": "Carbon Dioxide Gas", "Amount": "1/4"}
+      ]
+    },
+    {
+      "Name": "Biomass Burner",
+      "Machine": "Biomass Burner",
+      "BatchTime": "6",
+      "Tier": "0-6",
+      "Parts": [
+        {"Part": "Biomass", "Amount": "-1"}
+      ]
+    },
+    {
+      "Name": "Biomass Heater (Boiler Mk.1)",
+      "Machine": "Biomass Heater (Boiler Mk.1)",
+      "BatchTime": "3",
+      "Tier": "0-6",
+      "Parts": [
+        {"Part": "Seawater", "Amount": "-9/4"},
+        {"Part": "Biomass", "Amount": "-1"},
+        {"Part": "Steam", "Amount": "3"},
+        {"Part": "Carbon Dioxide Gas", "Amount": "3/2"}
+      ]
+    },
+    {
+      "Name": "Biomass Heater (Boiler Mk.2)",
+      "Machine": "Biomass Heater (Boiler Mk.2)",
+      "BatchTime": "3",
+      "Tier": "1-17",
+      "Parts": [
+        {"Part": "Water", "Amount": "-9/4"},
+        {"Part": "Biomass", "Amount": "-1"},
+        {"Part": "Steam", "Amount": "3"},
+        {"Part": "Carbon Dioxide Gas", "Amount": "3/2"}
+      ]
+    },
+    {
+      "Name": "Wood Burner",
+      "Machine": "Biomass Burner",
+      "BatchTime": "10/3",
+      "Tier": "0-6",
+      "Parts": [
+        {"Part": "Wood", "Amount": "-1"}
+      ]
+    },
+    {
+      "Name": "Wood Heater (Boiler Mk.1)",
+      "Machine": "Biomass Heater (Boiler Mk.1)",
+      "BatchTime": "5/3",
+      "Tier": "0-6",
+      "Parts": [
+        {"Part": "Seawater", "Amount": "-5/4"},
+        {"Part": "Wood", "Amount": "-1"},
+        {"Part": "Steam", "Amount": "5/3"},
+        {"Part": "Carbon Dioxide Gas", "Amount": "5/4"}
+      ]
+    },
+    {
+      "Name": "Wood Heater (Boiler Mk.2)",
+      "Machine": "Biomass Heater (Boiler Mk.2)",
+      "BatchTime": "5/3",
+      "Tier": "1-17",
+      "Parts": [
+        {"Part": "Water", "Amount": "-5/4"},
+        {"Part": "Wood", "Amount": "-1"},
+        {"Part": "Steam", "Amount": "5/3"},
+        {"Part": "Carbon Dioxide Gas", "Amount": "5/4"}
+      ]
+    },
+    {
+      "Name": "Wood Strips Burner",
+      "Machine": "Biomass Burner",
+      "BatchTime": "10/3",
+      "Tier": "2-9",
+      "Parts": [
+        {"Part": "Wood Strips", "Amount": "-1"}
+      ]
+    },
+    {
+      "Name": "Wood Strips Heater (Boiler Mk.1)",
+      "Machine": "Biomass Heater (Boiler Mk.1)",
+      "BatchTime": "5/3",
+      "Tier": "2-9",
+      "Parts": [
+        {"Part": "Seawater", "Amount": "-5/4"},
+        {"Part": "Wood Strips", "Amount": "-1"},
+        {"Part": "Steam", "Amount": "5/3"},
+        {"Part": "Carbon Dioxide Gas", "Amount": "5/6"}
+      ]
+    },
+    {
+      "Name": "Wood Strips Heater (Boiler Mk.2)",
+      "Machine": "Biomass Heater (Boiler Mk.2)",
+      "BatchTime": "5/3",
+      "Tier": "2-9",
+      "Parts": [
+        {"Part": "Water", "Amount": "-5/4"},
+        {"Part": "Wood Strips", "Amount": "-1"},
+        {"Part": "Steam", "Amount": "5/3"},
+        {"Part": "Carbon Dioxide Gas", "Amount": "5/6"}
+      ]
+    },
+    {
+      "Name": "Solid Biofuel Burner",
+      "Machine": "Biomass Burner",
+      "BatchTime": "15",
+      "Tier": "0-6",
+      "Parts": [
+        {"Part": "Solid Biofuel", "Amount": "-1"}
+      ]
+    },
+    {
+      "Name": "Solid Biofuel Heater (Boiler Mk.1)",
+      "Machine": "Biomass Heater (Boiler Mk.1)",
+      "BatchTime": "15/2",
+      "Tier": "0-6",
+      "Parts": [
+        {"Part": "Seawater", "Amount": "-45/8"},
+        {"Part": "Solid Biofuel", "Amount": "-1"},
+        {"Part": "Steam", "Amount": "15/2"},
+        {"Part": "Carbon Dioxide Gas", "Amount": "15/4"}
+      ]
+    },
+    {
+      "Name": "Solid Biofuel Heater (Boiler Mk.2)",
+      "Machine": "Biomass Heater (Boiler Mk.2)",
+      "BatchTime": "15/2",
+      "Tier": "1-17",
+      "Parts": [
+        {"Part": "Water", "Amount": "-45/8"},
+        {"Part": "Solid Biofuel", "Amount": "-1"},
+        {"Part": "Steam", "Amount": "15/2"},
+        {"Part": "Carbon Dioxide Gas", "Amount": "15/4"}
       ]
     },
     {
@@ -10612,6 +11044,30 @@
       ]
     },
     {
+      "Name": "Coal Heater (Boiler Mk.1)",
+      "Machine": "Coal Heater (Boiler Mk.1)",
+      "BatchTime": "4",
+      "Tier": "0-6",
+      "Parts": [
+        {"Part": "Seawater", "Amount": "-3"},
+        {"Part": "Coal", "Amount": "-1"},
+        {"Part": "Steam", "Amount": "4"},
+        {"Part": "Carbon Dioxide Gas", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Coal Heater (Boiler Mk.2)",
+      "Machine": "Coal Heater (Boiler Mk.2)",
+      "BatchTime": "4",
+      "Tier": "1-17",
+      "Parts": [
+        {"Part": "Water", "Amount": "-3"},
+        {"Part": "Coal", "Amount": "-1"},
+        {"Part": "Steam", "Amount": "4"},
+        {"Part": "Carbon Dioxide Gas", "Amount": "2"}
+      ]
+    },
+    {
       "Name": "Coke Generator",
       "Machine": "Coal-Powered Generator",
       "BatchTime": "20/3",
@@ -10619,6 +11075,30 @@
       "Parts": [
         {"Part": "Coke", "Amount": "-1"},
         {"Part": "Water", "Amount": "-5"}
+      ]
+    },
+    {
+      "Name": "Coke Heater (Boiler Mk.1)",
+      "Machine": "Coal Heater (Boiler Mk.1)",
+      "BatchTime": "20/3",
+      "Tier": "2-24",
+      "Parts": [
+        {"Part": "Seawater", "Amount": "-5"},
+        {"Part": "Coke", "Amount": "-1"},
+        {"Part": "Steam", "Amount": "20/3"},
+        {"Part": "Carbon Dioxide Gas", "Amount": "10/3"}
+      ]
+    },
+    {
+      "Name": "Coke Heater (Boiler Mk.2)",
+      "Machine": "Coal Heater (Boiler Mk.2)",
+      "BatchTime": "20/3",
+      "Tier": "2-24",
+      "Parts": [
+        {"Part": "Water", "Amount": "-5"},
+        {"Part": "Coke", "Amount": "-1"},
+        {"Part": "Steam", "Amount": "20/3"},
+        {"Part": "Carbon Dioxide Gas", "Amount": "10/3"}
       ]
     },
     {
@@ -10632,6 +11112,30 @@
       ]
     },
     {
+      "Name": "Solid Fuel Heater (Boiler Mk.1)",
+      "Machine": "Coal Heater (Boiler Mk.1)",
+      "BatchTime": "40/3",
+      "Tier": "2-24",
+      "Parts": [
+        {"Part": "Seawater", "Amount": "-10"},
+        {"Part": "Solid Fuel", "Amount": "-1"},
+        {"Part": "Steam", "Amount": "40/3"},
+        {"Part": "Carbon Dioxide Gas", "Amount": "20/3"}
+      ]
+    },
+    {
+      "Name": "Solid Fuel Heater (Boiler Mk.2)",
+      "Machine": "Coal Heater (Boiler Mk.2)",
+      "BatchTime": "40/3",
+      "Tier": "2-24",
+      "Parts": [
+        {"Part": "Water", "Amount": "-10"},
+        {"Part": "Solid Fuel", "Amount": "-1"},
+        {"Part": "Steam", "Amount": "40/3"},
+        {"Part": "Carbon Dioxide Gas", "Amount": "20/3"}
+      ]
+    },
+    {
       "Name": "Naptha Fuel Canister Generator",
       "Machine": "Coal-Powered Generator",
       "BatchTime": "40",
@@ -10642,12 +11146,80 @@
       ]
     },
     {
+      "Name": "Naptha Fuel Canister Heater (Boiler Mk.1)",
+      "Machine": "Coal Heater (Boiler Mk.1)",
+      "BatchTime": "40",
+      "Tier": "3-30",
+      "Parts": [
+        {"Part": "Seawater", "Amount": "-30"},
+        {"Part": "Naptha Fuel Canister", "Amount": "-1"},
+        {"Part": "Steam", "Amount": "40"},
+        {"Part": "Carbon Dioxide Gas", "Amount": "10"}
+      ]
+    },
+    {
+      "Name": "Naptha Fuel Canister Heater (Boiler Mk.2)",
+      "Machine": "Coal Heater (Boiler Mk.2)",
+      "BatchTime": "40",
+      "Tier": "3-30",
+      "Parts": [
+        {"Part": "Water", "Amount": "-30"},
+        {"Part": "Naptha Fuel Canister", "Amount": "-1"},
+        {"Part": "Steam", "Amount": "40"},
+        {"Part": "Carbon Dioxide Gas", "Amount": "10"}
+      ]
+    },
+    {
       "Name": "Burning Oil Generator",
       "Machine": "Fuel-Powered Generator",
       "BatchTime": "4",
       "Tier": "4-47",
       "Parts": [
         {"Part": "Burning Oil", "Amount": "-1"}
+      ]
+    },
+    {
+      "Name": "Burning Oil Heater (Boiler Mk.1)",
+      "Machine": "Solution Heater (Boiler Mk.1)",
+      "BatchTime": "15/2",
+      "Tier": "3-30",
+      "Parts": [
+        {"Part": "Water", "Amount": "-45/8"},
+        {"Part": "Burning Oil", "Amount": "-1"},
+        {"Part": "Steam", "Amount": "15/2"},
+        {"Part": "Carbon Dioxide Gas", "Amount": "15/4"}
+      ]
+    },
+    {
+      "Name": "Burning Oil Heater (Boiler Mk.2)",
+      "Machine": "Solution Heater (Boiler Mk.2)",
+      "BatchTime": "15/2",
+      "Tier": "3-30",
+      "Parts": [
+        {"Part": "Water", "Amount": "-45/4"},
+        {"Part": "Burning Oil", "Amount": "-1"},
+        {"Part": "Steam", "Amount": "15"},
+        {"Part": "Carbon Dioxide Gas", "Amount": "15/4"}
+      ]
+    },
+    {
+      "Name": "Turbine Mk.1",
+      "Machine": "Turbine Mk.1",
+      "BatchTime": "1",
+      "Tier": "0-6",
+      "Parts": [
+        {"Part": "Steam", "Amount": "-1"},
+        {"Part": "Water", "Amount": "3/4"}
+      ]
+    },
+    {
+      "Name": "Turbine Mk.2",
+      "Machine": "Turbine Mk.2",
+      "BatchTime": "1",
+      "Tier": "3-47",
+      "Parts": [
+        {"Part": "Steam", "Amount": "-2"},
+        {"Part": "Water", "Amount": "3/2"}
       ]
     },
     {
