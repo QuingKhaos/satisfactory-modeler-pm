@@ -846,6 +846,24 @@
       ]
     },
     {
+      "Name": "AWESOME Storage Mk.1",
+      "Tier": "2-1",
+      "AveragePower": "-75/10",
+      "Cost": [
+        {"Part": "Steel Plate", "Amount": "10"},
+        {"Part": "Basic Motor", "Amount": "10"}
+      ]
+    },
+    {
+      "Name": "AWESOME Storage Mk.2",
+      "Tier": "3-7",
+      "AveragePower": "-75/10",
+      "Cost": [
+        {"Part": "Stainless Steel", "Amount": "10"},
+        {"Part": "Basic Motor", "Amount": "10"}
+      ]
+    },
+    {
       "Name": "Small AWESOME Sink",
       "Tier": "2-1",
       "AveragePower": "-30",
@@ -1255,7 +1273,13 @@
           "Default": true
         },
         {
+          "Name": "AWESOME Storage Mk.1"
+        },
+        {
           "Name": "Industrial Storage Container"
+        },
+        {
+          "Name": "AWESOME Storage Mk.2"
         },
         {
           "Name": "Fluid Buffer"
@@ -1328,6 +1352,12 @@
         {
           "Name": "AWESOME Sink",
           "Default": true
+        },
+        {
+          "Name": "AWESOME Storage Mk.1"
+        },
+        {
+          "Name": "AWESOME Storage Mk.2"
         },
         {
           "Name": "Small AWESOME Sink"
