@@ -2094,9 +2094,29 @@
       "SinkPoints": 4
     },
     {
-      "Name": "Empty Canister",
+      "Name": "Empty Water Bottle",
       "Tier": "3-9",
-      "SinkPoints": 60
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Empty Chemical Canister",
+      "Tier": "3-9",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Empty Acid Canister",
+      "Tier": "3-9",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Empty Gas Tank",
+      "Tier": "3-9",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Empty Barrel",
+      "Tier": "3-9",
+      "SinkPoints": 0
     },
     {
       "Name": "Engine Unit",
@@ -2715,6 +2735,11 @@
     },
     {
       "Name": "Zinc Tailings",
+      "Tier": "3-54",
+      "SinkPoints": 0
+    },
+    {
+      "Name": "Packaged Zinc Tailings",
       "Tier": "3-54",
       "SinkPoints": 0
     },
@@ -4104,6 +4129,11 @@
       "SinkPoints": 0
     },
     {
+      "Name": "Packaged Creosote",
+      "Tier": "3-32",
+      "SinkPoints": 0
+    },
+    {
       "Name": "Steam",
       "Tier": "0-0",
       "SinkPoints": 0
@@ -5131,6 +5161,28 @@
       ]
     },
     {
+      "Name": "Packaged Syngas",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-13",
+      "Parts": [
+        {"Part": "Syngas", "Amount": "-50/10"},
+        {"Part": "Empty Gas Tank", "Amount": "-1"},
+        {"Part": "Packaged Syngas", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Syngas",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-13",
+      "Parts": [
+        {"Part": "Packaged Syngas", "Amount": "-1"},
+        {"Part": "Syngas", "Amount": "50/10"},
+        {"Part": "Empty Gas Tank", "Amount": "1"}
+      ]
+    },
+    {
       "Name": "Bitumen To Crude Oil",
       "Machine": "Oil Refinery",
       "BatchTime": "6",
@@ -5303,7 +5355,7 @@
       "Tier": "3-47",
       "Parts": [
         {"Part": "Burning Oil", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Barrel", "Amount": "-1"},
         {"Part": "Packaged Burning Oil", "Amount": "1"}
       ]
     },
@@ -5315,7 +5367,7 @@
       "Parts": [
         {"Part": "Packaged Burning Oil", "Amount": "-1"},
         {"Part": "Burning Oil", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Barrel", "Amount": "1"}
       ]
     },
     {
@@ -5598,7 +5650,7 @@
       "Tier": "4-41",
       "Parts": [
         {"Part": "Coal Gas", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Gas Tank", "Amount": "-1"},
         {"Part": "Packaged Coal Gas", "Amount": "1"}
       ]
     },
@@ -5610,7 +5662,7 @@
       "Parts": [
         {"Part": "Packaged Coal Gas", "Amount": "-1"},
         {"Part": "Coal Gas", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Gas Tank", "Amount": "1"}
       ]
     },
     {
@@ -5644,7 +5696,7 @@
       "Tier": "3-27",
       "Parts": [
         {"Part": "Unfiltered Lubricant", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Chemical Canister", "Amount": "-1"},
         {"Part": "Packaged Unfiltered Lubricant", "Amount": "1"}
       ]
     },
@@ -5656,7 +5708,7 @@
       "Parts": [
         {"Part": "Packaged Unfiltered Lubricant", "Amount": "-1"},
         {"Part": "Unfiltered Lubricant", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Chemical Canister", "Amount": "1"}
       ]
     },
     {
@@ -5741,7 +5793,7 @@
       "Tier": "3-70",
       "Parts": [
         {"Part": "Coolant", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Chemical Canister", "Amount": "-1"},
         {"Part": "Packaged Coolant", "Amount": "1"}
       ]
     },
@@ -5753,7 +5805,7 @@
       "Parts": [
         {"Part": "Packaged Coolant", "Amount": "-1"},
         {"Part": "Coolant", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Chemical Canister", "Amount": "1"}
       ]
     },
     {
@@ -6073,7 +6125,7 @@
       "Tier": "3-12",
       "Parts": [
         {"Part": "Concrete Slurry", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Chemical Canister", "Amount": "-1"},
         {"Part": "Packaged Concrete Slurry", "Amount": "1"}
       ]
     },
@@ -6085,7 +6137,7 @@
       "Parts": [
         {"Part": "Packaged Concrete Slurry", "Amount": "-1"},
         {"Part": "Concrete Slurry", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Chemical Canister", "Amount": "1"}
       ]
     },
     {
@@ -6168,13 +6220,53 @@
       ]
     },
     {
-      "Name": "Empty Canister",
+      "Name": "Empty Water Bottle",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Polyethylene Plastic", "Amount": "-1"},
+        {"Part": "Empty Water Bottle", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Empty Chemical Canister",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Polyethylene Plastic", "Amount": "-1"},
+        {"Part": "Empty Chemical Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Empty Acid Canister",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Polyethylene Plastic", "Amount": "-2"},
+        {"Part": "Empty Acid Canister", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Empty Gas Tank",
       "Machine": "Assembling Machine",
       "BatchTime": "1",
       "Tier": "3-9",
       "Parts": [
         {"Part": "Steel Plate", "Amount": "-1"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Gas Tank", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Empty Barrel",
+      "Machine": "Assembling Machine",
+      "BatchTime": "1",
+      "Tier": "3-9",
+      "Parts": [
+        {"Part": "Steel Plate", "Amount": "-1"},
+        {"Part": "Empty Barrel", "Amount": "1"}
       ]
     },
     {
@@ -6660,7 +6752,7 @@
       "Tier": "3-9",
       "Parts": [
         {"Part": "Resin", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Chemical Canister", "Amount": "-1"},
         {"Part": "Packaged Resin", "Amount": "1"}
       ]
     },
@@ -6672,7 +6764,7 @@
       "Parts": [
         {"Part": "Packaged Resin", "Amount": "-1"},
         {"Part": "Resin", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Chemical Canister", "Amount": "1"}
       ]
     },
     {
@@ -6706,7 +6798,7 @@
       "Tier": "3-9",
       "Parts": [
         {"Part": "Phenolic Resin", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Chemical Canister", "Amount": "-1"},
         {"Part": "Packaged Phenolic Resin", "Amount": "1"}
       ]
     },
@@ -6718,7 +6810,7 @@
       "Parts": [
         {"Part": "Packaged Phenolic Resin", "Amount": "-1"},
         {"Part": "Phenolic Resin", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Chemical Canister", "Amount": "1"}
       ]
     },
     {
@@ -6739,7 +6831,7 @@
       "Tier": "3-9",
       "Parts": [
         {"Part": "Rubber Resin", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Chemical Canister", "Amount": "-1"},
         {"Part": "Packaged Rubber Resin", "Amount": "1"}
       ]
     },
@@ -6751,7 +6843,7 @@
       "Parts": [
         {"Part": "Packaged Rubber Resin", "Amount": "-1"},
         {"Part": "Rubber Resin", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Chemical Canister", "Amount": "1"}
       ]
     },
     {
@@ -6795,7 +6887,7 @@
       "Tier": "4-20",
       "Parts": [
         {"Part": "Acetone", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Chemical Canister", "Amount": "-1"},
         {"Part": "Packaged Acetone", "Amount": "1"}
       ]
     },
@@ -6807,7 +6899,7 @@
       "Parts": [
         {"Part": "Packaged Acetone", "Amount": "-1"},
         {"Part": "Acetone", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Chemical Canister", "Amount": "1"}
       ]
     },
     {
@@ -6829,7 +6921,7 @@
       "Tier": "4-20",
       "Parts": [
         {"Part": "Bisphenol A", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Chemical Canister", "Amount": "-1"},
         {"Part": "Packaged Bisphenol A", "Amount": "1"}
       ]
     },
@@ -6841,7 +6933,7 @@
       "Parts": [
         {"Part": "Packaged Bisphenol A", "Amount": "-1"},
         {"Part": "Bisphenol A", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Chemical Canister", "Amount": "1"}
       ]
     },
     {
@@ -7477,7 +7569,7 @@
       "Tier": "4-16",
       "Parts": [
         {"Part": "Plaster", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Chemical Canister", "Amount": "-1"},
         {"Part": "Packaged Plaster", "Amount": "1"}
       ]
     },
@@ -7489,7 +7581,7 @@
       "Parts": [
         {"Part": "Packaged Plaster", "Amount": "-1"},
         {"Part": "Plaster", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Chemical Canister", "Amount": "1"}
       ]
     },
     {
@@ -7803,7 +7895,7 @@
       "Tier": "3-9",
       "Parts": [
         {"Part": "Ferrous Waste Water", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Barrel", "Amount": "-1"},
         {"Part": "Packaged Ferrous Waste Water", "Amount": "1"}
       ]
     },
@@ -7815,7 +7907,7 @@
       "Parts": [
         {"Part": "Packaged Ferrous Waste Water", "Amount": "-1"},
         {"Part": "Ferrous Waste Water", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Barrel", "Amount": "1"}
       ]
     },
     {
@@ -7949,7 +8041,7 @@
       "Tier": "3-9",
       "Parts": [
         {"Part": "Cupric Waste Water", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Barrel", "Amount": "-1"},
         {"Part": "Packaged Cupric Waste Water", "Amount": "1"}
       ]
     },
@@ -7961,7 +8053,7 @@
       "Parts": [
         {"Part": "Packaged Cupric Waste Water", "Amount": "-1"},
         {"Part": "Cupric Waste Water", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Barrel", "Amount": "1"}
       ]
     },
     {
@@ -8132,7 +8224,7 @@
       "Tier": "3-20",
       "Parts": [
         {"Part": "Nickel Tailings", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Barrel", "Amount": "-1"},
         {"Part": "Packaged Nickel Tailings", "Amount": "1"}
       ]
     },
@@ -8144,7 +8236,7 @@
       "Parts": [
         {"Part": "Packaged Nickel Tailings", "Amount": "-1"},
         {"Part": "Nickel Tailings", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Barrel", "Amount": "1"}
       ]
     },
     {
@@ -8242,6 +8334,28 @@
         {"Part": "Sulfur", "Amount": "-3"},
         {"Part": "Steam", "Amount": "-25/10"},
         {"Part": "Zinc Tailings", "Amount": "10/10"}
+      ]
+    },
+    {
+      "Name": "Packaged Zinc Tailings",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-54",
+      "Parts": [
+        {"Part": "Zinc Tailings", "Amount": "-50/10"},
+        {"Part": "Empty Barrel", "Amount": "-1"},
+        {"Part": "Packaged Zinc Tailings", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Zinc Tailings",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-54",
+      "Parts": [
+        {"Part": "Packaged Zinc Tailings", "Amount": "-1"},
+        {"Part": "Zinc Tailings", "Amount": "50/10"},
+        {"Part": "Empty Barrel", "Amount": "1"}
       ]
     },
     {
@@ -8353,7 +8467,7 @@
       "Tier": "3-9",
       "Parts": [
         {"Part": "Liquid Mercury", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Chemical Canister", "Amount": "-1"},
         {"Part": "Packaged Liquid Mercury", "Amount": "1"}
       ]
     },
@@ -8365,7 +8479,7 @@
       "Parts": [
         {"Part": "Packaged Liquid Mercury", "Amount": "-1"},
         {"Part": "Liquid Mercury", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Chemical Canister", "Amount": "1"}
       ]
     },
     {
@@ -8999,7 +9113,7 @@
       "Tier": "3-11",
       "Parts": [
         {"Part": "Low-Sulfur Residuals", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Barrel", "Amount": "-1"},
         {"Part": "Packaged Low-Sulfur Residuals", "Amount": "1"}
       ]
     },
@@ -9011,7 +9125,7 @@
       "Parts": [
         {"Part": "Packaged Low-Sulfur Residuals", "Amount": "-1"},
         {"Part": "Low-Sulfur Residuals", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Barrel", "Amount": "1"}
       ]
     },
     {
@@ -9093,7 +9207,7 @@
       "Tier": "3-11",
       "Parts": [
         {"Part": "High-Sulfur Residuals", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Barrel", "Amount": "-1"},
         {"Part": "Packaged High-Sulfur Residuals", "Amount": "1"}
       ]
     },
@@ -9105,7 +9219,7 @@
       "Parts": [
         {"Part": "Packaged High-Sulfur Residuals", "Amount": "-1"},
         {"Part": "High-Sulfur Residuals", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Barrel", "Amount": "1"}
       ]
     },
     {
@@ -9442,7 +9556,7 @@
       "Tier": "3-9",
       "Parts": [
         {"Part": "Aluminium Hydroxide Slurry", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Chemical Canister", "Amount": "-1"},
         {"Part": "Packaged Aluminium Hydroxide Slurry", "Amount": "1"}
       ]
     },
@@ -9454,7 +9568,7 @@
       "Parts": [
         {"Part": "Packaged Aluminium Hydroxide Slurry", "Amount": "-1"},
         {"Part": "Aluminium Hydroxide Slurry", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Chemical Canister", "Amount": "1"}
       ]
     },
     {
@@ -9924,7 +10038,7 @@
       "Tier": "3-70",
       "Parts": [
         {"Part": "Liquid Gallium", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Chemical Canister", "Amount": "-1"},
         {"Part": "Packaged Liquid Gallium", "Amount": "1"}
       ]
     },
@@ -9936,7 +10050,7 @@
       "Parts": [
         {"Part": "Packaged Liquid Gallium", "Amount": "-1"},
         {"Part": "Liquid Gallium", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Chemical Canister", "Amount": "1"}
       ]
     },
     {
@@ -10341,7 +10455,7 @@
       "Tier": "4-39",
       "Parts": [
         {"Part": "Boron", "Amount": "-20/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Chemical Canister", "Amount": "-1"},
         {"Part": "Packaged Boron", "Amount": "1"}
       ]
     },
@@ -10353,7 +10467,7 @@
       "Parts": [
         {"Part": "Packaged Boron", "Amount": "-1"},
         {"Part": "Boron", "Amount": "20/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Chemical Canister", "Amount": "1"}
       ]
     },
     {
@@ -10594,7 +10708,7 @@
       "Tier": "3-9",
       "Parts": [
         {"Part": "Silane", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Gas Tank", "Amount": "-1"},
         {"Part": "Packaged Silane", "Amount": "1"}
       ]
     },
@@ -10606,7 +10720,7 @@
       "Parts": [
         {"Part": "Packaged Silane", "Amount": "-1"},
         {"Part": "Silane", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Gas Tank", "Amount": "1"}
       ]
     },
     {
@@ -10939,7 +11053,7 @@
       "Tier": "3-9",
       "Parts": [
         {"Part": "Chlorine Gas", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Gas Tank", "Amount": "-1"},
         {"Part": "Packaged Chlorine Gas", "Amount": "1"}
       ]
     },
@@ -10951,7 +11065,7 @@
       "Parts": [
         {"Part": "Packaged Chlorine Gas", "Amount": "-1"},
         {"Part": "Chlorine Gas", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Gas Tank", "Amount": "1"}
       ]
     },
     {
@@ -11038,7 +11152,7 @@
       "Tier": "3-9",
       "Parts": [
         {"Part": "Hydrochloric Acid", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Acid Canister", "Amount": "-1"},
         {"Part": "Packaged Hydrochloric Acid", "Amount": "1"}
       ]
     },
@@ -11050,7 +11164,7 @@
       "Parts": [
         {"Part": "Packaged Hydrochloric Acid", "Amount": "-1"},
         {"Part": "Hydrochloric Acid", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Acid Canister", "Amount": "1"}
       ]
     },
     {
@@ -11382,7 +11496,7 @@
       "Tier": "3-9",
       "Parts": [
         {"Part": "Sulfuric Acid", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Acid Canister", "Amount": "-1"},
         {"Part": "Packaged Sulfuric Acid", "Amount": "1"}
       ]
     },
@@ -11394,7 +11508,7 @@
       "Parts": [
         {"Part": "Packaged Sulfuric Acid", "Amount": "-1"},
         {"Part": "Sulfuric Acid", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Acid Canister", "Amount": "1"}
       ]
     },
     {
@@ -11485,7 +11599,7 @@
       "Tier": "3-9",
       "Parts": [
         {"Part": "Sulfuric Waste Water", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Barrel", "Amount": "-1"},
         {"Part": "Packaged Sulfuric Waste Water", "Amount": "1"}
       ]
     },
@@ -11497,7 +11611,7 @@
       "Parts": [
         {"Part": "Packaged Sulfuric Waste Water", "Amount": "-1"},
         {"Part": "Sulfuric Waste Water", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Barrel", "Amount": "1"}
       ]
     },
     {
@@ -11603,7 +11717,7 @@
       "Tier": "3-68",
       "Parts": [
         {"Part": "Phosphoric Acid", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Acid Canister", "Amount": "-1"},
         {"Part": "Packaged Phosphoric Acid", "Amount": "1"}
       ]
     },
@@ -11615,7 +11729,7 @@
       "Parts": [
         {"Part": "Packaged Phosphoric Acid", "Amount": "-1"},
         {"Part": "Phosphoric Acid", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Acid Canister", "Amount": "1"}
       ]
     },
     {
@@ -11712,7 +11826,7 @@
       "Tier": "3-45",
       "Parts": [
         {"Part": "Nitric Oxide", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Gas Tank", "Amount": "-1"},
         {"Part": "Packaged Nitric Oxide", "Amount": "1"}
       ]
     },
@@ -11724,7 +11838,7 @@
       "Parts": [
         {"Part": "Packaged Nitric Oxide", "Amount": "-1"},
         {"Part": "Nitric Oxide", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Gas Tank", "Amount": "1"}
       ]
     },
     {
@@ -11759,7 +11873,7 @@
       "Tier": "3-45",
       "Parts": [
         {"Part": "Nitrosyl Chloride", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Gas Tank", "Amount": "-1"},
         {"Part": "Packaged Nitrosyl Chloride", "Amount": "1"}
       ]
     },
@@ -11771,7 +11885,7 @@
       "Parts": [
         {"Part": "Packaged Nitrosyl Chloride", "Amount": "-1"},
         {"Part": "Nitrosyl Chloride", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Gas Tank", "Amount": "1"}
       ]
     },
     {
@@ -12454,7 +12568,7 @@
       "Tier": "4-22",
       "Parts": [
         {"Part": "Helium Gas", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Gas Tank", "Amount": "-1"},
         {"Part": "Packaged Helium Gas", "Amount": "1"}
       ]
     },
@@ -12466,7 +12580,7 @@
       "Parts": [
         {"Part": "Packaged Helium Gas", "Amount": "-1"},
         {"Part": "Helium Gas", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Gas Tank", "Amount": "1"}
       ]
     },
     {
@@ -12485,7 +12599,7 @@
       "Tier": "4-22",
       "Parts": [
         {"Part": "Argon Gas", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Gas Tank", "Amount": "-1"},
         {"Part": "Packaged Argon Gas", "Amount": "1"}
       ]
     },
@@ -12497,7 +12611,7 @@
       "Parts": [
         {"Part": "Packaged Argon Gas", "Amount": "-1"},
         {"Part": "Argon Gas", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Gas Tank", "Amount": "1"}
       ]
     },
     {
@@ -12516,7 +12630,7 @@
       "Tier": "3-17",
       "Parts": [
         {"Part": "Ammonia Gas", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Gas Tank", "Amount": "-1"},
         {"Part": "Packaged Ammonia Gas", "Amount": "1"}
       ]
     },
@@ -12528,7 +12642,29 @@
       "Parts": [
         {"Part": "Packaged Ammonia Gas", "Amount": "-1"},
         {"Part": "Ammonia Gas", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Gas Tank", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Packaged Creosote",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-22",
+      "Parts": [
+        {"Part": "Creosote", "Amount": "-50/10"},
+        {"Part": "Empty Chemical Canister", "Amount": "-1"},
+        {"Part": "Packaged Creosote", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Unpackage Creosote",
+      "Machine": "Packager",
+      "BatchTime": "2",
+      "Tier": "3-22",
+      "Parts": [
+        {"Part": "Packaged Creosote", "Amount": "-1"},
+        {"Part": "Creosote", "Amount": "50/10"},
+        {"Part": "Empty Chemical Canister", "Amount": "1"}
       ]
     },
     {
@@ -12547,7 +12683,7 @@
       "Tier": "3-9",
       "Parts": [
         {"Part": "Water", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Water Bottle", "Amount": "-1"},
         {"Part": "Packaged Water", "Amount": "1"}
       ]
     },
@@ -12559,7 +12695,7 @@
       "Parts": [
         {"Part": "Packaged Water", "Amount": "-1"},
         {"Part": "Water", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Water Bottle", "Amount": "1"}
       ]
     },
     {
@@ -12569,7 +12705,7 @@
       "Tier": "4-2",
       "Parts": [
         {"Part": "Water Vapour", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Gas Tank", "Amount": "-1"},
         {"Part": "Packaged Water Vapour", "Amount": "1"}
       ]
     },
@@ -12581,7 +12717,7 @@
       "Parts": [
         {"Part": "Packaged Water Vapour", "Amount": "-1"},
         {"Part": "Water Vapour", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Gas Tank", "Amount": "1"}
       ]
     },
     {
@@ -12600,7 +12736,7 @@
       "Tier": "3-9",
       "Parts": [
         {"Part": "Seawater", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Water Bottle", "Amount": "-1"},
         {"Part": "Packaged Seawater", "Amount": "1"}
       ]
     },
@@ -12612,7 +12748,7 @@
       "Parts": [
         {"Part": "Packaged Seawater", "Amount": "-1"},
         {"Part": "Seawater", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Water Bottle", "Amount": "1"}
       ]
     },
     {
@@ -12631,7 +12767,7 @@
       "Tier": "3-10",
       "Parts": [
         {"Part": "Crude Oil", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Barrel", "Amount": "-1"},
         {"Part": "Packaged Crude Oil", "Amount": "1"}
       ]
     },
@@ -12643,7 +12779,7 @@
       "Parts": [
         {"Part": "Packaged Crude Oil", "Amount": "-1"},
         {"Part": "Crude Oil", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Barrel", "Amount": "1"}
       ]
     },
     {
@@ -12653,7 +12789,7 @@
       "Tier": "3-10",
       "Parts": [
         {"Part": "Refinery Gases", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Gas Tank", "Amount": "-1"},
         {"Part": "Packaged Refinery Gases", "Amount": "1"}
       ]
     },
@@ -12665,7 +12801,7 @@
       "Parts": [
         {"Part": "Packaged Refinery Gases", "Amount": "-1"},
         {"Part": "Refinery Gases", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Gas Tank", "Amount": "1"}
       ]
     },
     {
@@ -12675,7 +12811,7 @@
       "Tier": "3-17",
       "Parts": [
         {"Part": "Petrol", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Barrel", "Amount": "-1"},
         {"Part": "Packaged Petrol", "Amount": "1"}
       ]
     },
@@ -12687,7 +12823,7 @@
       "Parts": [
         {"Part": "Packaged Petrol", "Amount": "-1"},
         {"Part": "Petrol", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Barrel", "Amount": "1"}
       ]
     },
     {
@@ -12697,7 +12833,7 @@
       "Tier": "3-10",
       "Parts": [
         {"Part": "Naptha", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Barrel", "Amount": "-1"},
         {"Part": "Packaged Naptha", "Amount": "1"}
       ]
     },
@@ -12709,7 +12845,7 @@
       "Parts": [
         {"Part": "Packaged Naptha", "Amount": "-1"},
         {"Part": "Naptha", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Barrel", "Amount": "1"}
       ]
     },
     {
@@ -12719,7 +12855,7 @@
       "Tier": "3-17",
       "Parts": [
         {"Part": "Kerosene", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Barrel", "Amount": "-1"},
         {"Part": "Packaged Kerosene", "Amount": "1"}
       ]
     },
@@ -12731,7 +12867,7 @@
       "Parts": [
         {"Part": "Packaged Kerosene", "Amount": "-1"},
         {"Part": "Kerosene", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Barrel", "Amount": "1"}
       ]
     },
     {
@@ -12741,7 +12877,7 @@
       "Tier": "3-17",
       "Parts": [
         {"Part": "Diesel", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Barrel", "Amount": "-1"},
         {"Part": "Packaged Diesel", "Amount": "1"}
       ]
     },
@@ -12753,7 +12889,7 @@
       "Parts": [
         {"Part": "Packaged Diesel", "Amount": "-1"},
         {"Part": "Diesel", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Barrel", "Amount": "1"}
       ]
     },
     {
@@ -12763,7 +12899,7 @@
       "Tier": "3-17",
       "Parts": [
         {"Part": "Lubricating Oils", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Barrel", "Amount": "-1"},
         {"Part": "Packaged Lubricating Oils", "Amount": "1"}
       ]
     },
@@ -12775,7 +12911,7 @@
       "Parts": [
         {"Part": "Packaged Lubricating Oils", "Amount": "-1"},
         {"Part": "Lubricating Oils", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Barrel", "Amount": "1"}
       ]
     },
     {
@@ -12785,7 +12921,7 @@
       "Tier": "3-17",
       "Parts": [
         {"Part": "Fuel Oils", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Barrel", "Amount": "-1"},
         {"Part": "Packaged Fuel Oils", "Amount": "1"}
       ]
     },
@@ -12797,7 +12933,7 @@
       "Parts": [
         {"Part": "Packaged Fuel Oils", "Amount": "-1"},
         {"Part": "Fuel Oils", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Barrel", "Amount": "1"}
       ]
     },
     {
@@ -12807,7 +12943,7 @@
       "Tier": "3-10",
       "Parts": [
         {"Part": "Oil Residuals", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Barrel", "Amount": "-1"},
         {"Part": "Packaged Oil Residuals", "Amount": "1"}
       ]
     },
@@ -12819,7 +12955,7 @@
       "Parts": [
         {"Part": "Packaged Oil Residuals", "Amount": "-1"},
         {"Part": "Oil Residuals", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Barrel", "Amount": "1"}
       ]
     },
     {
@@ -12829,7 +12965,7 @@
       "Tier": "3-15",
       "Parts": [
         {"Part": "Butane Gas", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Gas Tank", "Amount": "-1"},
         {"Part": "Packaged Butane Gas", "Amount": "1"}
       ]
     },
@@ -12841,7 +12977,7 @@
       "Parts": [
         {"Part": "Packaged Butane Gas", "Amount": "-1"},
         {"Part": "Butane Gas", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Gas Tank", "Amount": "1"}
       ]
     },
     {
@@ -12851,7 +12987,7 @@
       "Tier": "3-15",
       "Parts": [
         {"Part": "Butene Gas", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Gas Tank", "Amount": "-1"},
         {"Part": "Packaged Butene Gas", "Amount": "1"}
       ]
     },
@@ -12863,7 +12999,7 @@
       "Parts": [
         {"Part": "Packaged Butene Gas", "Amount": "-1"},
         {"Part": "Butene Gas", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Gas Tank", "Amount": "1"}
       ]
     },
     {
@@ -12873,7 +13009,7 @@
       "Tier": "3-10",
       "Parts": [
         {"Part": "Ethylene Gas", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Gas Tank", "Amount": "-1"},
         {"Part": "Packaged Ethylene Gas", "Amount": "1"}
       ]
     },
@@ -12885,7 +13021,7 @@
       "Parts": [
         {"Part": "Packaged Ethylene Gas", "Amount": "-1"},
         {"Part": "Ethylene Gas", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Gas Tank", "Amount": "1"}
       ]
     },
     {
@@ -12895,7 +13031,7 @@
       "Tier": "3-10",
       "Parts": [
         {"Part": "Benzene", "Amount": "-50/10"},
-        {"Part": "Empty Canister", "Amount": "-1"},
+        {"Part": "Empty Chemical Canister", "Amount": "-1"},
         {"Part": "Packaged Benzene", "Amount": "1"}
       ]
     },
@@ -12907,7 +13043,7 @@
       "Parts": [
         {"Part": "Packaged Benzene", "Amount": "-1"},
         {"Part": "Benzene", "Amount": "50/10"},
-        {"Part": "Empty Canister", "Amount": "1"}
+        {"Part": "Empty Chemical Canister", "Amount": "1"}
       ]
     },
     {
