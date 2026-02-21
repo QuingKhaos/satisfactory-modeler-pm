@@ -2579,7 +2579,7 @@
       "SinkPoints": 1
     },
     {
-      "Name": "Iron Chunk",
+      "Name": "Iron Chunks",
       "Tier": "0-0",
       "SinkPoints": 1
     },
@@ -2619,7 +2619,7 @@
       "SinkPoints": 0
     },
     {
-      "Name": "Copper Chunk",
+      "Name": "Copper Chunks",
       "Tier": "0-2",
       "SinkPoints": 1
     },
@@ -2669,7 +2669,7 @@
       "SinkPoints": 0
     },
     {
-      "Name": "Nickel Chunk",
+      "Name": "Nickel Chunks",
       "Tier": "0-3",
       "SinkPoints": 1
     },
@@ -2709,7 +2709,7 @@
       "SinkPoints": 0
     },
     {
-      "Name": "Zinc Chunk",
+      "Name": "Zinc Chunks",
       "Tier": "0-4",
       "SinkPoints": 1
     },
@@ -2814,7 +2814,7 @@
       "SinkPoints": 0
     },
     {
-      "Name": "Gold Chunk",
+      "Name": "Gold Chunks",
       "Tier": "1-11",
       "SinkPoints": 0
     },
@@ -2834,7 +2834,7 @@
       "SinkPoints": 0
     },
     {
-      "Name": "Silver Chunk",
+      "Name": "Silver Chunks",
       "Tier": "1-11",
       "SinkPoints": 0
     },
@@ -2854,7 +2854,7 @@
       "SinkPoints": 0
     },
     {
-      "Name": "Titanium Chunk",
+      "Name": "Titanium Chunks",
       "Tier": "2-25",
       "SinkPoints": 0
     },
@@ -2884,7 +2884,7 @@
       "SinkPoints": 0
     },
     {
-      "Name": "Tungsten Chunk",
+      "Name": "Tungsten Chunks",
       "Tier": "2-25",
       "SinkPoints": 0
     },
@@ -3134,7 +3134,7 @@
       "SinkPoints": 0
     },
     {
-      "Name": "Tin Chunk",
+      "Name": "Tin Chunks",
       "Tier": "3-6",
       "SinkPoints": 0
     },
@@ -3164,7 +3164,7 @@
       "SinkPoints": 0
     },
     {
-      "Name": "Bismuth Chunk",
+      "Name": "Bismuth Chunks",
       "Tier": "3-70",
       "SinkPoints": 0
     },
@@ -3179,7 +3179,7 @@
       "SinkPoints": 0
     },
     {
-      "Name": "Indium Chunk",
+      "Name": "Indium Chunks",
       "Tier": "4-38",
       "SinkPoints": 0
     },
@@ -3199,7 +3199,7 @@
       "SinkPoints": 0
     },
     {
-      "Name": "Lead Chunk",
+      "Name": "Lead Chunks",
       "Tier": "3-71",
       "SinkPoints": 0
     },
@@ -3259,7 +3259,7 @@
       "SinkPoints": 0
     },
     {
-      "Name": "Gallium Chunk",
+      "Name": "Gallium Chunks",
       "Tier": "3-70",
       "SinkPoints": 0
     },
@@ -7791,12 +7791,12 @@
       ]
     },
     {
-      "Name": "Iron Chunk",
+      "Name": "Iron Chunks",
       "Machine": "Miner",
       "BatchTime": "60",
       "Tier": "0-0",
       "Parts": [
-        {"Part": "Iron Chunk", "Amount": "1"}
+        {"Part": "Iron Chunks", "Amount": "1"}
       ]
     },
     {
@@ -7805,7 +7805,7 @@
       "BatchTime": "16",
       "Tier": "1-7",
       "Parts": [
-        {"Part": "Iron Chunk", "Amount": "-8"},
+        {"Part": "Iron Chunks", "Amount": "-8"},
         {"Part": "Pig Iron", "Amount": "8"},
         {"Part": "Stone", "Amount": "3"}
       ]
@@ -7834,12 +7834,12 @@
       ]
     },
     {
-      "Name": "Chunk Iron Plate",
+      "Name": "Chunks Iron Plate",
       "Machine": "Furnace",
       "BatchTime": "16/5",
       "Tier": "0-0",
       "Parts": [
-        {"Part": "Iron Chunk", "Amount": "-2"},
+        {"Part": "Iron Chunks", "Amount": "-2"},
         {"Part": "Iron Plate", "Amount": "1"}
       ]
     },
@@ -7937,12 +7937,12 @@
       ]
     },
     {
-      "Name": "Copper Chunk",
+      "Name": "Copper Chunks",
       "Machine": "Miner",
       "BatchTime": "60",
       "Tier": "0-2",
       "Parts": [
-        {"Part": "Copper Chunk", "Amount": "1"}
+        {"Part": "Copper Chunks", "Amount": "1"}
       ]
     },
     {
@@ -7951,7 +7951,7 @@
       "BatchTime": "16",
       "Tier": "1-7",
       "Parts": [
-        {"Part": "Copper Chunk", "Amount": "-8"},
+        {"Part": "Copper Chunks", "Amount": "-8"},
         {"Part": "Crude Matte Copper", "Amount": "8"},
         {"Part": "Stone", "Amount": "3"}
       ]
@@ -7980,12 +7980,12 @@
       ]
     },
     {
-      "Name": "Chunk Copper Plate",
+      "Name": "Chunks Copper Plate",
       "Machine": "Furnace",
       "BatchTime": "16/5",
       "Tier": "0-2",
       "Parts": [
-        {"Part": "Copper Chunk", "Amount": "-2"},
+        {"Part": "Copper Chunks", "Amount": "-2"},
         {"Part": "Copper Plate", "Amount": "1"}
       ]
     },
@@ -8083,12 +8083,12 @@
       ]
     },
     {
-      "Name": "Copper Chunk Frothing",
+      "Name": "Copper Chunks Frothing",
       "Machine": "Washing Plant",
       "BatchTime": "2",
       "Tier": "3-37",
       "Parts": [
-        {"Part": "Copper Chunk", "Amount": "-8"},
+        {"Part": "Copper Chunks", "Amount": "-8"},
         {"Part": "Water", "Amount": "-25/10"},
         {"Part": "Acidic Water", "Amount": "-10/10"},
         {"Part": "Copper Froth", "Amount": "5/10"},
@@ -8108,12 +8108,12 @@
       ]
     },
     {
-      "Name": "Nickel Chunk",
+      "Name": "Nickel Chunks",
       "Machine": "Miner",
       "BatchTime": "60",
       "Tier": "0-4",
       "Parts": [
-        {"Part": "Nickel Chunk", "Amount": "1"}
+        {"Part": "Nickel Chunks", "Amount": "1"}
       ]
     },
     {
@@ -8122,7 +8122,7 @@
       "BatchTime": "2",
       "Tier": "1-7",
       "Parts": [
-        {"Part": "Nickel Chunk", "Amount": "-2"},
+        {"Part": "Nickel Chunks", "Amount": "-2"},
         {"Part": "Nickel Powder", "Amount": "4"}
       ]
     },
@@ -8150,12 +8150,12 @@
       ]
     },
     {
-      "Name": "Chunk Nickel Plate",
+      "Name": "Chunks Nickel Plate",
       "Machine": "Furnace",
       "BatchTime": "16/5",
       "Tier": "0-4",
       "Parts": [
-        {"Part": "Nickel Chunk", "Amount": "-2"},
+        {"Part": "Nickel Chunks", "Amount": "-2"},
         {"Part": "Nickel Plate", "Amount": "1"}
       ]
     },
@@ -8240,12 +8240,12 @@
       ]
     },
     {
-      "Name": "Zinc Chunk",
+      "Name": "Zinc Chunks",
       "Machine": "Miner",
       "BatchTime": "60",
       "Tier": "0-4",
       "Parts": [
-        {"Part": "Zinc Chunk", "Amount": "1"}
+        {"Part": "Zinc Chunks", "Amount": "1"}
       ]
     },
     {
@@ -8254,7 +8254,7 @@
       "BatchTime": "2",
       "Tier": "1-7",
       "Parts": [
-        {"Part": "Zinc Chunk", "Amount": "-2"},
+        {"Part": "Zinc Chunks", "Amount": "-2"},
         {"Part": "Zinc Powder", "Amount": "4"}
       ]
     },
@@ -8282,12 +8282,12 @@
       ]
     },
     {
-      "Name": "Chunk Zinc Plate",
+      "Name": "Chunks Zinc Plate",
       "Machine": "Furnace",
       "BatchTime": "16/5",
       "Tier": "0-4",
       "Parts": [
-        {"Part": "Zinc Chunk", "Amount": "-2"},
+        {"Part": "Zinc Chunks", "Amount": "-2"},
         {"Part": "Zinc Plate", "Amount": "1"}
       ]
     },
@@ -8558,14 +8558,14 @@
       ]
     },
     {
-      "Name": "Gold Chunk",
+      "Name": "Gold Chunks",
       "Machine": "Acid Plant",
       "BatchTime": "4",
       "Tier": "1-11",
       "Parts": [
         {"Part": "Transition Metals Ore", "Amount": "-12"},
         {"Part": "Hydrochloric Acid", "Amount": "-10/10"},
-        {"Part": "Gold Chunk", "Amount": "5"}
+        {"Part": "Gold Chunks", "Amount": "5"}
       ]
     },
     {
@@ -8576,7 +8576,7 @@
       "Parts": [
         {"Part": "Transition Metals Ore", "Amount": "-12"},
         {"Part": "Chromic Acid", "Amount": "-5/10"},
-        {"Part": "Gold Chunk", "Amount": "5"}
+        {"Part": "Gold Chunks", "Amount": "5"}
       ]
     },
     {
@@ -8585,7 +8585,7 @@
       "BatchTime": "2",
       "Tier": "1-11",
       "Parts": [
-        {"Part": "Gold Chunk", "Amount": "-5"},
+        {"Part": "Gold Chunks", "Amount": "-5"},
         {"Part": "Liquid Mercury", "Amount": "-10/10"},
         {"Part": "Gold Ore", "Amount": "10"},
         {"Part": "Mercury Vapour", "Amount": "5/10"}
@@ -8625,14 +8625,14 @@
       ]
     },
     {
-      "Name": "Silver Chunk",
+      "Name": "Silver Chunks",
       "Machine": "Acid Plant",
       "BatchTime": "4",
       "Tier": "1-11",
       "Parts": [
         {"Part": "Transition Metals Ore", "Amount": "-12"},
         {"Part": "Hydrochloric Acid", "Amount": "-10/10"},
-        {"Part": "Silver Chunk", "Amount": "5"}
+        {"Part": "Silver Chunks", "Amount": "5"}
       ]
     },
     {
@@ -8643,7 +8643,7 @@
       "Parts": [
         {"Part": "Transition Metals Ore", "Amount": "-12"},
         {"Part": "Chromic Acid", "Amount": "-5/10"},
-        {"Part": "Silver Chunk", "Amount": "5"}
+        {"Part": "Silver Chunks", "Amount": "5"}
       ]
     },
     {
@@ -8652,7 +8652,7 @@
       "BatchTime": "2",
       "Tier": "1-11",
       "Parts": [
-        {"Part": "Silver Chunk", "Amount": "-5"},
+        {"Part": "Silver Chunks", "Amount": "-5"},
         {"Part": "Liquid Mercury", "Amount": "-10/10"},
         {"Part": "Silver Ore", "Amount": "10"},
         {"Part": "Mercury Vapour", "Amount": "5/10"}
@@ -8692,14 +8692,14 @@
       ]
     },
     {
-      "Name": "Titanium Chunk",
+      "Name": "Titanium Chunks",
       "Machine": "Acid Plant",
       "BatchTime": "8",
       "Tier": "2-25",
       "Parts": [
         {"Part": "Transition Metals Ore", "Amount": "-12"},
         {"Part": "Hydrochloric Acid", "Amount": "-20/10"},
-        {"Part": "Titanium Chunk", "Amount": "8"}
+        {"Part": "Titanium Chunks", "Amount": "8"}
       ]
     },
     {
@@ -8710,7 +8710,7 @@
       "Parts": [
         {"Part": "Transition Metals Ore", "Amount": "-12"},
         {"Part": "Chromic Acid", "Amount": "-10/10"},
-        {"Part": "Titanium Chunk", "Amount": "8"}
+        {"Part": "Titanium Chunks", "Amount": "8"}
       ]
     },
     {
@@ -8720,7 +8720,7 @@
       "Tier": "2-25",
       "Parts": [
         {"Part": "Coke", "Amount": "-3"},
-        {"Part": "Titanium Chunk", "Amount": "-4"},
+        {"Part": "Titanium Chunks", "Amount": "-4"},
         {"Part": "Titanium Oxide", "Amount": "6"}
       ]
     },
@@ -8793,14 +8793,14 @@
       ]
     },
     {
-      "Name": "Tungsten Chunk",
+      "Name": "Tungsten Chunks",
       "Machine": "Acid Plant",
       "BatchTime": "8",
       "Tier": "2-25",
       "Parts": [
         {"Part": "Transition Metals Ore", "Amount": "-12"},
         {"Part": "Hydrochloric Acid", "Amount": "-20/10"},
-        {"Part": "Tungsten Chunk", "Amount": "8"}
+        {"Part": "Tungsten Chunks", "Amount": "8"}
       ]
     },
     {
@@ -8811,7 +8811,7 @@
       "Parts": [
         {"Part": "Transition Metals Ore", "Amount": "-12"},
         {"Part": "Chromic Acid", "Amount": "-10/10"},
-        {"Part": "Tungsten Chunk", "Amount": "8"}
+        {"Part": "Tungsten Chunks", "Amount": "8"}
       ]
     },
     {
@@ -8820,7 +8820,7 @@
       "BatchTime": "8",
       "Tier": "2-25",
       "Parts": [
-        {"Part": "Tungsten Chunk", "Amount": "-4"},
+        {"Part": "Tungsten Chunks", "Amount": "-4"},
         {"Part": "Wolframite", "Amount": "6"}
       ]
     },
@@ -8959,7 +8959,7 @@
       "Parts": [
         {"Part": "Zinc Tailings", "Amount": "-10/10"},
         {"Part": "Cadmium Sulfate", "Amount": "2"},
-        {"Part": "Zinc Chunk", "Amount": "1"},
+        {"Part": "Zinc Chunks", "Amount": "1"},
         {"Part": "Patina", "Amount": "1"}
       ]
     },
@@ -9020,7 +9020,7 @@
         {"Part": "Copper Froth", "Amount": "-10/10"},
         {"Part": "Cobalt Blue", "Amount": "4"},
         {"Part": "Cobaltite (CoAsS)", "Amount": "1"},
-        {"Part": "Copper Chunk", "Amount": "2"}
+        {"Part": "Copper Chunks", "Amount": "2"}
       ]
     },
     {
@@ -9033,7 +9033,7 @@
         {"Part": "Copper Froth", "Amount": "-15/10"},
         {"Part": "Cobalt Blue", "Amount": "12"},
         {"Part": "Cobaltite (CoAsS)", "Amount": "2"},
-        {"Part": "Copper Chunk", "Amount": "3"},
+        {"Part": "Copper Chunks", "Amount": "3"},
         {"Part": "Flux Container", "Amount": "2"}
       ]
     },
@@ -9343,7 +9343,7 @@
         {"Part": "Sand", "Amount": "-20"},
         {"Part": "Nickel Froth", "Amount": "-40/10"},
         {"Part": "Palladium Ore", "Amount": "16"},
-        {"Part": "Nickel Chunk", "Amount": "12"},
+        {"Part": "Nickel Chunks", "Amount": "12"},
         {"Part": "Patina", "Amount": "7"}
       ]
     },
@@ -9356,7 +9356,7 @@
         {"Part": "Filled Flux Container", "Amount": "-3"},
         {"Part": "Nickel Froth", "Amount": "-15/10"},
         {"Part": "Palladium Ore", "Amount": "12"},
-        {"Part": "Nickel Chunk", "Amount": "3"},
+        {"Part": "Nickel Chunks", "Amount": "3"},
         {"Part": "Flux Container", "Amount": "2"}
       ]
     },
@@ -9403,7 +9403,7 @@
         {"Part": "Sand", "Amount": "-20"},
         {"Part": "Nickel Froth", "Amount": "-40/10"},
         {"Part": "Platinum Powder", "Amount": "32"},
-        {"Part": "Nickel Chunk", "Amount": "12"},
+        {"Part": "Nickel Chunks", "Amount": "12"},
         {"Part": "Ferrum", "Amount": "7"}
       ]
     },
@@ -9416,7 +9416,7 @@
         {"Part": "Filled Flux Container", "Amount": "-3"},
         {"Part": "Nickel Froth", "Amount": "-15/10"},
         {"Part": "Platinum Powder", "Amount": "24"},
-        {"Part": "Nickel Chunk", "Amount": "3"},
+        {"Part": "Nickel Chunks", "Amount": "3"},
         {"Part": "Flux Container", "Amount": "2"}
       ]
     },
@@ -9638,23 +9638,23 @@
       ]
     },
     {
-      "Name": "Tin Chunk",
+      "Name": "Tin Chunks",
       "Machine": "Crusher",
       "BatchTime": "8",
       "Tier": "3-6",
       "Parts": [
         {"Part": "Cassiterite", "Amount": "-2"},
         {"Part": "Carbon", "Amount": "-4"},
-        {"Part": "Tin Chunk", "Amount": "4"}
+        {"Part": "Tin Chunks", "Amount": "4"}
       ]
     },
     {
-      "Name": "Tin Chunk Leeching",
+      "Name": "Tin Chunks Leeching",
       "Machine": "Acid Plant",
       "BatchTime": "6",
       "Tier": "3-6",
       "Parts": [
-        {"Part": "Tin Chunk", "Amount": "-4"},
+        {"Part": "Tin Chunks", "Amount": "-4"},
         {"Part": "Calcium Ore", "Amount": "-4"},
         {"Part": "Hydrochloric Acid", "Amount": "-25/10"},
         {"Part": "Black Tin", "Amount": "4"},
@@ -9714,7 +9714,7 @@
       "Parts": [
         {"Part": "Post-Transition Metals Ore", "Amount": "-12"},
         {"Part": "Chromic Acid", "Amount": "-10/10"},
-        {"Part": "Bismuth Chunk", "Amount": "4"}
+        {"Part": "Bismuth Chunks", "Amount": "4"}
       ]
     },
     {
@@ -9725,7 +9725,7 @@
       "Parts": [
         {"Part": "Molybdenum Ore", "Amount": "-4"},
         {"Part": "Tin Ore", "Amount": "-4"},
-        {"Part": "Bismuth Chunk", "Amount": "-6"},
+        {"Part": "Bismuth Chunks", "Amount": "-6"},
         {"Part": "Chlorine Gas", "Amount": "-12/10"},
         {"Part": "Bismite", "Amount": "4"},
         {"Part": "Tin Ore", "Amount": "2"}
@@ -9740,7 +9740,7 @@
         {"Part": "Filled Flux Container", "Amount": "-2"},
         {"Part": "Molybdenum Ore", "Amount": "-8"},
         {"Part": "Tin Ore", "Amount": "-8"},
-        {"Part": "Bismuth Chunk", "Amount": "-8"},
+        {"Part": "Bismuth Chunks", "Amount": "-8"},
         {"Part": "Chlorine Gas", "Amount": "-24/10"},
         {"Part": "Bismite", "Amount": "10"},
         {"Part": "Tin Ore", "Amount": "5"},
@@ -9769,7 +9769,7 @@
       "Parts": [
         {"Part": "Zinc Tailings", "Amount": "-10/10"},
         {"Part": "Lead Froth", "Amount": "-10/10"},
-        {"Part": "Indium Chunk", "Amount": "4"},
+        {"Part": "Indium Chunks", "Amount": "4"},
         {"Part": "Zinc Tailings", "Amount": "25/100"},
         {"Part": "Lead Froth", "Amount": "25/100"}
       ]
@@ -9781,10 +9781,10 @@
       "Tier": "4-38",
       "Parts": [
         {"Part": "Stainless Steel", "Amount": "-4"},
-        {"Part": "Indium Chunk", "Amount": "-12"},
+        {"Part": "Indium Chunks", "Amount": "-12"},
         {"Part": "Indium Ore", "Amount": "6"},
         {"Part": "Lead Powder", "Amount": "1"},
-        {"Part": "Zinc Chunk", "Amount": "1"}
+        {"Part": "Zinc Chunks", "Amount": "1"}
       ]
     },
     {
@@ -9828,7 +9828,7 @@
       "Parts": [
         {"Part": "Post-Transition Metals Ore", "Amount": "-12"},
         {"Part": "Chromic Acid", "Amount": "-10/10"},
-        {"Part": "Lead Chunk", "Amount": "4"}
+        {"Part": "Lead Chunks", "Amount": "4"}
       ]
     },
     {
@@ -9837,7 +9837,7 @@
       "BatchTime": "3",
       "Tier": "3-71",
       "Parts": [
-        {"Part": "Lead Chunk", "Amount": "-4"},
+        {"Part": "Lead Chunks", "Amount": "-4"},
         {"Part": "Lead Powder", "Amount": "7"},
         {"Part": "Mixed Ore Slag", "Amount": "1"}
       ]
@@ -9968,7 +9968,7 @@
       "Parts": [
         {"Part": "Post-Transition Metals Ore", "Amount": "-8"},
         {"Part": "Aluminium Ore", "Amount": "-4"},
-        {"Part": "Gallium Chunk", "Amount": "9"},
+        {"Part": "Gallium Chunks", "Amount": "9"},
         {"Part": "Aluminium Ore", "Amount": "3"}
       ]
     },
@@ -10001,7 +10001,7 @@
       "BatchTime": "1",
       "Tier": "3-70",
       "Parts": [
-        {"Part": "Gallium Chunk", "Amount": "-4"},
+        {"Part": "Gallium Chunks", "Amount": "-4"},
         {"Part": "Sodium Hydroxide", "Amount": "-2/10"},
         {"Part": "Gallium Liquor", "Amount": "6/10"},
         {"Part": "Sodium", "Amount": "2"}
@@ -10792,13 +10792,13 @@
       "BatchTime": "14",
       "Tier": "4-51",
       "Parts": [
-        {"Part": "Copper Chunk", "Amount": "-8"},
-        {"Part": "Zinc Chunk", "Amount": "-8"},
+        {"Part": "Copper Chunks", "Amount": "-8"},
+        {"Part": "Zinc Chunks", "Amount": "-8"},
         {"Part": "Silver Ore", "Amount": "-8"},
         {"Part": "Impure Lead Ore", "Amount": "-8"},
         {"Part": "Germanium Ore Concentrate", "Amount": "6"},
         {"Part": "Lead Powder", "Amount": "3"},
-        {"Part": "Copper Chunk", "Amount": "1"}
+        {"Part": "Copper Chunks", "Amount": "1"}
       ]
     },
     {
@@ -10810,7 +10810,7 @@
         {"Part": "Germanium Ore Concentrate", "Amount": "-6"},
         {"Part": "Sulfuric Acid", "Amount": "-75/100"},
         {"Part": "Germanium Sulfide", "Amount": "8"},
-        {"Part": "Zinc Chunk", "Amount": "1"}
+        {"Part": "Zinc Chunks", "Amount": "1"}
       ]
     },
     {
