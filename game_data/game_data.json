@@ -112,7 +112,7 @@
         {"Part": "Advanced Circuit", "Amount": "5"},
         {"Part": "Heavyweight Framing", "Amount": "6"},
         {"Part": "Heavyweight Panelling", "Amount": "8"},
-        {"Part": "Heat-Resistant Plating", "Amount": "6"}
+        {"Part": "Heat-Resistant Sheeting", "Amount": "6"}
       ]
     },
     {
@@ -214,7 +214,7 @@
       "Cost": [
         {"Part": "Fluid Resistant Circuit", "Amount": "2"},
         {"Part": "Corrosion Resistant Tubing", "Amount": "8"},
-        {"Part": "Heat-Resistant Plating", "Amount": "6"}
+        {"Part": "Heat-Resistant Sheeting", "Amount": "6"}
       ]
     },
     {
@@ -370,7 +370,7 @@
         {"Part": "Fluid Resistant Circuit", "Amount": "2"},
         {"Part": "Corrosion Resistant Tubing", "Amount": "8"},
         {"Part": "Heavyweight Framing", "Amount": "10"},
-        {"Part": "Heat-Resistant Plating", "Amount": "8"}
+        {"Part": "Heat-Resistant Sheeting", "Amount": "8"}
       ]
     },
     {
@@ -385,7 +385,7 @@
         {"Part": "Brass Cog", "Amount": "4"},
         {"Part": "Fluid Resistant Circuit", "Amount": "5"},
         {"Part": "Corrosion Resistant Tubing", "Amount": "6"},
-        {"Part": "Heat-Resistant Plating", "Amount": "2"},
+        {"Part": "Heat-Resistant Sheeting", "Amount": "2"},
         {"Part": "Stone Brick", "Amount": "15"}
       ]
     },
@@ -465,7 +465,7 @@
         {"Part": "Brass Cog", "Amount": "2"},
         {"Part": "Fluid Resistant Circuit", "Amount": "6"},
         {"Part": "Basic Tubing", "Amount": "4"},
-        {"Part": "Heat-Resistant Plating", "Amount": "4"}
+        {"Part": "Heat-Resistant Sheeting", "Amount": "4"}
       ]
     },
     {
@@ -481,7 +481,7 @@
         {"Part": "Advanced Circuit", "Amount": "6"},
         {"Part": "Corrosion Resistant Tubing", "Amount": "12"},
         {"Part": "Heavyweight Panelling", "Amount": "4"},
-        {"Part": "Heat-Resistant Plating", "Amount": "8"}
+        {"Part": "Heat-Resistant Sheeting", "Amount": "8"}
       ]
     },
     {
@@ -614,8 +614,8 @@
         {"Part": "Advanced Circuit", "Amount": "3"},
         {"Part": "Corrosion Resistant Tubing", "Amount": "14"},
         {"Part": "Heavyweight Framing", "Amount": "8"},
-        {"Part": "Heat-Resistant Plating", "Amount": "6"},
-        {"Part": "Cold-Resistant Plating", "Amount": "6"}
+        {"Part": "Heat-Resistant Sheeting", "Amount": "6"},
+        {"Part": "Cold-Resistant Sheeting", "Amount": "6"}
       ]
     },
     {
@@ -641,7 +641,7 @@
       "AveragePower": "-33",
       "OverclockPowerExponent": "16/10",
       "Cost": [
-        {"Part": "Heat-Resistant Plating", "Amount": "10"},
+        {"Part": "Heat-Resistant Sheeting", "Amount": "10"},
         {"Part": "Basic Tubing", "Amount": "3"},
         {"Part": "Zinc Plate", "Amount": "3"},
         {"Part": "Gold Plate", "Amount": "6"}
@@ -667,7 +667,7 @@
       "AveragePower": "-33",
       "OverclockPowerExponent": "16/10",
       "Cost": [
-        {"Part": "Cold-Resistant Plating", "Amount": "10"},
+        {"Part": "Cold-Resistant Sheeting", "Amount": "10"},
         {"Part": "Basic Tubing", "Amount": "3"},
         {"Part": "Zinc Plate", "Amount": "3"},
         {"Part": "Silver Plate", "Amount": "6"}
@@ -724,7 +724,7 @@
         {"Part": "Electric Engine Unit", "Amount": "1"},
         {"Part": "Fluid Resistant Circuit", "Amount": "4"},
         {"Part": "Corrosion Resistant Tubing", "Amount": "8"},
-        {"Part": "Heat-Resistant Plating", "Amount": "8"}
+        {"Part": "Heat-Resistant Sheeting", "Amount": "8"}
       ]
     },
     {
@@ -800,7 +800,7 @@
         {"Part": "Engine Unit", "Amount": "3"},
         {"Part": "Corrosion Resistant Tubing", "Amount": "12"},
         {"Part": "Heavyweight Framing", "Amount": "16"},
-        {"Part": "Heat-Resistant Plating", "Amount": "6"}
+        {"Part": "Heat-Resistant Sheeting", "Amount": "6"}
       ]
     },
     {
@@ -814,7 +814,7 @@
         {"Part": "Fluid Resistant Circuit", "Amount": "2"},
         {"Part": "Corrosion Resistant Tubing", "Amount": "8"},
         {"Part": "Heavyweight Panelling", "Amount": "12"},
-        {"Part": "Heat-Resistant Plating", "Amount": "6"}
+        {"Part": "Heat-Resistant Sheeting", "Amount": "6"}
       ]
     },
     {
@@ -829,7 +829,7 @@
         {"Part": "Fluid Resistant Circuit", "Amount": "2"},
         {"Part": "Corrosion Resistant Tubing", "Amount": "8"},
         {"Part": "Heavyweight Panelling", "Amount": "12"},
-        {"Part": "Heat-Resistant Plating", "Amount": "6"}
+        {"Part": "Heat-Resistant Sheeting", "Amount": "6"}
       ]
     },
     {
@@ -925,7 +925,7 @@
         {"Part": "Engine Unit", "Amount": "2"},
         {"Part": "Corrosion Resistant Tubing", "Amount": "8"},
         {"Part": "Heavyweight Framing", "Amount": "12"},
-        {"Part": "Heat-Resistant Plating", "Amount": "4"}
+        {"Part": "Heat-Resistant Sheeting", "Amount": "4"}
       ]
     },
     {
@@ -940,7 +940,7 @@
         {"Part": "Engine Unit", "Amount": "2"},
         {"Part": "Corrosion Resistant Tubing", "Amount": "8"},
         {"Part": "Heavyweight Framing", "Amount": "12"},
-        {"Part": "Heat-Resistant Plating", "Amount": "4"}
+        {"Part": "Heat-Resistant Sheeting", "Amount": "4"}
       ]
     },
     {
@@ -955,7 +955,7 @@
         {"Part": "Engine Unit", "Amount": "4"},
         {"Part": "Corrosion Resistant Tubing", "Amount": "14"},
         {"Part": "Heavyweight Framing", "Amount": "12"},
-        {"Part": "Heat-Resistant Plating", "Amount": "4"},
+        {"Part": "Heat-Resistant Sheeting", "Amount": "4"},
         {"Part": "Air Filter", "Amount": "2"}
       ]
     },
@@ -1739,12 +1739,12 @@
       "SinkPoints": 0
     },
     {
-      "Name": "Heat-Resistant Plating",
+      "Name": "Heat-Resistant Sheeting",
       "Tier": "2-8",
       "SinkPoints": 0
     },
     {
-      "Name": "Cold-Resistant Plating",
+      "Name": "Cold-Resistant Sheeting",
       "Tier": "2-8",
       "SinkPoints": 0
     },
@@ -4729,7 +4729,7 @@
       "Tier": "4-40",
       "Parts": [
         {"Part": "Basic Framing", "Amount": "-1"},
-        {"Part": "Heat-Resistant Plating", "Amount": "-1"},
+        {"Part": "Heat-Resistant Sheeting", "Amount": "-1"},
         {"Part": "Heat-Resistant Framing", "Amount": "2"}
       ]
     },
@@ -4740,7 +4740,7 @@
       "Tier": "4-40",
       "Parts": [
         {"Part": "Basic Framing", "Amount": "-1"},
-        {"Part": "Cold-Resistant Plating", "Amount": "-1"},
+        {"Part": "Cold-Resistant Sheeting", "Amount": "-1"},
         {"Part": "Cold-Resistant Framing", "Amount": "2"}
       ]
     },
@@ -4884,91 +4884,91 @@
       ]
     },
     {
-      "Name": "Brass Heat-Resistant Plating",
+      "Name": "Brass Heat-Resistant Sheeting",
       "Machine": "Assembling Machine",
       "BatchTime": "1",
       "Tier": "2-8",
       "Parts": [
         {"Part": "Brass Plate", "Amount": "-1"},
         {"Part": "Basic Panelling", "Amount": "-2"},
-        {"Part": "Heat-Resistant Plating", "Amount": "2"}
+        {"Part": "Heat-Resistant Sheeting", "Amount": "2"}
       ]
     },
     {
-      "Name": "Gold Heat-Resistant Plating",
+      "Name": "Gold Heat-Resistant Sheeting",
       "Machine": "Assembling Machine",
       "BatchTime": "1",
       "Tier": "2-8",
       "Parts": [
         {"Part": "Gold Wire", "Amount": "-2"},
         {"Part": "Basic Panelling", "Amount": "-2"},
-        {"Part": "Heat-Resistant Plating", "Amount": "2"}
+        {"Part": "Heat-Resistant Sheeting", "Amount": "2"}
       ]
     },
     {
-      "Name": "Kasethal Heat-Resistant Plating",
+      "Name": "Kasethal Heat-Resistant Sheeting",
       "Machine": "Assembling Machine",
       "BatchTime": "1",
       "Tier": "2-8",
       "Parts": [
         {"Part": "Kasethal Plate", "Amount": "-1"},
         {"Part": "Basic Panelling", "Amount": "-2"},
-        {"Part": "Heat-Resistant Plating", "Amount": "4"}
+        {"Part": "Heat-Resistant Sheeting", "Amount": "4"}
       ]
     },
     {
-      "Name": "Copper Heat-Resistant Plating",
+      "Name": "Copper Heat-Resistant Sheeting",
       "Machine": "Assembling Machine",
       "BatchTime": "1",
       "Tier": "2-8",
       "Parts": [
         {"Part": "Copper Wire", "Amount": "-2"},
         {"Part": "Basic Panelling", "Amount": "-2"},
-        {"Part": "Heat-Resistant Plating", "Amount": "2"}
+        {"Part": "Heat-Resistant Sheeting", "Amount": "2"}
       ]
     },
     {
-      "Name": "Silver Cold-Resistant Plating",
+      "Name": "Silver Cold-Resistant Sheeting",
       "Machine": "Assembling Machine",
       "BatchTime": "1",
       "Tier": "2-8",
       "Parts": [
         {"Part": "Basic Panelling", "Amount": "-2"},
         {"Part": "Silver Plate", "Amount": "-1"},
-        {"Part": "Cold-Resistant Plating", "Amount": "2"}
+        {"Part": "Cold-Resistant Sheeting", "Amount": "2"}
       ]
     },
     {
-      "Name": "Copper Cold-Resistant Plating",
+      "Name": "Copper Cold-Resistant Sheeting",
       "Machine": "Assembling Machine",
       "BatchTime": "1",
       "Tier": "2-8",
       "Parts": [
         {"Part": "Copper Wire", "Amount": "-2"},
         {"Part": "Basic Panelling", "Amount": "-2"},
-        {"Part": "Cold-Resistant Plating", "Amount": "2"}
+        {"Part": "Cold-Resistant Sheeting", "Amount": "2"}
       ]
     },
     {
-      "Name": "Steel Cold-Resistant Plating",
+      "Name": "Steel Cold-Resistant Sheeting",
       "Machine": "Assembling Machine",
       "BatchTime": "1",
       "Tier": "2-8",
       "Parts": [
         {"Part": "Steel Plate", "Amount": "-1"},
         {"Part": "Basic Panelling", "Amount": "-2"},
-        {"Part": "Cold-Resistant Plating", "Amount": "2"}
+        {"Part": "Cold-Resistant Sheeting", "Amount": "2"}
       ]
     },
     {
-      "Name": "Manganese Cold-Resistant Plating",
+      "Name": "Manganese Cold-Resistant Sheeting",
       "Machine": "Assembling Machine",
       "BatchTime": "1",
       "Tier": "2-8",
       "Parts": [
         {"Part": "Basic Panelling", "Amount": "-2"},
         {"Part": "Manganese Plate", "Amount": "-2"},
-        {"Part": "Cold-Resistant Plating", "Amount": "2"}
+        {"Part": "Cold-Resistant Sheeting", "Amount": "2"}
       ]
     },
     {
